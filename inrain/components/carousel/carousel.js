@@ -21,7 +21,8 @@ export const Carousel = () => {
               className="h-52 min-w-40 md:min-w-48 md:h-56 drop-shadow-xl"
               src={items.img}
               loading="eager"
-              priority
+              priority={true}
+              unoptimized={true}
             ></Image>
             <p className="text-center font-semibold text-md md:text-lg m-2">
               {items.description}

@@ -20,16 +20,46 @@ export const AboutTechnology = () => {
           data-aos="zoom-in-up"
           className="grid grid-cols-1 md:grid-cols-2 m-2"
         >
-          <Image className="" src={tech1} loading="eager" priority />
-          <Image className="" src={tech2} loading="eager" priority />
+          <Image
+            className=""
+            src={tech1}
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
+          <Image
+            className=""
+            src={tech2}
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
         </div>
         <div
           data-aos="zoom-in-up"
           className="grid grid-cols-1 md:grid-cols-3 m-2"
         >
-          <Image className="" src={tech3} loading="eager" priority />
-          <Image className="" src={tech4} loading="eager" priority />
-          <Image className="" src={tech5} loading="eager" priority />
+          <Image
+            className=""
+            src={tech3}
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
+          <Image
+            className=""
+            src={tech4}
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
+          <Image
+            className=""
+            src={tech5}
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
         </div>
       </div>
     </>

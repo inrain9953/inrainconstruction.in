@@ -3,10 +3,8 @@ import { Navbar } from "@/components/navbar/navbar";
 import React from "react";
 import Image from "next/image";
 import product1 from "./../public/product/product1.jpeg";
-import product2 from "./../public/product/product2.jpeg";
 import product3 from "./../public/product/product3.png";
 import product4 from "./../public/product/product4.jpeg";
-import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Carousel } from "@/components/carousel/carousel";
 
@@ -21,13 +19,22 @@ const Products = () => {
               <h2 className="text-2xl font-semibold text-green-600">
                 InRain<sup>®</sup>
               </h2>
-              <Image src={product1} alt="img" />
+              <Image
+                src={product1}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
               <h1 className="text-xl md:text-2xl m-2 font-semibold">
                 Accident Free Honeycomb Structure
               </h1>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              <div data-aos="zoom-in-up" className="bg-gray-300 rounded-xl p-5 hover:shadow-xl">
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
+              >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
                   High Void Ratio
                 </h3>
@@ -47,7 +54,10 @@ const Products = () => {
                 </div>
               </div>
 
-              <div data-aos="zoom-in-up" className="bg-gray-300 rounded-xl p-5 hover:shadow-xl">
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
+              >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
                   Time Saving
                 </h3>
@@ -75,7 +85,10 @@ const Products = () => {
                 </div>
               </div>
 
-              <div data-aos="zoom-in-up" className="bg-gray-300 rounded-xl p-5 hover:shadow-xl">
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
+              >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
                   Heavy Load Capacity Design
                 </h3>
@@ -88,7 +101,10 @@ const Products = () => {
                 </div>
               </div>
 
-              <div data-aos="zoom-in-up" className="bg-gray-300 rounded-xl p-5 hover:shadow-xl">
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
+              >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
                   Easy Installation
                 </h3>
@@ -101,7 +117,10 @@ const Products = () => {
                 </div>
               </div>
 
-              <div data-aos="zoom-in-up" className="bg-gray-300 rounded-xl p-5 hover:shadow-xl">
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
+              >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
                   No Pollution
                 </h3>
@@ -119,7 +138,10 @@ const Products = () => {
                 </div>
               </div>
 
-              <div data-aos="zoom-in-up" className="bg-gray-300 rounded-xl p-5 hover:shadow-xl">
+              <div
+                data-aos="zoom-in-up"
+                className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
+              >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
                   Compact Storage
                 </h3>
@@ -137,10 +159,24 @@ const Products = () => {
 
           <div data-aos="zoom-in-up" className="mt-10 m-5 md:m-10">
             <div className="md:grid grid-cols-2 items-center">
-              <Image src={product3} alt="img" />
-              <Image src={product4} alt="img" />
+              <Image
+                src={product3}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+              <Image
+                src={product4}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
             </div>
-            <h1 className="text-center text-xl md:text-2xl m-2 font-semibold">High Quality Filtration System</h1>
+            <h1 className="text-center text-xl md:text-2xl m-2 font-semibold">
+              High Quality Filtration System
+            </h1>
           </div>
         </div>
       </div>

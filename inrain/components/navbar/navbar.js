@@ -24,7 +24,8 @@ export const Navbar = () => {
               className="w-24 ml-5"
               src={logo}
               loading="eager"
-              priority
+              priority={true}
+              unoptimized={true}
             ></Image>
           </Link>
           <div className="hidden md:flex gap-16 font-semibold text-xl mr-5">

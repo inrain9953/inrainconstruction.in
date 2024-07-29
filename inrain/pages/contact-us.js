@@ -4,8 +4,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "./../public/logo.png";
 import rain2 from "./../public/tree.png";
-import { redirect } from "next/dist/server/api-utils";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
 const Contact = () => {
   const router = useRouter();
@@ -29,7 +28,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      router.push("/thank-you"); 
+      router.push("/thank-you");
     }
   };
 
@@ -49,6 +48,9 @@ const Contact = () => {
             alt="img"
             className="w-9/12 drop-shadow-2xl object-cover m-auto"
             src={rain2}
+            loading="eager"
+            priority={true}
+            unoptimized={true}
           />
         </div>
         <div
@@ -57,7 +59,13 @@ const Contact = () => {
         >
           <div className="Form-container">
             <div className="">
-              <Image className="w-28 m-auto" src={logo} />
+              <Image
+                className="w-28 m-auto"
+                src={logo}
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
             </div>
             <form onSubmit={onSubmit} className="form">
               <input

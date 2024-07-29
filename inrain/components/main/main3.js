@@ -34,6 +34,9 @@ export const Main3 = () => {
                 alt="img"
                 className="w-16 m-auto md:w-24"
                 src={approved}
+                loading="eager"
+                priority={true}
+                unoptimized={true}
               ></Image>
               <p className="text-xs m-1">ISO 9001 : 2015</p>
               <p className="text-sm font-semibold md:text-lg">
@@ -47,6 +50,9 @@ export const Main3 = () => {
                 alt="img"
                 className="w-16 m-auto md:w-24"
                 src={trophy}
+                loading="eager"
+                priority={true}
+                unoptimized={true}
               ></Image>
               <p className="text-xs m-1">Solution Provider</p>
               <p className="text-sm font-semibold md:text-lg">
@@ -66,6 +72,9 @@ export const Main3 = () => {
                 alt="img"
                 className="w-16 m-auto md:w-24"
                 src={cerg}
+                loading="eager"
+                priority={true}
+                unoptimized={true}
               ></Image>
               <p className="text-sm m-1 font-semibold md:text-lg">
                 INRAIN<sup>®</sup> CONSTRUCTION PVT. LTD.
@@ -78,6 +87,9 @@ export const Main3 = () => {
                 alt="img"
                 className="w-16 m-auto md:w-24"
                 src={trophy}
+                loading="eager"
+                priority={true}
+                unoptimized={true}
               ></Image>
               <p className="text-xs m-1">ISO 14001 : 2015</p>
               <p className="text-sm font-semibold md:text-lg">
@@ -141,6 +153,9 @@ export const Main3 = () => {
                   alt="img"
                   className="min-w-64 md:min-w-72 md:h-64 drop-shadow-xl"
                   src={items.img}
+                  loading="eager"
+                  priority={true}
+                  unoptimized={true}
                 ></Image>
               </div>
             ))}

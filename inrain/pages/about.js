@@ -5,9 +5,7 @@ import Image from "next/image";
 import renewableEnergy from "./../public/renewable-energy.png";
 import aboutImg from "./../public/InRain/rain2.jpg";
 import { AboutContent } from "@/components/constant";
-// import Video from "next-video";
 import rain2 from "./../public/tree.png";
-// import clip from "./../public/InrainVideo.mp4";
 import { AboutTechnology } from "@/components/aboutTechnology/aboutTechnology";
 
 const About = () => {
@@ -69,7 +67,13 @@ const About = () => {
               clients optimize their water assets, but they have also
               contributed to noteworthy natural benefits.
             </p>
-            <Image className="w-full md:w-80" src={aboutImg}></Image>
+            <Image
+              className="w-full md:w-80"
+              src={aboutImg}
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+            ></Image>
           </div>
         </div>
       </div>
@@ -154,6 +158,9 @@ const About = () => {
               alt="img"
               className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
+              loading="eager"
+              priority={true}
+              unoptimized={true}
             />
           </div>
         </div>
@@ -165,7 +172,13 @@ const About = () => {
                 className="rounded-xl bg-sky-400 h-36 w-44 flex items-center"
               >
                 <div className="p-2">
-                  <Image className="m-auto" src={renewableEnergy}></Image>
+                  <Image
+                    className="m-auto"
+                    src={renewableEnergy}
+                    loading="eager"
+                    priority={true}
+                    unoptimized={true}
+                  ></Image>
                   <li className="font-medium">{item.content}</li>
                 </div>
               </div>

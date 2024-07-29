@@ -22,7 +22,8 @@ export const Clients = () => {
               className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
               src={items.img}
               loading="eager"
-              priority
+              priority={true}
+              unoptimized={true}
             ></Image>
             <p className="text-center font-semibold text-sm md:text-lg m-2">
               {items.description}
@@ -42,7 +43,8 @@ export const Clients = () => {
               className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
               src={items.img}
               loading="eager"
-              priority
+              priority={true}
+              unoptimized={true}
             ></Image>
             <p className="text-center font-semibold text-sm md:text-lg m-2">
               {items.description}
