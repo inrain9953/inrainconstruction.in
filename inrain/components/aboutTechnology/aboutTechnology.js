@@ -10,15 +10,26 @@ export const AboutTechnology = () => {
   return (
     <>
       <div className="text-center pt-10 m-5 md:m-10">
-        <h3 data-aos="zoom-in-up" className="md:text-4xl font-semibold text-2xl">About Our Technology</h3>
-        <div data-aos="zoom-in-up" className="grid grid-cols-1 md:grid-cols-2 m-2">
-          <Image className="" src={tech1} />
-          <Image className="" src={tech2} />
+        <h3
+          data-aos="zoom-in-up"
+          className="md:text-4xl font-semibold text-2xl"
+        >
+          About Our Technology
+        </h3>
+        <div
+          data-aos="zoom-in-up"
+          className="grid grid-cols-1 md:grid-cols-2 m-2"
+        >
+          <Image className="" src={tech1} loading="eager" priority />
+          <Image className="" src={tech2} loading="eager" priority />
         </div>
-        <div data-aos="zoom-in-up" className="grid grid-cols-1 md:grid-cols-3 m-2">
-          <Image className="" src={tech3} />
-          <Image className="" src={tech4} />
-          <Image className="" src={tech5} />
+        <div
+          data-aos="zoom-in-up"
+          className="grid grid-cols-1 md:grid-cols-3 m-2"
+        >
+          <Image className="" src={tech3} loading="eager" priority />
+          <Image className="" src={tech4} loading="eager" priority />
+          <Image className="" src={tech5} loading="eager" priority />
         </div>
       </div>
     </>

@@ -6,7 +6,6 @@ import { MailOutline } from "@mui/icons-material";
 import CallIcon from "@mui/icons-material/Call";
 import Link from "next/link";
 import { useState } from "react";
-import { About } from "@/pages/about";
 
 export const Navbar = () => {
   const [openSidebarMenu, setOpenSidebarMenu] = useState(false);
@@ -15,18 +14,35 @@ export const Navbar = () => {
     console.log(openSidebarMenu);
   }
 
-
   return (
     <>
       <div className="sticky top-0 z-50">
         <div className="h-20 flex justify-between items-center bg-white">
-          <Link href={"/"}><Image alt="img" className="w-24 ml-5" src={logo}></Image></Link>
+          <Link href={"/"}>
+            <Image
+              alt="img"
+              className="w-24 ml-5"
+              src={logo}
+              loading="eager"
+              priority
+            ></Image>
+          </Link>
           <div className="hidden md:flex gap-16 font-semibold text-xl mr-5">
-            <Link className="hover:text-green-500" href={"/"}>Home</Link>
-            <Link className="hover:text-green-500" href="/about">About</Link>
-            <Link className="hover:text-green-500" href="/services">Services</Link>
-            <Link className="hover:text-green-500" href="/products">Products</Link>
-            <Link className="hover:text-green-500" href="/contact-us">Contact</Link>
+            <Link className="hover:text-green-500" href={"/"}>
+              Home
+            </Link>
+            <Link className="hover:text-green-500" href="/about">
+              About
+            </Link>
+            <Link className="hover:text-green-500" href="/services">
+              Services
+            </Link>
+            <Link className="hover:text-green-500" href="/products">
+              Products
+            </Link>
+            <Link className="hover:text-green-500" href="/contact-us">
+              Contact
+            </Link>
             <a href="tel:+919953070003">
               <Button variant="contained">Call Us</Button>
             </a>
@@ -63,17 +79,25 @@ export const Navbar = () => {
 
         <div className="hidden md:flex justify-center gap-6 bg-sky-400">
           <MailOutline />
-          <a className="hover:text-green-600" href="mailto:sales@inrainwaterharvesting.com">
+          <a
+            className="hover:text-green-600"
+            href="mailto:sales@inrainwaterharvesting.com"
+          >
             sales@inrainwaterharvesting.com
           </a>
           <br></br>
           <MailOutline />
-          <a className="hover:text-green-600" href="mailto:inrainconstruction@gmail.com">
+          <a
+            className="hover:text-green-600"
+            href="mailto:inrainconstruction@gmail.com"
+          >
             inrainconstruction@gmail.com
           </a>
           <br></br>
           <CallIcon />
-          <a className="hover:text-green-600" href="tel:+919953070003">+91-9953070003</a>
+          <a className="hover:text-green-600" href="tel:+919953070003">
+            +91-9953070003
+          </a>
         </div>
 
         <div className="sidebar z-10 md:hidden">
