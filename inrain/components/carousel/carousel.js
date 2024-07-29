@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { carouselSlider } from "../constant";
-import ForwardIcon from "@mui/icons-material/Forward";
 
 export const Carousel = () => {
   return (
@@ -21,6 +20,7 @@ export const Carousel = () => {
               alt="img"
               className="h-52 min-w-40 md:min-w-48 md:h-56 drop-shadow-xl"
               src={items.img}
+              loading="eager"
             ></Image>
             <p className="text-center font-semibold text-md md:text-lg m-2">
               {items.description}
