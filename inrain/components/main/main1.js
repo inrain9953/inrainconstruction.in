@@ -3,7 +3,6 @@ import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react";
 import Image from "next/image";
 import { features } from "../constant";
-import WaterDropIcon from "@mui/icons-material/WaterDrop";
 
 export const Main1 = () => {
   useEffect(() => {
@@ -25,7 +24,7 @@ export const Main1 = () => {
       >
         <div className="relative">
           <h1 className="relative text-green-700 z-30 pt-5 text-lg font-semibold drop-shadow-md md:text-4xl md:pt-10 md:ml-16">
-            InRain<sup>®</sup> Construction pvt ltd.
+            InRain<sup>®</sup> Construction Pvt Ltd.
           </h1>
           <hr className="m-2 md:m-4"></hr>
           <p className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
@@ -60,6 +59,7 @@ export const Main1 = () => {
                 alt="img"
                 className="object-cover h-32 rounded-lg opacity-60"
                 src={feature.img}
+                loading="eager"
               ></Image>
               {/* <WaterDropIcon className="items-center m-4 absolute top-0" /> */}
               <p className="items-center m-4 text-md font-semibold absolute top-5 text-white drop-shadow-2xl">
