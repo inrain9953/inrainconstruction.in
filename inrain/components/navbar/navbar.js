@@ -101,9 +101,11 @@ export const Navbar = () => {
           </a>
         </div>
 
-        <div className="sidebar z-10 md:hidden">
+      </div>
+      
+      <div className="md:hidden">
           <ul
-            className="sidebar-ul rounded-xl"
+            className="sidebar-ul rounded-xl bg-green-500 font-semibold"
             style={openSidebarMenu ? { right: "15px" } : {}}
           >
             <li>
@@ -133,7 +135,6 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
     </>
   );
 };
