@@ -7,11 +7,22 @@ import product3 from "./../public/product/product3.png";
 import product4 from "./../public/product/product4.jpeg";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Carousel } from "@/components/carousel/carousel";
+import service4 from "./../public/service4.jpg";
 
 const Products = () => {
   return (
     <>
       <Navbar />
+      <div data-aos="zoom-in-up" className="m-5">
+        <Image
+          className="w-full rounded-xl shadow-xl"
+          src={service4}
+          alt="img"
+          loading="eager"
+          priority={true}
+          unoptimized={true}
+        />
+      </div>
       <div>
         <div className="mb-14">
           <div className="m-5 md:flex items-center md:m-10 md:gap-10">

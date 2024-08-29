@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="rainwater harvesting system, modular rainwater harvesting, roof top rainwater harvesting, rainwater harvesting system in delhi, rainwater harvesting system for industries"
+          content="rainwater harvesting, modular rainwater harvesting, roof top rainwater harvesting, rainwater harvesting in delhi, rainwater harvesting for industries"
         />
         <meta name="canonical" content="https://www.inrainconstruction.in/" />
         <meta

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: rgb(255, 245, 231);
+}
+
 .hamburger {
   cursor: pointer;
 }
@@ -57,14 +61,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   width: 230px;
-  height: 300px;
+  /* height: 300px; */
   z-index: 2;
   transition: right 0.5s;
   right: -350px;
   list-style: none;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .sidebar-ul li {

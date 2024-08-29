@@ -18,7 +18,7 @@ export const AboutTechnology = () => {
         </h3>
         <div
           data-aos="zoom-in-up"
-          className="grid grid-cols-1 md:grid-cols-2 m-2"
+          className="grid grid-cols-1 md:grid-cols-2 m-2 md:mt-10 mt-5"
         >
           <Image
             className=""

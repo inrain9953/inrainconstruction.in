@@ -7,6 +7,7 @@ import CallIcon from "@mui/icons-material/Call";
 import Link from "next/link";
 import { useState } from "react";
 
+
 export const Navbar = () => {
   const [openSidebarMenu, setOpenSidebarMenu] = useState(false);
   function openSidebar() {
@@ -28,7 +29,7 @@ export const Navbar = () => {
               unoptimized={true}
             ></Image>
           </Link>
-          <div className="hidden md:flex gap-16 font-semibold text-xl mr-5">
+          <div className="hidden md:flex gap-16 text-xl mr-5">
             <Link className="hover:text-green-500" href={"/"}>
               Home
             </Link>
@@ -100,41 +101,52 @@ export const Navbar = () => {
             +91-9953070003
           </a>
         </div>
-
       </div>
-      
+
       <div className="md:hidden">
-          <ul
-            className="sidebar-ul rounded-xl bg-green-500 font-semibold"
-            style={openSidebarMenu ? { right: "15px" } : {}}
-          >
-            <li>
-              <Link href="/" style={{ textDecoration: "none" }}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" style={{ textDecoration: "none" }}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="/services" style={{ textDecoration: "none" }}>
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link href="/products" style={{ textDecoration: "none" }}>
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact-us" style={{ textDecoration: "none" }}>
-                Contact Us
-              </Link>
-            </li>
-          </ul>
-        </div>
+        <ul
+          className="sidebar-ul rounded-xl bg-gray-300"
+          style={openSidebarMenu ? { right: "15px" } : {}}
+        >
+          <li>
+            <Link href={"/"} style={{ textDecoration: "none" }}>
+              <Image
+                alt="img"
+                className="w-24"
+                src={logo}
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              ></Image>
+            </Link>
+          </li>
+          <li className="hover:text-green-500">
+            <Link href="/" style={{ textDecoration: "none" }}>
+              Home
+            </Link>
+          </li>
+          <li className="hover:text-green-500">
+            <Link href="/about" style={{ textDecoration: "none" }}>
+              About
+            </Link>
+          </li>
+          <li className="hover:text-green-500">
+            <Link href="/services" style={{ textDecoration: "none" }}>
+              Services
+            </Link>
+          </li>
+          <li className="hover:text-green-500">
+            <Link href="/products" style={{ textDecoration: "none" }}>
+              Products
+            </Link>
+          </li>
+          <li className="hover:text-green-500">
+            <Link href="/contact-us" style={{ textDecoration: "none" }}>
+              Contact Us
+            </Link>
+          </li>
+        </ul>
+      </div>
     </>
   );
 };

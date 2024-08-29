@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "./../public/logo.png";
 import rain2 from "./../public/tree.png";
 import { useRouter } from "next/router";
+import solution_water from "../public/solution_water.jpg";
 
 const Contact = () => {
   const router = useRouter();
@@ -35,6 +36,16 @@ const Contact = () => {
   return (
     <>
       <Navbar />
+      <div className="m-5">
+        <Image
+          alt="img"
+          className="w-full rounded-xl md:h-80 shadow-xl"
+          src={solution_water}
+          loading="eager"
+          priority={true}
+          unoptimized={true}
+        />
+      </div>
       <div className="md:flex items-center">
         <div data-aos="zoom-in-up" className="text-center pt-5 md:w-[60%]">
           <h1 className="text-2xl font-semibold md:text-[3rem] m-3">
@@ -91,14 +102,6 @@ const Contact = () => {
                 name="email"
                 id="email"
                 placeholder="Email"
-              />
-              <input
-                required=""
-                className="input"
-                type="text"
-                name="address"
-                id="address"
-                placeholder="Address"
               />
               <textarea
                 required=""

@@ -1,12 +1,23 @@
 import { Footer } from "@/components/footer/footer";
 import { Navbar } from "@/components/navbar/navbar";
 import React from "react";
-import Link from "next/link";
+import Image from "next/image";
 import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
+import service11 from "../../public/service11.jpg";
 const Services = () => {
   return (
     <>
       <Navbar />
+      <div className="m-5">
+        <Image
+          alt="img"
+          className="w-full rounded-xl shadow-xl"
+          src={service11}
+          loading="eager"
+          priority={true}
+          unoptimized={true}
+        />
+      </div>
       <div
         data-aos="zoom-in-up"
         className="text-center pt-7 md:text-left md:ml-10"

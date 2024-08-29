@@ -3,6 +3,8 @@ import { Navbar } from "@/components/navbar/navbar";
 import React from "react";
 import Image from "next/image";
 import renewableEnergy from "./../public/renewable-energy.png";
+import banner from "./../public/banner4.jpg";
+import service2 from "./../public/service2.jpg";
 import aboutImg from "./../public/InRain/rain2.jpg";
 import { AboutContent } from "@/components/constant";
 import rain2 from "./../public/tree.png";
@@ -12,6 +14,16 @@ const About = () => {
   return (
     <>
       <Navbar />
+      <div data-aos="zoom-in-up" className="m-5">
+        <Image
+          className="w-full rounded-xl shadow-xl"
+          alt="img"
+          src={banner}
+          loading="eager"
+          priority={true}
+          unoptimized={true}
+        />
+      </div>
       <div data-aos="zoom-in-up" className="m-10 text-left md:m-20">
         <div className="">
           <h1 className="text-2xl font-bold md:text-[3rem] md:font-semibold">
@@ -68,7 +80,8 @@ const About = () => {
               contributed to noteworthy natural benefits.
             </p>
             <Image
-              className="w-full md:w-80"
+              className="w-full md:w-80 mt-5 rounded-lg"
+              alt="img"
               src={aboutImg}
               loading="eager"
               priority={true}
@@ -164,7 +177,17 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="pt-5 text-center md:pt-10 md:m-20">
+        <div data-aos="zoom-in-up" className="m-5">
+        <Image
+            className="w-full md:h-72 rounded-xl shadow-xl"
+            src={service2}
+            alt="img"
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
+        </div>
+        <div className="text-center flex justify-center mt-10">
           <ol className="drop-shadow-2xl inline-grid grid-cols-2 gap-6 cursor-pointer md:flex">
             {AboutContent.map((item) => (
               <div

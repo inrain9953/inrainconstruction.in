@@ -5,6 +5,7 @@ import cerg from "../../public/cer-g.jpg";
 import Image from "next/image";
 import { InRainImage } from "../constant";
 import Link from "next/link";
+import service7 from "../../public/service7.jpg";
 
 export const Main3 = () => {
   return (
@@ -28,7 +29,7 @@ export const Main3 = () => {
           data-aos="zoom-in-up"
           className="m-2 flex justify-center md:inline"
         >
-          <div className="flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
             <div>
               <Image
                 alt="img"
@@ -44,7 +45,7 @@ export const Main3 = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
             <div>
               <Image
                 alt="img"
@@ -66,7 +67,7 @@ export const Main3 = () => {
           data-aos="zoom-in-up"
           className="m-2 flex justify-center md:inline"
         >
-          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
             <div>
               <Image
                 alt="img"
@@ -81,7 +82,7 @@ export const Main3 = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
             <div>
               <Image
                 alt="img"
@@ -98,6 +99,17 @@ export const Main3 = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="m-5">
+        <Image
+          className="w-full md:h-72 rounded-xl shadow-xl"
+          alt="img"
+          src={service7}
+          loading="eager"
+          priority={true}
+          unoptimized={true}
+        />
       </div>
 
       <div className="m-10 md:flex md:justify-center md:m-10 md:mr-24 md:ml-24">
@@ -121,7 +133,7 @@ export const Main3 = () => {
             customized offers that match your requirements.{" "}
           </p>
           <Link href={"/services/roof-top-rainwater-harvesting-system"}>
-            <button className="animated-button mt-5">
+            <button className="animated-button mt-5 bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="arr-2"

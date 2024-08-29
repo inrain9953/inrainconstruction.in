@@ -18,6 +18,18 @@ export const Footer = () => {
   return (
     <>
       <Clients />
+      <div data-aos="zoom-in-up">
+        <iframe
+          width="100%"
+          height="450"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?width=800&amp;height=500&amp;hl=en&amp;q=InRain%20Construction%20Private%20Limited%20-%20Rainwater%20Harvesting%20System%20&amp;%20Modular%20Rainwater%20Harvesting%20System%20in%20Delhi%20New%20Delhi+(InRain%20Construction%20Pvt.%20Ltd.)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        />
+      </div>
       <div className="bg-green-600">
         <div className="md:flex md:mr-7">
           <div
@@ -205,7 +217,7 @@ export const Footer = () => {
 
         <div className="text-center p-4">
           <p className="text-xs md:text-sm">
-            ©Copyright 2024 InRain Construction Pvt Ltd. All Rights Reserved.
+            ©Copyright 2024 InRain® Construction Pvt Ltd. All Rights Reserved.
           </p>
         </div>
       </div>
