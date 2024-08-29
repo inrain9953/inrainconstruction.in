@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -21,6 +23,8 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+      <Analytics />
+      <SpeedInsights />
       <Component {...pageProps} />
     </>
   );
