@@ -17,8 +17,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-50">
-        <div className="h-20 flex justify-between items-center bg-white">
+      <div className="sticky top-0 z-50 bg-transparent backdrop-blur">
+        <div className="h-20 flex justify-between items-center">
           <Link href={"/"}>
             <Image
               alt="img"
@@ -29,7 +29,7 @@ export const Navbar = () => {
               unoptimized={true}
             ></Image>
           </Link>
-          <div className="hidden md:flex gap-16 text-xl mr-5">
+          <div className="hidden md:flex gap-16 text-lg mr-5">
             <Link className="hover:text-green-500" href={"/"}>
               Home
             </Link>
@@ -65,9 +65,9 @@ export const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex p-1 items-center bg-slate-500 md:hidden justify-between">
+        <div className="flex p-1 items-center text-sm bg-slate-500 md:hidden justify-between">
           <a className="ml-1" href="mailto:sales@inrainwaterharvesting.com">
-            <MailOutline />
+            <MailOutline fontSize="small" />
             sales@inrainwaterharvesting.com
           </a>
           <p>|</p>
@@ -105,14 +105,14 @@ export const Navbar = () => {
 
       <div className="md:hidden">
         <ul
-          className="sidebar-ul rounded-xl bg-gray-300"
+          className="sidebar-ul font-semibold rounded-xl bg-gray-300 bg-transparent backdrop-blur-xl"
           style={openSidebarMenu ? { right: "15px" } : {}}
         >
           <li>
             <Link href={"/"} style={{ textDecoration: "none" }}>
               <Image
                 alt="img"
-                className="w-24"
+                className="w-20"
                 src={logo}
                 loading="eager"
                 priority={true}

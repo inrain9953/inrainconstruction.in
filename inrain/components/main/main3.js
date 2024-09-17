@@ -20,8 +20,32 @@ export const Main3 = () => {
           </h1>
           <hr className="m-2 md:m-5"></hr>
           <p className="m-5 text-md text-center text-gray-500 drop-shadow-md md:text-xl">
-            Our commitment to innovation, quality, and sustainability has made
-            us a trusted partner in the industry.
+            <bold className="text-green-500 font-semibold">
+              InRain<sup>®</sup> Construction Pvt. Ltd.
+            </bold>{" "}
+            is a premier provider of{" "}
+            <bold className="text-black font-semibold">
+              Rainwater Harvesting Systems in Delhi
+            </bold>
+            , specializing in delivering cutting-edge rainwater harvesting
+            solutions tailored to meet the unique needs of our clients.<br></br>
+            <br></br>We are committed to providing solutions in Delhi that not
+            only address water scarcity but also help our clients reduce their
+            environmental impact through sustainable practices. By continually
+            prioritizing innovation and environmental responsibility,{" "}
+            <bold className="text-black font-semibold">
+              <bold className="text-green-500 font-semibold">
+                InRain<sup>®</sup> Construction
+              </bold>{" "}
+              remains at the forefront of the rainwater harvesting industry,
+            </bold>{" "}
+            helping clients make the most of their water resources while
+            fostering a positive impact on the environment.
+            <bold className="text-black font-semibold">
+              {" "}
+              Our commitment to innovation, quality, and sustainability has made
+              us a trusted partner in the industry.
+            </bold>
           </p>
         </div>
 
@@ -112,25 +136,25 @@ export const Main3 = () => {
         />
       </div>
 
-      <div className="m-10 md:flex md:justify-center md:m-10 md:mr-24 md:ml-24">
-        <div data-aos="zoom-in-up" className="md:w-[75%] text-left">
+      <div className="m-10 md:flex md:justify-center md:gap-24 md:m-10 md:mr-24 md:ml-24">
+        <div data-aos="zoom-in-up" className=" text-left">
           <h2 className="font-semibold md:text-lg text-green-600">
             InRain<sup>®</sup>
           </h2>
           <h1 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting System
           </h1>
-          <p className="text-md text-gray-500 md:text-lg mt-3">
-            A Rooftop Rainwater Harvesting System in Delhi intended for
-            filtration, transitory maintenance and ensuing release. It is
-            utilized in waste channel application. It is developed utilizing our
-            restrictive plastic infusion shaped boards.We provide all range of
-            modules as per the requirements. <br></br> We take pride in our
-            position as a leading Rooftop Rainwater Harvesting System Service
-            Provider in the industry, offering superior solutions customized to
-            meet individual needs. If you are searching for the optimal
-            rainwater harvesting system, feel free to contact us to explore
-            customized offers that match your requirements.{" "}
+          <p className="text-md text-gray-500 md:text-lg mt-3 md:mt-5">
+            We offer a state-of-the-art Rooftop Rainwater Harvesting System in
+            Delhi, designed for efficient filtration, temporary storage, and
+            controlled release. This system is ideal for managing waste water
+            channels and is built using our proprietary plastic injection-molded
+            panels. We provide a wide range of modular options tailored to suit
+            your specific needs. <br></br> As a leading provider of Rooftop
+            Rainwater Harvesting Systems, we take pride in delivering top-tier,
+            customized solutions. If you’re looking for the perfect system to
+            match your requirements, feel free to reach out to us for
+            personalized options and offers.{" "}
           </p>
           <Link href={"/services/roof-top-rainwater-harvesting-system"}>
             <button className="animated-button mt-5 bg-white">

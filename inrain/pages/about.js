@@ -35,44 +35,45 @@ const About = () => {
               <bold className="text-green-500 font-semibold">
                 InRain<sup>®</sup> Construction Pvt. Ltd.
               </bold>
-              , we exceed expectations in utilizing the potential of water
-              through cutting-edge, inventive water gathering arrangements. Our
-              objective is to help our clients optimize their water assets while
-              advancing natural preservation. By giving comprehensive
-              administrations, we empower our clients to execute feasible water
-              administration hones effectively.<br></br>
-              <br></br> Our travel started with a vision to address the
-              developing water shortage issues and to make a positive natural
-              impact. Over a long time, we have refined our methods and extended
-              our capabilities, permitting us to provide custom-made
-              arrangements that meet the unique needs of each client. Our
-              commitment to quality and supportability has established us as a
-              trusted accomplice in the industry.<br></br>
-              <br></br> The plan stage is basic, as it includes making
-              customized frameworks that adjust to the client's targets and
-              location conditions. We utilize advanced modeling and reenactment
-              instruments to optimize the plan, guaranteeing the most extreme
-              water collection and utilization. Our plans are not as utilitarian
-              but moreover tastefully satisfying, mixing consistently with the
-              existing infrastructure.<br></br>
+              , we excel in harnessing the potential of water through innovative
+              and advanced water harvesting solutions. Our mission is to help
+              clients maximize their water resources while promoting
+              environmental conservation. By offering comprehensive services, we
+              empower our clients to implement sustainable water management
+              practices effectively.<br></br>
+              <br></br> Our journey began with a vision to address the growing
+              water scarcity issues and make a positive environmental impact.
+              Over the years, we have refined our techniques and expanded our
+              expertise, enabling us to deliver tailored solutions that cater to
+              the specific needs of each client. Our dedication to quality and
+              sustainability has earned us a trusted reputation in the industry.
               <br></br>
-              Installation is carried out by our talented specialists, who are
-              prepared with the most recent water collection strategies. We
-              utilize high-quality materials and gear to guarantee the life span
-              and unwavering quality of the frameworks. Our establishment handle
-              is streamlined to minimize disturbance to the client's operations
-              and to guarantee opportune completion.<br></br>
-              <br></br> One of our noteworthy accomplishments is the fruitful
+              <br></br>The design phase is critical, as it involves creating
+              customized systems that align with the client’s goals and site
+              conditions. We use advanced modeling and simulation tools to
+              optimize the design, ensuring maximum water collection and
+              efficiency. Our systems are not only functional but also
+              aesthetically pleasing, seamlessly integrating with the existing
+              infrastructure.<br></br>
+              <br></br>
+              Our experienced specialists handle installation, utilizing the
+              latest water harvesting techniques. We use high-quality materials
+              and equipment to ensure the durability and reliability of our
+              systems. The installation process is streamlined to minimize
+              disruption to the client’s operations and ensure timely project
+              completion.<br></br>
+              <br></br> One of our significant achievements is the
               <bold className="text-black font-semibold">
                 {" "}
-                execution of over 1000 Rainwater Harvesting(RWH) units
+                successful installation of over 1000 Rainwater Harvesting (RWH)
+                systems
               </bold>{" "}
-              for an assorted range of regarded clients. A few of our striking
+              for a diverse range of esteemed clients. A few of our striking
               clients include{" "}
               <bold className="text-black font-semibold">
                 Tata | PepsiCo | Hindustan Unilever | Denso | Fujita | Ahresty |
                 Supreme Pipes | Mittal Construction Company | GLS Infra | PWD |
-                Airport terminals | keen cities, and Incomparable Court Judges
+                Airport terminals | keen cities, and Supreme Court Judges
                 Bungalows.
               </bold>{" "}
               These ventures have not only made a difference in helping our
@@ -116,55 +117,56 @@ const About = () => {
           <div className="md:flex items-center">
             <p className="text-md pt-5 text-gray-700 md:text-lg md:pt-5">
               {" "}
-              <bold className="font-semibold text-black">Expertise:</bold>{" "}
-              Leveraging our extensive experience in rainwater harvesting, we
-              possess the expertise and skills necessary to develop tailored
-              solutions for various applications and environments. Our team
-              stays abreast of the latest advancements in the industry, enabling
-              us to provide innovative and cutting-edge solutions.<br></br>
+              <bold className="font-semibold text-black">Expertise:</bold> With
+              years of experience in rainwater harvesting, we have developed the
+              expertise and skills necessary to create customized solutions for
+              a variety of applications and environments. Our team stays up to
+              date with the latest industry advancements, allowing us to offer
+              innovative and cutting-edge solutions.<br></br>
               <br></br>{" "}
               <bold className="font-semibold text-black">
                 High-profile Clientele:
               </bold>{" "}
-              Our successful partnerships with renowned organizations such as
-              HUL, PepsiCo, and Sobha Developers demonstrate our capability to
-              meet the highest standards of quality and reliability. We value
-              our strong client relationships and are committed to consistently
-              exceeding expectations.
+              Our successful collaborations with respected organizations such as
+              HUL, PepsiCo, and Sobha Developers showcase our ability to meet
+              the highest standards of quality and reliability. We value our
+              strong client relationships and are committed to consistently
+              exceeding their expectations.
               <br></br>
               <br></br>{" "}
               <bold className="font-semibold text-black">
                 In-house Manufacturing:
               </bold>{" "}
-              With our own manufacturing facilities for rainwater harvesting
-              modular structures and filters, we retain complete control over
-              the production process. This ensures superior quality,
-              cost-effectiveness, and timely delivery of our products.<br></br>
+              By operating our own manufacturing facilities for modular
+              rainwater harvesting structures and filters, we maintain full
+              control over the production process. This ensures superior
+              quality, cost efficiency, and timely delivery of our products.
+              <br></br>
               <br></br>{" "}
               <bold className="font-semibold text-black">
                 Sustainability Focus:
               </bold>{" "}
-              We recognize the importance of sustainable practices in addressing
-              water scarcity and protecting the environment. Our solutions are
-              designed to conserve water, support ecological balance, and reduce
-              dependence on external water sources.<br></br>
+              We understand the critical role sustainable practices play in
+              tackling water scarcity and protecting the environment. Our
+              solutions are designed to conserve water, promote ecological
+              balance, and reduce reliance on external water sources.<br></br>
               <br></br>
               <bold className="font-semibold text-black">
                 Comprehensive Services:
               </bold>{" "}
-              InRain Construction offers a full range of services from initial
-              project assessment through installation and ongoing maintenance,
-              ensuring the optimal performance of rainwater harvesting systems.
-              Our dedicated team provides technical support and monitoring
-              services to maintain continued efficiency.
+              At InRain Construction, we offer a complete range of services,
+              from initial project evaluation to installation and ongoing
+              maintenance, ensuring the peak performance of rainwater harvesting
+              systems. Our dedicated team provides technical support and
+              monitoring to sustain long-term efficiency.
               <br></br>
               <br></br>
-              InRain Construction Private Limited is dedicated to transforming
-              water resource management through advanced rainwater harvesting
-              techniques. With our industry expertise, quality manufacturing
-              capabilities, and sustainability-focused approach, we strive to
-              create a greener, more water-efficient future for our clients and
-              communities.{" "}
+              InRain Construction Private Limited is committed to
+              revolutionizing water resource management through advanced
+              rainwater harvesting techniques. Combining industry expertise,
+              top-tier manufacturing capabilities, and a focus on
+              sustainability, we aim to create a greener, more water-efficient
+              future for our clients and communities.{" "}
             </p>
             <Image
               data-aos="zoom-in-up"
@@ -178,7 +180,7 @@ const About = () => {
           </div>
         </div>
         <div data-aos="zoom-in-up" className="m-5">
-        <Image
+          <Image
             className="w-full md:h-72 rounded-xl shadow-xl"
             src={service2}
             alt="img"

@@ -18,20 +18,22 @@ const RWHManufacturer = () => {
             Rainwater Harvesting Manufacturers
           </h1>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            we are passionate about sustainable water management and the
-            preservation of our precious natural resources. As a leading
-            rainwater harvesting manufacturer in Delhi, we specialize in
-            providing innovative solutions for residential, commercial, and
-            industrial applications. With the growing concerns over water
-            scarcity and the need for efficient water management, rainwater
-            harvesting has emerged as a viable and eco-friendly solution. Our
-            mission is to empower individuals, businesses, and communities to
-            harness the power of rainwater and reduce their dependence on
-            traditional water sources.
+            At{" "}
+            <bold className="text-green-500 font-semibold">
+              InRain® Construction Pvt. Ltd.,
+            </bold>{" "}
+            we are committed to promoting sustainable water management and
+            preserving our natural resources. As a top rainwater harvesting
+            manufacturer based in Delhi, we specialize in creating innovative
+            solutions for residential, commercial, and industrial use. With
+            increasing concerns around water scarcity and the need for effective
+            water management, rainwater harvesting has become an
+            environmentally-friendly and viable solution. Our goal is to empower
+            individuals, businesses, and communities to effectively capture
+            rainwater, reducing their reliance on traditional water sources.
           </p>
         </div>
       </div>
-
 
       <div className="">
         <div
@@ -41,66 +43,65 @@ const RWHManufacturer = () => {
           <h3 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
             Why Choose{" "}
             <bold className="text-green-500">
-              InRain<sup className="text-xs">TM</sup> Construction Pvt. Ltd.
+              InRain<sup>®</sup> Construction Pvt. Ltd.
             </bold>{" "}
             ?
           </h3>
           <div className="md:flex items-center">
             <p className="text-md pt-5 text-gray-500 md:text-lg md:pt-5">
               {" "}
-              <bold className="font-semibold text-black">Expertise:</bold>{" "}
-              Leveraging our extensive experience in rainwater harvesting, we
-              possess the expertise and skills necessary to develop tailored
-              solutions for various applications and environments. Our team
-              stays abreast of the latest advancements in the industry, enabling
-              us to provide innovative and cutting-edge solutions.<br></br>
+              <bold className="font-semibold text-black">Expertise:</bold> With
+              years of experience in the rainwater harvesting sector, we have
+              the skills and knowledge to deliver customized solutions tailored
+              to meet specific needs. Our team stays updated with the latest
+              industry innovations to provide cutting-edge and efficient
+              solutions.<br></br>
               <br></br>{" "}
               <bold className="font-semibold text-black">
                 High-profile Clientele:
               </bold>{" "}
-              Our successful partnerships with renowned organizations such as
-              HUL, PepsiCo, and Sobha Developers demonstrate our capability to
-              meet the highest standards of quality and reliability. We value
-              our strong client relationships and are committed to consistently
-              exceeding expectations.
+              Our collaborations with leading companies such as HUL, PepsiCo,
+              and Sobha Developers showcase our ability to deliver projects that
+              meet the highest standards. We value these relationships and are
+              dedicated to consistently exceeding client expectations.
               <br></br>
               <br></br>{" "}
               <bold className="font-semibold text-black">
                 In-house Manufacturing:
               </bold>{" "}
-              With our own manufacturing facilities for rainwater harvesting
-              modular structures and filters, we retain complete control over
-              the production process. This ensures superior quality,
-              cost-effectiveness, and timely delivery of our products.
+              Owning our manufacturing facilities for rainwater harvesting
+              modular structures and filtration systems allows us to maintain
+              full control over production. This ensures high-quality products,
+              cost efficiency, and timely deliveries.
               <br></br>
               <br></br>{" "}
               <bold className="font-semibold text-black">
                 Sustainability Focus:
               </bold>{" "}
-              We recognize the importance of sustainable practices in addressing
-              water scarcity and protecting the environment. Our solutions are
-              designed to conserve water, support ecological balance, and reduce
+              We understand the importance of sustainability in addressing water
+              scarcity and protecting the environment. Our solutions are
+              designed to conserve water, promote ecological balance, and reduce
               dependence on external water sources.
               <br></br>
               <br></br>
               <bold className="font-semibold text-black">
                 Comprehensive Services:
               </bold>{" "}
-              InRain Construction offers a full range of services from initial
-              project assessment through installation and ongoing maintenance,
-              ensuring the optimal performance of rainwater harvesting systems.
-              Our dedicated team provides technical support and monitoring
-              services to maintain continued efficiency.
+              InRain Construction provides end-to-end services, from the initial
+              project assessment through to installation and ongoing
+              maintenance. We ensure the efficient performance of our rainwater
+              harvesting systems with continuous technical support and
+              monitoring.
               <br></br>
               <br></br>
               <bold className="font-semibold text-green-500">
-                InRain Construction Private Limited
+                InRain® Construction Private Limited
               </bold>{" "}
-              is dedicated to transforming water resource management through
-              advanced rainwater harvesting techniques. With our industry
-              expertise, quality manufacturing capabilities, and
-              sustainability-focused approach, we strive to create a greener,
-              more water-efficient future for our clients and communities.{" "}
+              is committed to revolutionizing water resource management through
+              advanced rainwater harvesting technologies. With our expertise,
+              state-of-the-art manufacturing capabilities, and dedication to
+              sustainability, we aim to foster a greener, water-efficient future
+              for our clients and communities.{" "}
             </p>
             <Image
               data-aos="zoom-in-up"

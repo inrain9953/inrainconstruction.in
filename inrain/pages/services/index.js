@@ -38,26 +38,25 @@ const Services = () => {
           <bold className="text-green-500 font-semibold">
             InRain<sup>®</sup> Construction Pvt. Ltd.,
           </bold>{" "}
-          we offer a comprehensive suite of rainwater harvesting solutions
-          tailored to meet the diverse needs of our clients. Our services
-          include the design and installation of{" "}
+          we provide a comprehensive range of rainwater harvesting solutions,
+          customized to meet the unique requirements of our clients.{" "}
           <bold className="text-black font-semibold">
-            {" "}
-            Rainwater Harvesting Systems for warehouses, utilizing co-polymer
-            based rainwater harvesting system, modular based rainwater
-            harvesting system, and Fiber Reinforced Polymer (FRP) technologies.
+            Our offerings include the design and installation of Rainwater
+            Harvesting Systems for warehouses, utilizing co-polymer, modular,
+            and Fiber Reinforced Polymer (FRP) technologies.
           </bold>
           <br></br>
-          <br></br> As a leading rainwater harvesting system installation
-          company in India and the NCR, we provide top-quality services to
-          industries and commercial entities. Our solutions are designed to
-          optimize water resources, promote sustainability, and reduce reliance
-          on external water sources.{" "}
+          <br></br>{" "}
           <bold className="text-black font-semibold">
-            With in-house manufacturing capabilities, we ensure superior quality
-            and cost-effectiveness, making us a trusted vendor for rainwater
-            harvesting systems across India.
-          </bold>
+            As a leading rainwater harvesting system provider in India and the
+            Delhi(NCR),
+          </bold>{" "}
+          we deliver high-quality services to industries and commercial sectors.
+          Our solutions are engineered to maximize water resource efficiency,
+          support sustainability, and reduce dependence on external water
+          supplies. <bold className="text-black font-semibold">With in-house manufacturing facilities, we guarantee
+          exceptional quality and cost-effectiveness, making us a reliable
+          partner for rainwater harvesting systems nationwide.</bold>
         </p>
       </div>
       <ServicesDetails />

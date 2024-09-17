@@ -18,48 +18,43 @@ const RoofTopRWH = () => {
             Roof Top Rainwater Harvesting System
           </h1>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            Roof top rainwater harvesting system is one of the most popular
-            rainwater harvesting systems of the current times. Rain is one of
-            the most natural resources of water by applying roof top rainwater
-            harvesting, systems we will be able to use natural rainwater. The
-            roof top rainwater harvesting systems are suitable for both
-            residential and commercial areas.
+            Roof-top rainwater harvesting systems have gained significant
+            popularity in recent years. These systems efficiently collect
+            natural rainwater, offering a sustainable way to manage this
+            valuable resource. Suitable for both residential and commercial
+            properties, roof-top rainwater harvesting provides a practical
+            approach to conserving water.
             <br></br>
             <br></br>
             At{" "}
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.,
             </bold>{" "}
-            we deal with a wide variety of rainwater harvesting systems. Our
-            water conservation and management services are very flexible as we
-            provide solutions based on the customer’s needs. We provide both
-            complete package installation and management services. In case you
-            need to install the roof top rainwater harvesting system in your
-            newly constructed house, we provide a complete package along with
-            maintenance services. You can choose specific components if you have
-            already installed the rainwater harvesting system. Our packages are
-            suitable for both commercial and residential areas.
+            we provide a wide range of rainwater harvesting solutions,
+            customized to fit individual customer requirements. Whether you need
+            a full installation package for a newly built property or specific
+            components for an existing system, our services are flexible and
+            designed to meet your specific needs. We handle both the
+            installation and ongoing maintenance, ensuring that your system
+            remains in optimal condition.
             <br></br>
             <br></br>
-            Filtration is the major requirement for roof top rainwater
-            harvesting systems. As the device collects rainwater from the roof
-            top it also collects various harmful pollutants which can be organic
-            and inorganic. Hence, having proper water filtration is a must,
-            various types of water filters can be used in roof top rainwater
-            harvesting systems depending on the use of water. If you intend to
-            use the harvested water for drinking and cooking, then filtration
-            needs to be at a micro-level to make the water free from any
-            impurities and ready for consumption. At{" "}
+            Filtration is an essential part of roof-top rainwater harvesting
+            systems. As rainwater is collected from the roof, it can also gather
+            various pollutants, including both organic and inorganic materials.
+            Proper filtration is especially important if the harvested water
+            will be used for drinking or cooking. In such cases, advanced
+            micro-level filtration is required to ensure the water is free from
+            contaminants and safe for consumption. At{" "}
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.,
             </bold>{" "}
-            we can help you with our wide variety of water filters depending on
-            your filtration needs.
+            we offer a variety of filtration options to suit your needs.
             <br></br>
-            <br></br>A rooftop rainwater harvesting system comes with various
-            benefits. Not only it helps to reduce water bills by providing a
-            backup system for your mains supply but also helps in having a
-            positive impact on the environment.
+            <br></br>Installing a roof-top rainwater harvesting system comes
+            with numerous advantages. In addition to lowering water bills by
+            providing an alternative to mains water supply, these systems also
+            play a vital role in supporting environmental sustainability.
           </p>
         </div>
         <Image

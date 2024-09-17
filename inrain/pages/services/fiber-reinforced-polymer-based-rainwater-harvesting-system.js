@@ -21,48 +21,48 @@ const FRPbasedRWH = () => {
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.
             </bold>{" "}
-            is helping communities and industries by providing sustainable and
-            cost-effective water conservation methods. Rainwater harvesting is
-            no longer looked at as a time-consuming and costly solution with
-            high maintenance. Advanced technology has quickly started to
-            revolutionise the industry with its cost-effective solutions. We at
-            Inrain Construction Pvt. Ltd. offer a wide range of solutions which
-            are not only cost-effective but also environment friendly.
+            is committed to supporting communities and industries with
+            sustainable, cost-effective water conservation solutions. Rainwater
+            harvesting, once considered time-consuming and expensive, has been
+            transformed by advanced technologies offering affordable and
+            low-maintenance options. At InRain Construction Pvt. Ltd., we
+            provide a range of environmentally friendly solutions that are both
+            economical and sustainable.
             <br></br>
             <br></br>
-            FRP based rainwater harvesting system offers an economic solution to
-            modern days requirements. Fiber Reinforced Polymer based systems are
-            becoming popular very fast as it is not only lightweight but also
-            very sturdy. Its ability to resist corrosion and ultraviolet makes
-            it the material of choice for rainwater harvesting systems.
+            Fiber Reinforced Polymer (FRP) based rainwater harvesting systems
+            present a modern, cost-efficient alternative. These systems are
+            rapidly gaining popularity due to their lightweight yet sturdy
+            nature. FRP is highly resistant to corrosion and ultraviolet damage,
+            making it an ideal material for rainwater harvesting systems.
             <br></br>
-            <br></br>In the traditional methods of rainwater harvesting system
-            installation cost and maintenance was the major challenge. As it was
-            using concrete or metal for constructing the water collection tank
-            or pit. These pits are not only expensive but also had high
-            maintenance as they are prone to corrosion and developing
-            infestation. However, Fiber Reinforced Polymers on the other are
-            very much durable and low on maintenance, this has increased the
-            interest of people in FRP based rainwater harvesting systems.
+            <br></br>In traditional rainwater harvesting methods, installation
+            and maintenance costs posed significant challenges, as concrete or
+            metal collection tanks were both expensive and prone to corrosion or
+            infestation. FRP systems, on the other hand, are highly durable and
+            require minimal maintenance, sparking growing interest in FRP-based
+            rainwater harvesting solutions.
             <br></br>
             <br></br>
-            These FRP based rainwater harvesting systems are portable and
-            recyclable which helps in reducing waste and cost. Thereby
-            encouraging more and more people to adopt sustainable water
-            conservation methods and reduce their dependency on mains water
-            supply, as a result helping the environment in an eco-friendly way.
+            These FRP systems are portable, recyclable, and reduce both waste
+            and costs, making them an eco-friendly choice that encourages more
+            widespread adoption of sustainable water conservation practices. By
+            reducing reliance on mains water supply, they also contribute to
+            environmental preservation.
             <br></br>
             <br></br>
-            For all those housing societies and businesses that are looking to
-            contribute to the environment in a positive way, FRP based rainwater
-            harvesting system is a perfect choice. So, whether you are building
-            a new house, looking to reduce the water bill of your business or
-            trying to include sustainable water conservation in your renovated
-            accommodation, FRP based rainwater harvesting offers the complete
-            solutions.
+            For housing societies and businesses looking to make a positive
+            environmental impact, FRP-based rainwater harvesting systems are an
+            ideal solution. Whether building a new home, seeking to lower
+            business water bills, or incorporating sustainable water
+            conservation into renovations, FRP systems offer a comprehensive and
+            efficient approach to water management.
           </p>
         </div>
-        <Image className="mt-10 md:m-10 md:h-72 md:min-w-96" src={serviceImg4} />
+        <Image
+          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          src={serviceImg4}
+        />
       </div>
       <ServicesDetails />
       <Footer />

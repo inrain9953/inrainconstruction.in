@@ -18,47 +18,41 @@ const BoxTypeRWH = () => {
             Box Type Rainwater Harvesting System
           </h1>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            Rainwater harvesting is a need of the modern world by practicing
-            rainwater harvesting we can help in improving global water reserves.
-            {" "}
+            Rainwater harvesting is increasingly vital in today's world as it
+            contributes to enhancing global water reserves.{" "}
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.
             </bold>{" "}
-            is a leading company, in providing water conservation and management
-            solutions offering various varieties of rainwater harvesting
-            solutions. We use modern-day technology and excel in providing
-            economical water conservation methods to our clients as per their
-            needs. Among the various methods of rainwater harvesting systems Box
-            Type Rainwater Harvesting is one that helps you in saving the mains
-            water. Since in this methodology rainwater collected from the roof
-            doesn’t go through rigorous filtration and purification, it is
-            majorly suited for outdoor activities like car washing and watering
-            your garden area. The rainwater stored through this method can also
-            be utilised for laundry and flushing the toilet.
+            is a prominent provider of water conservation and management
+            solutions, offering a range of rainwater harvesting options.
+            Utilizing cutting-edge technology, we deliver cost-effective water
+            conservation methods tailored to our clients' needs. Among the
+            various rainwater harvesting methods, the Box Type Rainwater
+            Harvesting System stands out for its efficiency in reducing reliance
+            on mains water. This system is particularly suited for applications
+            such as car washing and garden irrigation, as it does not require
+            extensive filtration or purification. It can also be used for
+            laundry and toilet flushing.
             <br></br>
             <br></br>
-            As the name suggests box type rainwater harvesting system uses a box
-            to store water. A water collector is attached to the rooftop for
-            collecting water, the collected water then goes through a filter
-            system that removes impurities collected from the rooftop. The
-            filtered water then goes to the box for storage.
+            The Box Type Rainwater Harvesting System is characterized by its use
+            of a storage box. Water is collected from the roof via a water
+            collector, which then passes through a filter to remove rooftop
+            impurities. The filtered water is stored in the box for later use.
             <br></br>
-            <br></br>The installation and the water supply mechanism is the main
-            feature of box type rainwater harvesting system. The water supply
-            mechanism of this system is maintained in such a way that it always
-            ensures water supply from the rain box before your main supply. It
-            has been designed in a way that in case your rain box runs out of
-            water your supply will be maintained through mains, ensuring
-            continuous water supply autonomous systems. This helps in reducing
-            your water bills significantly by effectively utilizing the stored
-            rainwater.
+            <br></br>Key features of the Box Type System include its
+            installation and water supply mechanism. This system is designed to
+            prioritize water supply from the rainwater box before drawing from
+            the mains. In the event that the rainwater box is depleted, the
+            mains supply automatically takes over, ensuring a continuous water
+            supply. This setup helps significantly reduce water bills by making
+            effective use of stored rainwater.
             <br></br>
             <br></br>
-            Box type rainwater harvesting systems use very compact size box, it
-            is easily installable and cost-effective and addresses the specific
-            need of our customers. Our skilled team provides help to our
-            customers in choosing the correct rainwater harvesting systems as
-            per their requirements and budget.
+            The Box Type Rainwater Harvesting System features a compact design,
+            making it easy to install and budget-friendly. Our experienced team
+            assists customers in selecting the most suitable rainwater
+            harvesting system based on their specific needs and budget.
           </p>
         </div>
         <Image

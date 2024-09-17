@@ -22,51 +22,48 @@ const BioswaleForRainwater = () => {
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.
             </bold>{" "}
-            leads the effort to help people better use rainwater, with various
-            conservation and management solutions. Because of the pressing need
-            for rainwater harvesting as our groundwater depletes, InRain
-            prioritizes ways to capture water. The company encourages methods
-            like bioswales, which effectively make the land work toward keeping
-            the water we need in the ground and out of our storm sewers.
+            is at the forefront of promoting the efficient use of rainwater
+            through various conservation and management solutions. As
+            groundwater levels continue to decline, the company emphasizes the
+            importance of capturing rainwater to alleviate water shortages.
+            InRain advocates for methods like bioswales, which help retain water
+            in the soil, preventing it from being lost in storm sewers.
             <br></br>
             <br></br>
-            The construction company{" "}
+            Specializing in the construction of bioswales,{" "}
             <bold className="text-green-500 font-semibold">
-              Inrain Construction Pvt. Ltd.
+              InRain Construction Pvt. Ltd.
             </bold>{" "}
-            focuses primarily on the building of bioswales. They are good at it.
-            They have a lot of experience building them. Bioswales are
-            essentially very large, linear rain gardens. They can also be much
-            more than just wet, green, unremarkable, canal-like spaces. They
-            have their own "native plants" that go out in large-scale
-            installation and function as measure-and-control structures in
-            stormwater management.
+            brings extensive expertise to the field. These bioswales are large,
+            linear rain gardens designed to manage stormwater. Beyond their
+            functional purpose, they are landscaped with native plants, serving
+            as both aesthetic and practical stormwater management systems.
             <br></br>
             <br></br>
-            Modern residential communities and industrial areas especially
-            benefit from bioswales. After it rains, a lot of the water that
-            falls on our pavement doesn't go into the ground but instead flows
-            across our roofs, roads, and lawns and into storm drains.
-            Uncontrolled, this surplus stormwater does a lot of damage. We're
-            starting to pay attention to that. The authorities in hydrology tell
-            us that we're better off in the "now and place" of bioswales because
-            they're under much better control and much more beneficial.
+            Modern residential communities and industrial zones benefit
+            significantly from bioswales. Much of the rainwater that falls on
+            impervious surfaces like pavements, roofs, and roads often flows
+            directly into storm drains, rather than seeping into the ground.
+            This excess runoff can cause substantial damage if left unmanaged.
+            Experts in hydrology now recommend bioswales as an effective
+            solution, as they offer better control of stormwater and provide
+            environmental benefits.
             <br></br>
             <br></br>
-            It is easy to incorporate bioswales into present-day infrastructure.
-            Typical places to set them up are parking lots, along sidewalks, in
-            parks, and streets, and in any other open space. It is critical to
-            test the soil prior to installation to ascertain that the water that
-            runs into the bioswale can infiltrate the soil and reach the nearby
-            water table at a rate that is consistent with natural processes.
-            Advanced technology ensures that even in a constructed space, the
-            bioswale can still look and function like a natural one. <br></br>
+            Bioswales can be easily integrated into existing infrastructure.
+            Common locations for installation include parking lots, sidewalks,
+            parks, streets, and other open spaces. It is essential to test the
+            soil before installation to ensure that the runoff can infiltrate it
+            properly and recharge the groundwater table at a natural rate. With
+            the help of advanced technology, even constructed bioswales can
+            mimic the appearance and function of natural systems. <br></br>
             <br></br>
+            Through this approach,{" "}
             <bold className="text-green-500 font-semibold">
-              Inrain Construction Pvt. Ltd.
+              InRain Construction Pvt. Ltd.
             </bold>{" "}
-            intends to use this approach to deliver viable, long-term solutions
-            for handling rainwater.
+            aims to provide long-term, sustainable solutions for rainwater
+            management.
           </p>
         </div>
         <Image

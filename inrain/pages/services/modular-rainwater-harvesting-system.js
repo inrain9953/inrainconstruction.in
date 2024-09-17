@@ -15,102 +15,105 @@ const ModularRWH = () => {
             Modular Rainwater Harvesting System
           </h1>
           <p className="text-md md:text-lg text-gray-500 pt-5">
-            Infusing Modular technologies to store or reuse rain water in order
-            to realize the needs of an enriched tomorrow with abundant water
-            resources in place.
+            Infusing modular technology to store and reuse rainwater is key to
+            securing a future with abundant water resources.
             <br></br>
             <br></br>
           </p>
 
           <ul className="list-disc font-semibold md:text-lg text-gray-600">
-            <li>Polymer as strong as metal.</li>
-            <li>Load bearing and top surface utilization.</li>
-            <li>Time saving in installation.</li>
-            <li>Accident free.</li>
-            <li>Less maintenance cost than civil pit.</li>
-            <li>Maintenance time and resource utilization</li>
-            <li>Alteration and re use advantage</li>
-            <li>Cost advantage</li>
+            <li>Polymers as strong as metal</li>
+            <li>Load-bearing capacity and top surface utilization</li>
+            <li>Time-efficient installation</li>
+            <li>Accident-free design</li>
+            <li>Lower maintenance costs than traditional civil pits</li>
+            <li>Reduced maintenance time and resource consumption</li>
+            <li>Adaptability and reusability</li>
+            <li>Cost-effective solution</li>
           </ul>
 
           <p className="text-md md:text-lg text-gray-500 pt-5">
-            Urbanization has led to an increase in water consumption in various
-            activities. The demand for water supply is quite high, however, our
-            natural resources are very limited. There have been many reports of
-            declining water levels around the world. Rainwater harvesting is one
-            of the best solutions to keep the sustainable development going.
-            Inrain Construction Pvt. Ltd., a water conservation and management
-            organization offers various rainwater harvesting methods using the
-            latest technology.
+            Urbanization has significantly increased water consumption, placing
+            immense pressure on our limited natural resources. Reports of
+            declining water levels are common worldwide. Rainwater harvesting is
+            a crucial solution for sustainable development, and at InRain
+            Construction Pvt. Ltd., we offer advanced rainwater harvesting
+            methods using cutting-edge technology.
             <br></br>
-            <br></br>In recent years, modular rainwater harvesting has become
-            increasingly popular due to its various advantages over traditional
-            rainwater harvesting methods. Modular rainwater harvesting
-            effectively addresses two major concerns: budget and space. Not only
-            it is easy on the pocket but also allows the use of space for
-            various purposes.
+            <br></br>In recent years, modular rainwater harvesting has gained
+            popularity due to its numerous advantages over traditional systems.
+            This approach effectively addresses two key concerns: budget and
+            space. It is not only cost-effective but also allows for the
+            versatile use of space.
             <br></br>
             <br></br>
-            Polymer-based modular structures are used in this technique.
-            Strength and load-bearing capacity are both excellent
-            characteristics of these structures. Water harvesting areas prepared
-            with modular structures can even be used for parking vehicles. The
-            installation takes less time compared to a traditional rainwater
-            harvesting system. Here are some advantages it offers:
+            This technique utilizes polymer-based modular structures, known for
+            their strength and load-bearing capacity. Areas designated for
+            rainwater harvesting with modular systems can even be used for
+            vehicle parking. Installation is also quicker compared to
+            traditional rainwater harvesting systems. Here are some of the key
+            benefits:
             <br></br>
             <br></br>
           </p>
 
           <ul className="list-disc font-semibold md:text-lg text-gray-600">
             <li>
-              The eco-friendly and economical solution as a polymer can be
-              recycled or reused
+              Eco-friendly and economical : Polymers can be recycled and reused.
             </li>
             <li>
-              It ensures excellent filtration as the percolation tank remains
-              covered with the geotextile sheet
+              Excellent filtration : The percolation tank is covered with a
+              geotextile sheet for superior filtration.
             </li>
             <li>
-              Safety: In this technique, we place the percolation tank
-              underground to ensure no easy access to the water tank
+              Safety : The percolation tank is placed underground, preventing
+              unauthorized access.
             </li>
             <li>
-              Cost Saving on Maintenance: Low or almost no maintenance compared
-              to traditional rainwater harvesting system
+              Cost-saving maintenance : Minimal to no maintenance is required
+              compared to conventional systems.
             </li>
-            <li>Higher recharge capacity as water comes from five sides.</li>
-            <li>Co-polymer-based modules have a high lifespan</li>
             <li>
-              Portability is one of the main properties of these
-              co-polymer-based stackable modules, as these modules can be easily
-              shifted and installed at different locations.
+              Higher recharge capacity : Water enters from five sides,
+              increasing efficiency.
+            </li>
+            <li>Durability : Co-polymer modules have a long lifespan.</li>
+            <li>
+              Portability : These stackable co-polymer modules can be easily
+              relocated and reinstalled at different sites.
             </li>
           </ul>
           <br></br>
           <br></br>
 
           <p className="text-md md:text-lg text-gray-500">
-            The modular Rainwater Harvesting method helps in restoring and
-            reusing the rainwater within your budget. It allows you to
-            contribute to your social and environmental cause without
-            compromising on your budget and space.
+            The modular rainwater harvesting system offers an affordable and
+            space-efficient way to collect and reuse rainwater. It allows you to
+            contribute to environmental sustainability without exceeding your
+            budget or compromising valuable space.
           </p>
         </div>
-        <Image className="mt-10 md:m-10 md:h-72 md:min-w-96" src={serviceImg3} />
+        <Image
+          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          src={serviceImg3}
+        />
       </div>
 
-      <div data-aos="zoom-in-up" className="text-center m-12 bg-sky-300 rounded-xl">
+      <div
+        data-aos="zoom-in-up"
+        className="text-center m-12 bg-sky-300 rounded-xl"
+      >
         <p className="p-5 text-md md:text-lg">
-          Precious land over the modular tank is not wasted, since it is a load
-          bearing structure and can bear tons of loads thereby making the whole
-          system truly economical as compared with the case of having civil pit.
-          95% of the capacity of tank is usable as compared to only 50-55%
-          usability in case of civil pit. No Risk of accidents as no one can
-          fall into this kind of tank whereas having a RCC Civil tank is highly
-          accident prone. Easy removable and transportable to any other location
-          which is not possible in case of civil pit. Holding / Recharge
-          Capacity begins from 1 Cubic Meter to any imaginable Size within
-          significantly lesser time.
+          The land above a modular tank is not wasted, as the structure is
+          load-bearing and capable of supporting tons of weight, making it a far
+          more economical option compared to traditional civil pits.
+          Additionally, 95% of the tank's capacity is usable, compared to only
+          50-55% in a civil pit. The modular tank also eliminates the risk of
+          accidents, as it is fully enclosed, unlike RCC civil tanks, which pose
+          a higher risk of falls. The system is easy to remove and transport to
+          different locations, a flexibility that is impossible with civil pits.
+          Holding and recharge capacity can start from 1 cubic meter and extend
+          to virtually any size, all within a much shorter installation time.
         </p>
       </div>
       <ServicesDetails />
