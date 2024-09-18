@@ -46,19 +46,25 @@ const RWHvendorsInNcr = () => {
             <br></br>
             <br></br>
             With global groundwater levels rapidly declining due to overuse,
-            effective rainwater harvesting systems are essential. <bold className="text-green-500 font-semibold">InRain
-            Construction Pvt. Ltd.</bold> contributes to this important socio-economic
-            effort by facilitating the use of natural rainwater. Our team has
-            successfully supported over 150 rainwater harvesting projects,
-            offering comprehensive services that include installation,
-            maintenance, and management. Our solutions are designed to be
-            economical, eco-friendly, and superior to traditional rainwater
-            harvesting methods.
+            effective rainwater harvesting systems are essential.{" "}
+            <bold className="text-green-500 font-semibold">
+              InRain Construction Pvt. Ltd.
+            </bold>{" "}
+            contributes to this important socio-economic effort by facilitating
+            the use of natural rainwater. Our team has successfully supported
+            over 150 rainwater harvesting projects, offering comprehensive
+            services that include installation, maintenance, and management. Our
+            solutions are designed to be economical, eco-friendly, and superior
+            to traditional rainwater harvesting methods.
           </p>
         </div>
         <Image
           className="mt-10 md:m-10 md:h-72 md:min-w-96"
           src={serviceImg7}
+          alt="img"
+          loading="eager"
+          priority={true}
+          unoptimized={true}
         />
       </div>
       <ServicesDetails />

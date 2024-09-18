@@ -69,6 +69,10 @@ const BioswaleForRainwater = () => {
         <Image
           className="mt-10 md:m-10 md:h-72 md:min-w-96"
           src={serviceImg10}
+          alt="img"
+          loading="eager"
+          priority={true}
+          unoptimized={true}
         />
       </div>
       <ServicesDetails />

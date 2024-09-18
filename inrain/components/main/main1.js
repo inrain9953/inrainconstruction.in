@@ -21,6 +21,9 @@ export const Main1 = () => {
       <div
         data-aos="zoom-in-up"
         className="text-center main1-background md:text-left"
+        loading="eager"
+        priority={true}
+        unoptimized={true}
       >
         <div className="relative">
           <h1 className="relative text-green-800 z-30 pt-5 text-lg font-semibold drop-shadow-md md:text-4xl md:pt-10 md:ml-16">
@@ -60,6 +63,8 @@ export const Main1 = () => {
                 className="object-cover h-28 rounded-lg opacity-60"
                 src={feature.img}
                 loading="eager"
+                priority={true}
+                unoptimized={true}
               ></Image>
               {/* <WaterDropIcon className="items-center m-4 absolute top-0" /> */}
               <p className="items-center m-4 text-sm font-semibold absolute top-5 text-white drop-shadow-2xl">

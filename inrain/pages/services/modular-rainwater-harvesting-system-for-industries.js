@@ -105,6 +105,10 @@ const ModularRWHForIndustries = () => {
         <Image
           className="mt-10 md:m-10 md:h-72 md:min-w-96"
           src={serviceImg11}
+          alt="img"
+          loading="eager"
+          priority={true}
+          unoptimized={true}
         />
       </div>
 
@@ -181,6 +185,9 @@ const ModularRWHForIndustries = () => {
               alt="img"
               className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
+              loading="eager"
+              priority={true}
+              unoptimized={true}
             />
           </div>
         </div>

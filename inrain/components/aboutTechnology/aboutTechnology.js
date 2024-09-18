@@ -23,6 +23,7 @@ export const AboutTechnology = () => {
           <Image
             className=""
             src={tech1}
+            alt="img"
             loading="eager"
             priority={true}
             unoptimized={true}
@@ -30,6 +31,7 @@ export const AboutTechnology = () => {
           <Image
             className=""
             src={tech2}
+            alt="img"
             loading="eager"
             priority={true}
             unoptimized={true}
@@ -42,6 +44,7 @@ export const AboutTechnology = () => {
           <Image
             className=""
             src={tech3}
+            alt="img"
             loading="eager"
             priority={true}
             unoptimized={true}
@@ -49,6 +52,7 @@ export const AboutTechnology = () => {
           <Image
             className=""
             src={tech4}
+            alt="img"
             loading="eager"
             priority={true}
             unoptimized={true}
@@ -56,6 +60,7 @@ export const AboutTechnology = () => {
           <Image
             className=""
             src={tech5}
+            alt="img"
             loading="eager"
             priority={true}
             unoptimized={true}

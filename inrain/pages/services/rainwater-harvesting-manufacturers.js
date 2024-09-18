@@ -108,6 +108,9 @@ const RWHManufacturer = () => {
               alt="img"
               className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
+              loading="eager"
+              priority={true}
+              unoptimized={true}
             />
           </div>
         </div>

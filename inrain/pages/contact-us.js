@@ -73,6 +73,7 @@ const Contact = () => {
               <Image
                 className="w-28 m-auto"
                 src={logo}
+                alt="img"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
