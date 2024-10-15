@@ -8,7 +8,7 @@ export const ServicesDetails = () => {
       <div className="grid grid-cols-2 m-5 gap-3 md:grid-cols-5">
         <Link href={"/services/rainwater-harvesting-system-for-warehouses"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -19,7 +19,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/co-polymer-based-rainwater-harvesting-system"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -30,7 +30,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/modular-rainwater-harvesting-system"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -45,7 +45,7 @@ export const ServicesDetails = () => {
           }
         >
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -56,7 +56,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/roof-top-rainwater-harvesting-system"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -67,7 +67,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/ground-water-recharge-system-for-industries"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -78,7 +78,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-vendors-in-delhi-ncr"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -89,7 +89,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-vendors-in-india"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -100,7 +100,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/box-type-rainwater-harvesting-system"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -111,7 +111,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/storm-water-recharge-and-management-system"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -122,7 +122,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/bioswale-for-rainwater-drain"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -133,7 +133,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-system"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -144,7 +144,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-system-for-industries"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -157,7 +157,7 @@ export const ServicesDetails = () => {
           href={"/services/rainwater-harvesting-installation-company"}
         >
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -168,7 +168,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-system-in-india"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -181,7 +181,7 @@ export const ServicesDetails = () => {
           href={"/services/modular-rainwater-harvesting-system-for-industries"}
         >
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -192,7 +192,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-system-in-delhi-ncr"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">
@@ -203,7 +203,7 @@ export const ServicesDetails = () => {
 
         <Link href={"/services/rainwater-harvesting-manufacturers"}>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="h-32 text-center justify-center bg-green-500 rounded-xl items-center flex hover:border-2 hover:border-black"
           >
             <p className="text-sm m-3 md:text-lg font-semibold">

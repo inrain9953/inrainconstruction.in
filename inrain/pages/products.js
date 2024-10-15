@@ -8,12 +8,48 @@ import product4 from "./../public/product/product4.jpeg";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Carousel } from "@/components/carousel/carousel";
 import service4 from "./../public/service4.jpg";
+import Head from "next/head";
 
 const Products = () => {
+  const title = "Our Products | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile. Are you looking for Rainwater Harvesting products?";
+  const keyword =
+    "Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Products, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
+  const canonical = "https://www.inrainconstruction.in/products";
+  const ogUrl = "https://www.inrainconstruction.in/products";
+  const ogTitle = "InRain® Rainwater Harvesting System | InRain® Construction";
+  const ogDescription =
+    "InRain Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+  const twittertitle =
+    "InRain® Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
-      <div data-aos="zoom-in-up" className="m-5">
+      <div data-aos="fade-up" className="m-5">
         <Image
           className="w-full rounded-xl shadow-xl"
           src={service4}
@@ -26,7 +62,7 @@ const Products = () => {
       <div>
         <div className="mb-14">
           <div className="m-5 md:flex items-center md:m-10 md:gap-10">
-            <div data-aos="zoom-in-up" className="text-center mb-5">
+            <div data-aos="fade-up" className="text-center mb-5">
               <h2 className="text-2xl font-semibold text-green-600">
                 InRain<sup>®</sup>
               </h2>
@@ -43,7 +79,7 @@ const Products = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
               >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
@@ -66,7 +102,7 @@ const Products = () => {
               </div>
 
               <div
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
               >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
@@ -97,7 +133,7 @@ const Products = () => {
               </div>
 
               <div
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
               >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
@@ -113,7 +149,7 @@ const Products = () => {
               </div>
 
               <div
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
               >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
@@ -129,7 +165,7 @@ const Products = () => {
               </div>
 
               <div
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
               >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
@@ -150,7 +186,7 @@ const Products = () => {
               </div>
 
               <div
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="bg-gray-300 rounded-xl p-5 hover:shadow-xl"
               >
                 <h3 className="text-xl font-semibold text-center m-3 text-green-600">
@@ -168,7 +204,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div data-aos="zoom-in-up" className="mt-10 m-5 md:m-10">
+          <div data-aos="fade-up" className="mt-10 m-5 md:m-10">
             <div className="md:grid grid-cols-2 items-center">
               <Image
                 src={product3}

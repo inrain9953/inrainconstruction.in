@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-50 bg-transparent backdrop-blur">
+      <div className="sticky top-0 z-50 bg-transparent bg-gradient backdrop-blur">
         <div className="h-20 flex justify-between items-center">
           <Link href={"/"}>
             <Image
@@ -79,10 +79,10 @@ export const Navbar = () => {
           </a>
         </div>
 
-        <div className="hidden md:flex justify-center gap-6 bg-sky-400">
+        <div className="hidden md:flex justify-center gap-6 bg-sky-500">
           <MailOutline />
           <a
-            className="hover:text-green-600"
+            className="hover:text-green-700"
             href="mailto:sales@inrainwaterharvesting.com"
           >
             sales@inrainwaterharvesting.com
@@ -90,14 +90,14 @@ export const Navbar = () => {
           <br></br>
           <MailOutline />
           <a
-            className="hover:text-green-600"
+            className="hover:text-green-700"
             href="mailto:inrainconstruction@gmail.com"
           >
             inrainconstruction@gmail.com
           </a>
           <br></br>
           <CallIcon />
-          <a className="hover:text-green-600" href="tel:+919953070003">
+          <a className="hover:text-green-700" href="tel:+919953070003">
             +91-9953070003
           </a>
         </div>

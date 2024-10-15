@@ -47,7 +47,7 @@ const Contact = () => {
         />
       </div>
       <div className="md:flex items-center">
-        <div data-aos="zoom-in-up" className="text-center pt-5 md:w-[60%]">
+        <div data-aos="fade-up" className="text-center pt-5 md:w-[60%]">
           <h1 className="text-2xl font-semibold md:text-[3rem] m-3">
             InRain<sup>®</sup> Construction Pvt. Ltd.
           </h1>
@@ -65,7 +65,7 @@ const Contact = () => {
           />
         </div>
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="max-w-fit ml-auto mr-auto drop-shadow-2xl pt-10"
         >
           <div className="Form-container">

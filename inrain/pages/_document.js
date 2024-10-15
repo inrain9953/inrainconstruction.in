@@ -9,7 +9,6 @@ export default function Document() {
         </noscript>
       </Head>
       <body>
-      <noscript></noscript>
         <Main />
         <NextScript />
       </body>

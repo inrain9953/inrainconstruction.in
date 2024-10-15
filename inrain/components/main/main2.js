@@ -4,7 +4,7 @@ import { Carousel } from "../carousel/carousel";
 export const Main2 = () => {
   return (
     <>
-      <div data-aos="zoom-in-up" className="flex flex-wrap justify-between">
+      <div data-aos="fade-up" className="flex flex-wrap justify-between">
         <div className="m-10 md:ml-28 md:mr-28">
           <h3 className="text-2xl font-semibold text-center mb-5 underline">
             What We Do

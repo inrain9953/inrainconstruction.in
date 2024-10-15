@@ -42,6 +42,10 @@ export default function Home() {
           property="og:site_name"
           content="InRain® Construction Pvt. Ltd."
         />
+        <meta
+          name="google-site-verification"
+          content="f5HmR_XHPeBiTtIA27g5bBonwT1sdqQD_u7cP3tQIV4"
+        />
       </Head>
       <Navbar />
       <Main1 />

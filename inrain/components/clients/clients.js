@@ -6,13 +6,13 @@ export const Clients = () => {
   return (
     <div className="mt-20">
       <h3
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-center font-bold text-2xl m-5 md:text-4xl"
       >
         Our Happy Clients
       </h3>
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="flex overflow-clip align-middle drop-shadow-2xl"
       >
         {clientSlider1.map((items) => (
@@ -33,7 +33,7 @@ export const Clients = () => {
       </div>
 
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="flex overflow-clip align-middle drop-shadow-2xl"
       >
         {clientSlider2.map((items) => (

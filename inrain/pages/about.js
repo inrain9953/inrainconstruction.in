@@ -9,12 +9,48 @@ import aboutImg from "./../public/InRain/rain2.jpg";
 import { AboutContent } from "@/components/constant";
 import rain2 from "./../public/tree.png";
 import { AboutTechnology } from "@/components/aboutTechnology/aboutTechnology";
+import Head from "next/head";
 
 const About = () => {
+
+  const title = "About US | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+  const keyword =
+    "Rainwater Harvesting System, Water Conservation, Modular Tank Systems, Sustainable Water Management, Monolithic Structures, RWH Technology, Ground Water Recharge, Clean Energy Solutions, Modular Rainwater Harvesting, Water Table Recharge";
+  const canonical = "https://www.inrainconstruction.in/about";
+  const ogUrl = "https://www.inrainconstruction.in/about";
+  const ogTitle = "About Us | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+  const twittertitle = "About US | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
-      <div data-aos="zoom-in-up" className="m-5">
+      <div data-aos="fade-up" className="m-5">
         <Image
           className="w-full rounded-xl shadow-xl"
           alt="img"
@@ -24,7 +60,7 @@ const About = () => {
           unoptimized={true}
         />
       </div>
-      <div data-aos="zoom-in-up" className="m-10 text-left md:m-20">
+      <div data-aos="fade-up" className="m-10 text-left md:m-20">
         <div className="">
           <h1 className="text-2xl font-bold md:text-[3rem] md:font-semibold">
             InRain<sup>®</sup> Construction Pvt. Ltd.
@@ -107,10 +143,7 @@ const About = () => {
       </div>
 
       <div className="">
-        <div
-          data-aos="zoom-in-up"
-          className="text-left md:text-left md:m-20 m-10"
-        >
+        <div data-aos="fade-up" className="text-left md:text-left md:m-20 m-10">
           <h1 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
             Why InRain<sup>®</sup> Construction :
           </h1>
@@ -179,7 +212,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div data-aos="zoom-in-up" className="m-5">
+        <div data-aos="fade-up" className="m-5">
           <Image
             className="w-full md:h-72 rounded-xl shadow-xl"
             src={service2}
@@ -190,11 +223,11 @@ const About = () => {
           />
         </div>
         <div className="text-center flex justify-center mt-10">
-          <ol className="drop-shadow-2xl inline-grid grid-cols-2 gap-6 cursor-pointer md:flex">
+          <ol className="drop-shadow-2xl inline-grid grid-cols-2 gap-6 md:flex">
             {AboutContent.map((item) => (
               <div
-                data-aos="zoom-in-up"
-                className="rounded-xl bg-sky-400 h-36 w-44 flex items-center"
+                data-aos="fade-up"
+                className="rounded-xl bg-sky-400 h-36 w-44 flex items-center cursor-pointer"
               >
                 <div className="p-2">
                   <Image

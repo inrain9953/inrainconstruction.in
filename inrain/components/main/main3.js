@@ -11,7 +11,7 @@ export const Main3 = () => {
   return (
     <>
       <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="zoom-in-up" className="md:content-center md:p-10">
+        <div data-aos="fade-up" className="md:content-center md:p-10">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
@@ -50,7 +50,7 @@ export const Main3 = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-2 flex justify-center md:inline"
         >
           <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
@@ -88,7 +88,7 @@ export const Main3 = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-2 flex justify-center md:inline"
         >
           <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
@@ -137,7 +137,7 @@ export const Main3 = () => {
       </div>
 
       <div className="m-10 md:flex md:justify-center md:gap-24 md:m-10 md:mr-24 md:ml-24">
-        <div data-aos="zoom-in-up" className=" text-left">
+        <div data-aos="fade-up" className=" text-left">
           <h2 className="font-semibold md:text-lg text-green-600">
             InRain<sup>®</sup>
           </h2>
@@ -180,7 +180,7 @@ export const Main3 = () => {
 
         <div className="md:ml-10 w-64 m-auto mt-10">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="flex md:w-72 overflow-clip align-middle drop-shadow-2xl"
           >
             {InRainImage.map((items) => (

@@ -11,7 +11,7 @@ export const Carousel = () => {
         </h1>
       </div>
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="flex overflow-clip align-middle drop-shadow-2xl md:ml-14 md:mr-14"
       >
         {carouselSlider.map((items) => (

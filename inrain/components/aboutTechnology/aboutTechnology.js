@@ -11,13 +11,13 @@ export const AboutTechnology = () => {
     <>
       <div className="text-center pt-10 m-5 md:m-10">
         <h3
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="md:text-4xl font-semibold text-2xl"
         >
           About Our Technology
         </h3>
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="grid grid-cols-1 md:grid-cols-2 m-2 md:mt-10 mt-5"
         >
           <Image
@@ -38,7 +38,7 @@ export const AboutTechnology = () => {
           />
         </div>
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="grid grid-cols-1 md:grid-cols-3 m-2"
         >
           <Image

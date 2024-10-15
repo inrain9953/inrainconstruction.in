@@ -18,7 +18,7 @@ export const Footer = () => {
   return (
     <>
       <Clients />
-      <div data-aos="zoom-in-up">
+      <div data-aos="fade-up">
         <iframe
           width="100%"
           height="450"
@@ -33,7 +33,7 @@ export const Footer = () => {
       <div className="bg-green-600">
         <div className="md:flex md:mr-7">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-left ml-7 pt-10 md:w-[25%]"
           >
             <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
@@ -90,31 +90,31 @@ export const Footer = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
           >
             <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
               Quick Links
             </h3>
-            <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link href="/">Home</Link>
+            <p className="font-medium text-lg m-1 text-white">
+              <Link className="hover:text-sky-700" href="/">Home</Link>
             </p>
-            <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link href="/about">About</Link>
+            <p className="font-medium text-lg m-1 text-white">
+              <Link className="hover:text-sky-700" href="/about">About</Link>
             </p>
-            <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link href="/services">Services</Link>
+            <p className="font-medium text-lg m-1 text-white">
+              <Link className="hover:text-sky-700" href="/services">Services</Link>
             </p>
-            <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link href="/products">Product</Link>
+            <p className="font-medium text-lg m-1 text-white">
+              <Link className="hover:text-sky-700" href="/products">Product</Link>
             </p>
-            <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link href="/contact-us">Contact Us</Link>
+            <p className="font-medium text-lg m-1 text-white">
+              <Link className="hover:text-sky-700" href="/contact-us">Contact Us</Link>
             </p>
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
           >
             <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
@@ -171,7 +171,7 @@ export const Footer = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-left ml-7 md:w-[25%] md:pt-10"
           >
             <h3 className="text-2xl font-semibold m-1 mb-2 text-white">
@@ -207,11 +207,6 @@ export const Footer = () => {
                 +91 01143791960
               </a>
             </li>
-            {/* <h3 className='text-xl font-semibold pb-3 m-1'>Registered Office</h3>
-            <div className='flex justify-center mb-5'>
-                <LocationOnIcon className='mr-2'/>
-                <p className='font-medium text-lg'>Khasra No - 148 Plot No - 219, GF, Rajpur Khurd Ext, New Delhi 110074</p>
-            </div> */}
           </div>
         </div>
 

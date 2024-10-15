@@ -19,7 +19,7 @@ export const Main1 = () => {
   return (
     <>
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-center main1-background md:text-left"
         loading="eager"
         priority={true}
