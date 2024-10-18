@@ -37,9 +37,9 @@ const LocationTarget = ({ loc }) => {
             InRain<sup>®</sup> Construction Pvt. Ltd.
           </h1>
           <hr className="m-2 md:m-4"></hr>
-          <p className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
+          <h2 className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
             Water Conservation <br></br>& <br></br>Management Company
-          </p>
+          </h2>
 
           <span className="relative z-20 text-md font-semibold align-middle lg:inline drop-shadow-md md:text-xl">
             <TypeAnimation

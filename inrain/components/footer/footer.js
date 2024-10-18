@@ -52,7 +52,7 @@ export const Footer = () => {
               </Link>
               <Link
                 target="_blank"
-                href={"https://www.instagram.com/inrainconstruction_/"}
+                href={"https://www.instagram.com/inrainconstruction_icpl/"}
               >
                 <li className="list-none hover:text-white">
                   <InstagramIcon fontSize="large" />
