@@ -6,6 +6,7 @@ import { MailOutline } from "@mui/icons-material";
 import CallIcon from "@mui/icons-material/Call";
 import Link from "next/link";
 import { useState } from "react";
+import PopUp from "../popup";
 
 
 export const Navbar = () => {
@@ -147,6 +148,7 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
+      <PopUp />
     </>
   );
 };
