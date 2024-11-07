@@ -17,7 +17,7 @@ const StormWaterRechargeManagementSystem = () => {
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Storm Water Recharge and Management System
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Effective stormwater recharge and management are essential in
             today’s world due to climate change and diminishing resources. Rapid
             urban development has negatively impacted natural resources like

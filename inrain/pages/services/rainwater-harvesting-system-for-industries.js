@@ -18,7 +18,7 @@ const RainwaterHarvestingSystemforIndustries = () => {
           <h1 className="text-2xl font-semibold md:text-[2rem]">
             Rainwater Harvesting System for Industries
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Water scarcity is an increasingly critical issue, particularly for
             industries that rely on water for their operations. With the rise in
             population and industrial activity, the need for sustainable water
@@ -36,7 +36,7 @@ const RainwaterHarvestingSystemforIndustries = () => {
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
             The Significance of Rainwater Harvesting for Industrial Operations
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Rainwater harvesting offers numerous advantages to industries by
             providing an alternative water source, thereby reducing the reliance
             on municipal supplies and groundwater reserves. Industries often

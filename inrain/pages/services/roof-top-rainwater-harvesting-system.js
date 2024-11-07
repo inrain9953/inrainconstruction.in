@@ -17,7 +17,7 @@ const RoofTopRWH = () => {
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Roof Top Rainwater Harvesting System
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Roof-top rainwater harvesting systems have gained significant
             popularity in recent years. These systems efficiently collect
             natural rainwater, offering a sustainable way to manage this

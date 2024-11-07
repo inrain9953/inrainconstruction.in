@@ -15,7 +15,7 @@ const ModularRWH = () => {
             Modular Rainwater Harvesting System
           </h1>
           <p className="text-md md:text-lg text-gray-500 pt-5">
-            Infusing modular technology to store and reuse rainwater is key to
+            Infusing Modular Rainwater Harvesting Technology to store and reuse rainwater is key to
             securing a future with abundant water resources.
             <br></br>
             <br></br>

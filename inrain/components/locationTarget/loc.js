@@ -89,7 +89,7 @@ const LocationTarget = ({ loc }) => {
           <h3 className="text-2xl font-semibold text-center mb-5 underline">
             What We Do
           </h3>
-          <p className="text-md text-center text-gray-500 drop-shadow-md md:text-lg">
+          <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg">
             At{" "}
             <bold className="text-green-500 font-semibold">
               InRain<sup>®</sup> Construction Pvt. Ltd.
@@ -146,7 +146,7 @@ const LocationTarget = ({ loc }) => {
             Rainwater Harvesting System in {loc}
           </h1>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-center text-gray-500 drop-shadow-md md:text-xl">
+          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">
               InRain<sup>®</sup> Construction Pvt. Ltd.
             </bold>{" "}
@@ -271,7 +271,7 @@ const LocationTarget = ({ loc }) => {
           <h1 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting System in {loc}
           </h1>
-          <p className="text-md text-gray-500 md:text-lg mt-3 md:mt-5">
+          <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
             We offer a state-of-the-art <bold className="text-black font-semibold">Rooftop Rainwater Harvesting System in{" "}
             {loc}</bold>, designed for efficient filtration, temporary storage, and
             controlled release. This system is ideal for managing waste water

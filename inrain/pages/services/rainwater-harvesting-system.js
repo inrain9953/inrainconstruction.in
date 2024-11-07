@@ -96,7 +96,7 @@ const RainwaterHarvestingSystem = () => {
             Benefits of Rainwater Harvesting
           </h3>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            There are numerous advantages to implementing a rainwater harvesting
+            There are many advantages to implementing a rainwater harvesting
             system. One of the key benefits is that it reduces the pressure on
             traditional water sources, such as rivers and groundwater, ensuring
             their sustainability for future generations. Additionally, rainwater

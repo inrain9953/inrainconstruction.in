@@ -19,7 +19,7 @@ export const Main3 = () => {
             Rainwater Harvesting System in Delhi
           </h1>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-center text-gray-500 drop-shadow-md md:text-xl">
+          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">
               InRain<sup>®</sup> Construction Pvt. Ltd.
             </bold>{" "}
@@ -43,16 +43,15 @@ export const Main3 = () => {
             fostering a positive impact on the environment.
             <bold className="text-black font-semibold">
               {" "}
-              Our commitment to innovation, quality, and sustainability has made
-              us a trusted partner in the industry.
+              Our dedication to pioneering innovative solutions, ensuring the
+              highest quality standards, and promoting sustainable practices has
+              established us as a trusted partner in the rainwater harvesting
+              industry.
             </bold>
           </p>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center md:inline"
-        >
+        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
           <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
             <div>
               <Image
@@ -87,10 +86,7 @@ export const Main3 = () => {
           </div>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center md:inline"
-        >
+        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
           <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
             <div>
               <Image
@@ -144,7 +140,7 @@ export const Main3 = () => {
           <h1 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting System
           </h1>
-          <p className="text-md text-gray-500 md:text-lg mt-3 md:mt-5">
+          <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
             We offer a state-of-the-art Rooftop Rainwater Harvesting System in
             Delhi, designed for efficient filtration, temporary storage, and
             controlled release. This system is ideal for managing waste water

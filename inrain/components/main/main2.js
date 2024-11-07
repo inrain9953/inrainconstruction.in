@@ -9,7 +9,7 @@ export const Main2 = () => {
           <h3 className="text-2xl font-semibold text-center mb-5 underline">
             What We Do
           </h3>
-          <p className="text-md text-center text-gray-500 drop-shadow-md md:text-lg">
+          <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg">
             At{" "}
             <bold className="text-green-500 font-semibold">
               InRain<sup>®</sup> Construction Pvt. Ltd.

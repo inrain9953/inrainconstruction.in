@@ -66,7 +66,7 @@ const About = () => {
             InRain<sup>®</sup> Construction Pvt. Ltd.
           </h1>
           <div className="md:flex md:items-center md:justify-between">
-            <p className="text-md pt-2 text-gray-700 md:w-2/3 md:text-lg md:pt-5">
+            <p className="text-md text-justify pt-2 text-gray-700 md:w-2/3 md:text-lg md:pt-5">
               At{" "}
               <bold className="text-green-500 font-semibold">
                 InRain<sup>®</sup> Construction Pvt. Ltd.
@@ -148,7 +148,7 @@ const About = () => {
             Why InRain<sup>®</sup> Construction :
           </h1>
           <div className="md:flex items-center">
-            <p className="text-md pt-5 text-gray-700 md:text-lg md:pt-5">
+            <p className="text-md text-justify pt-5 text-gray-700 md:text-lg md:pt-5">
               {" "}
               <bold className="font-semibold text-black">Expertise:</bold> With
               years of experience in rainwater harvesting, we have developed the

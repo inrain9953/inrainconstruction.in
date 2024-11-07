@@ -17,7 +17,7 @@ const BoxTypeRWH = () => {
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Box Type Rainwater Harvesting System
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Rainwater harvesting is increasingly vital in today's world as it
             contributes to enhancing global water reserves.{" "}
             <bold className="text-green-500 font-semibold">

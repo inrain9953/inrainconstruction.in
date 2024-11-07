@@ -18,7 +18,7 @@ const RWHInstallationCompany = () => {
           <h1 className="text-2xl font-semibold md:text-[2rem]">
             Rainwater Harvesting Installation Company
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.,
             </bold>{" "}
@@ -65,7 +65,7 @@ const RWHInstallationCompany = () => {
             ?
           </h3>
           <div className="md:flex items-center">
-            <p className="text-md pt-5 text-gray-500 md:text-lg md:pt-5">
+            <p className="text-md text-justify pt-5 text-gray-500 md:text-lg md:pt-5">
               {" "}
               <bold className="font-semibold text-black">Expertise:</bold> With
               years of experience in the rainwater harvesting industry, we have

@@ -17,7 +17,7 @@ const FRPbasedRWH = () => {
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Fiber Reinforced Polymer(FRP) based Rainwater Harvesting System
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             <bold className="text-green-500 font-semibold">
               InRain Construction Pvt. Ltd.
             </bold>{" "}

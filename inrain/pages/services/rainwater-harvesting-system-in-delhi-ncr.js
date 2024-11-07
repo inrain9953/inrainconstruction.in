@@ -95,7 +95,7 @@ const RWHSystemInDelhiNCR = () => {
             Benefits of Rainwater Harvesting
           </h3>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            There are numerous advantages to implementing a rainwater harvesting
+            There are many advantages to implementing a rainwater harvesting
             system. Firstly, it helps relieve pressure on traditional water
             sources like rivers and groundwater, contributing to their long-term
             preservation. Secondly, rainwater harvesting reduces stormwater

@@ -17,7 +17,7 @@ const RWHSystemInIndia = () => {
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Rainwater Harvesting System in India
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Water scarcity has become a major issue in India, fueled by rapid
             population growth and increasing urbanization. As conventional water
             sources face rising demand, rainwater harvesting has emerged as an
@@ -32,7 +32,7 @@ const RWHSystemInIndia = () => {
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
             The Significance of Rainwater Harvesting in India
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Rainwater harvesting is essential for India, where the monsoon
             season brings a large but often underutilized water supply. By
             capturing and storing rainwater efficiently, these systems help
@@ -93,7 +93,7 @@ const RWHSystemInIndia = () => {
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
             Advantages of Rainwater Harvesting
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Installing a rainwater harvesting system offers multiple benefits.
             First, it eases the pressure on traditional water sources, such as
             rivers and groundwater, contributing to their long-term
@@ -118,7 +118,7 @@ const RWHSystemInIndia = () => {
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
             Considerations and Maintenance
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             When implementing a rainwater harvesting system, it is important to
             consider factors such as local laws, the size of the catchment area,
             and the intended uses of the harvested water. Regular maintenance,

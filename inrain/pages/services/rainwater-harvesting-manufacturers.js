@@ -17,7 +17,7 @@ const RWHManufacturer = () => {
           <h1 className="text-2xl font-semibold md:text-[2rem]">
             Rainwater Harvesting Manufacturers
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             At{" "}
             <bold className="text-green-500 font-semibold">
               InRain® Construction Pvt. Ltd.,

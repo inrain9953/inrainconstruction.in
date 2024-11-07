@@ -17,7 +17,7 @@ const ModularRWHForIndustries = () => {
           <h1 className="text-2xl font-semibold md:text-[2rem]">
             Modular Rainwater Harvesting System for Industries
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             As water scarcity becomes an increasingly critical global challenge,
             industries that depend heavily on water for their operations are
             facing mounting pressure. With growing populations and industrial
@@ -35,7 +35,7 @@ const ModularRWHForIndustries = () => {
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
             The Importance of Modular Rainwater Harvesting for Industries
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             For industries, rainwater harvesting provides a valuable alternative
             water source, significantly reducing the need for municipal supplies
             and groundwater. Many industrial processes, such as cooling,
@@ -56,7 +56,7 @@ const ModularRWHForIndustries = () => {
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
             Benefits of Modular Rainwater Harvesting for Industries
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Installing a modular rainwater harvesting system in industrial
             environments offers several key advantages:
             <br></br>

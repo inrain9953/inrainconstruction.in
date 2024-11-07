@@ -17,7 +17,7 @@ const CoPolymerBased = () => {
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Co-Polymer Based Rainwater Harvesting System
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             At{" "}
             <bold className="text-green-500 font-semibold">
               Inrain Construction Pvt. Ltd.,
@@ -45,7 +45,7 @@ const CoPolymerBased = () => {
             <br></br>
             <br></br>
           </p>
-          <ul className="list-disc font-semibold md:text-lg">
+          <ul className="list-disc text-justify font-semibold md:text-lg">
             <li>Environmentally friendly and cost-effective.</li>
             <li>
               Percolation storage tanks covered with geo-sheets for superior
@@ -67,7 +67,7 @@ const CoPolymerBased = () => {
               installed in different areas.
             </li>
           </ul>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             The modular rainwater harvesting system meets modern-day water
             management needs, offering safety, portability, and sustainability,
             making it a highly sought-after solution for water conservation.
@@ -86,7 +86,7 @@ const CoPolymerBased = () => {
         data-aos="zoom-in-up"
         className="text-center m-12 bg-sky-300 rounded-xl"
       >
-        <p className="p-5 text-md md:text-lg ">
+        <p className="p-5 text-justify text-md md:text-lg ">
           Unlike conventional rainwater harvesting (RWH) systems, modular RWH
           systems do not require PCC or RCC recharge chambers, resulting in
           significant cost savings. Traditional PCC or RCC storage-cum-recharge

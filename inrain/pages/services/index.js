@@ -33,7 +33,7 @@ const Services = () => {
         <h3 className="text-xl font-bold md:text-[2rem] md:font-semibold">
           The Services we provide
         </h3>
-        <p className="text-md md:text-lg pt-3 md:pt-5 md:mr-64 text-gray-500">
+        <p className="text-md text-justify md:text-lg pt-3 md:pt-5 md:mr-64 text-gray-500">
           At{" "}
           <bold className="text-green-500 font-semibold">
             InRain<sup>®</sup> Construction Pvt. Ltd.,
