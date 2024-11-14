@@ -8,22 +8,20 @@ import Link from "next/link";
 import { useState } from "react";
 import PopUp from "../popup";
 
-
 export const Navbar = () => {
   const [openSidebarMenu, setOpenSidebarMenu] = useState(false);
   function openSidebar() {
     setOpenSidebarMenu(!openSidebarMenu);
-    console.log(openSidebarMenu);
   }
 
   return (
     <>
       <div className="sticky top-0 z-50 bg-transparent bg-gradient backdrop-blur">
-        <div className="h-20 flex justify-between items-center">
+        <div className="p-1 flex justify-between items-center">
           <Link href={"/"}>
             <Image
               alt="img"
-              className="w-24 ml-5"
+              className="w-20 ml-2 md:ml-5"
               src={logo}
               loading="eager"
               priority={true}
@@ -43,6 +41,9 @@ export const Navbar = () => {
             <Link className="hover:text-green-500" href="/products">
               Products
             </Link>
+            <Link className="hover:text-green-500" href="/blogs">
+              Blogs
+            </Link>
             <Link className="hover:text-green-500" href="/contact-us">
               Contact
             </Link>
@@ -52,7 +53,7 @@ export const Navbar = () => {
           </div>
 
           {/* Hamburger */}
-          <div className="mr-5 md:hidden">
+          <div className="mr-2 md:hidden">
             <label className="hamburger">
               <input type="checkbox" onClick={openSidebar} />
               <svg viewBox="0 0 32 32">
@@ -139,6 +140,11 @@ export const Navbar = () => {
           <li className="hover:text-green-500">
             <Link href="/products" style={{ textDecoration: "none" }}>
               Products
+            </Link>
+          </li>
+          <li className="hover:text-green-500">
+            <Link href="/blogs" style={{ textDecoration: "none" }}>
+              Blogs
             </Link>
           </li>
           <li className="hover:text-green-500">
