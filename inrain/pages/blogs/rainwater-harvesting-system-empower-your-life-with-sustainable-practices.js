@@ -49,7 +49,7 @@ const Blog1 = () => {
       <Navbar />
       <div className="md:grid md:grid-cols-2 items-center">
         <div className="m-5 md:hidden">
-          <img src="https://i0.wp.com/greenecosystem.in/wp-content/uploads/2024/10/rain_water_harvesting.webp?fit=768%2C439&ssl=1" />
+          <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog1.fca023a3.webp&w=1920&q=75" />
         </div>
         <div className="m-5 text-justify">
           <div className="">
@@ -200,7 +200,7 @@ const Blog1 = () => {
           </div>
         </div>
         <div className="m-5 hidden md:block">
-          <img src="https://i0.wp.com/greenecosystem.in/wp-content/uploads/2024/10/rain_water_harvesting.webp?fit=768%2C439&ssl=1" />
+          <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog1.fca023a3.webp&w=1920&q=75" />
         </div>
       </div>
       <Footer />

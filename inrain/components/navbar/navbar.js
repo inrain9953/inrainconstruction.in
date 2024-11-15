@@ -29,22 +29,22 @@ export const Navbar = () => {
             ></Image>
           </Link>
           <div className="hidden md:flex gap-16 text-lg mr-5">
-            <Link className="hover:text-green-500" href={"/"}>
+            <Link className="hover:text-green-500 hover:font-semibold" href={"/"}>
               Home
             </Link>
-            <Link className="hover:text-green-500" href="/about">
+            <Link className="hover:text-green-500 hover:font-semibold" href="/about">
               About
             </Link>
-            <Link className="hover:text-green-500" href="/services">
+            <Link className="hover:text-green-500 hover:font-semibold" href="/services">
               Services
             </Link>
-            <Link className="hover:text-green-500" href="/products">
+            <Link className="hover:text-green-500 hover:font-semibold" href="/products">
               Products
             </Link>
-            <Link className="hover:text-green-500" href="/blogs">
+            <Link className="hover:text-green-500 hover:font-semibold" href="/blogs">
               Blogs
             </Link>
-            <Link className="hover:text-green-500" href="/contact-us">
+            <Link className="hover:text-green-500 hover:font-semibold" href="/contact-us">
               Contact
             </Link>
             <a href="tel:+919953070003">
