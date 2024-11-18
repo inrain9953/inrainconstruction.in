@@ -16,5 +16,13 @@ export const blogHomepage = [
         image: '/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog2img.e72beb83.jpg&w=2048&q=75',
         description: 'In a world where water resources are limited and urbanization is increasing, sustainable water solutions are essential. The Modular Rainwater Harvesting System is emerging as a transformative option, blending innovation with environmental responsibility.',
         url: '/blogs/advancing-sustainability-with-modular-rainwater-harvesting'
+    },
+    {
+        id: uuidv4(),
+        date: 'November 18, 2023',
+        title: 'Rainwater Harvesting for Industries : Why Every Business Should Consider It ?',
+        image: "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog3img.25277cb2.jpg&w=1920&q=75",    
+        description: 'As companies pursue sustainability, they seek innovative ways to lessen their environmental footprint. One increasingly popular approach is rainwater harvesting for commercial buildings.',
+        url: '/blogs/rainwater-harvesting-for-industries'
     }
 ]

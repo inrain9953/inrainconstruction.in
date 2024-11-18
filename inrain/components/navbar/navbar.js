@@ -47,7 +47,7 @@ export const Navbar = () => {
             <Link className="hover:text-green-500 hover:font-semibold" href="/contact-us">
               Contact
             </Link>
-            <a href="tel:+919953070003">
+            <a className="nav-hid" href="tel:+919953070003">
               <Button variant="contained">Call Us</Button>
             </a>
           </div>

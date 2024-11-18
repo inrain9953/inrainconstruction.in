@@ -119,7 +119,11 @@ export default async (req, res) => {
     { url: "/rainwater-harvesting-system-system-guwahati/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-system-mathura/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-system-noida/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-warangal/", changefreq: "daily", priority: 0.8 }
+    { url: "/rainwater-harvesting-system-system-warangal/", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/rainwater-harvesting-for-industries", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/advancing-sustainability-with-modular-rainwater-harvesting", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/rainwater-harvesting-system-empower-your-life-with-sustainable-practices", changefreq: "daily", priority: 0.8 },
+    
   ];
 
   const stream = new SitemapStream({
