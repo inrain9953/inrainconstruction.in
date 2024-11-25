@@ -123,6 +123,7 @@ export default async (req, res) => {
     { url: "/blogs/rainwater-harvesting-for-industries", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/advancing-sustainability-with-modular-rainwater-harvesting", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/rainwater-harvesting-system-empower-your-life-with-sustainable-practices", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/stormwater-management-in-india-a-growing-need", changefreq: "daily", priority: 0.8 },
     
   ];
 
