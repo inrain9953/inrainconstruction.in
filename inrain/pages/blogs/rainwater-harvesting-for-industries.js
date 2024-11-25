@@ -6,7 +6,6 @@ import Link from "next/link";
 import Head from "next/head";
 
 const Blog3 = () => {
-
   const title =
     "Rainwater Harvesting for Industries : Why Every Business Should Consider It ?";
   const desc =
@@ -28,7 +27,7 @@ const Blog3 = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,11 +50,11 @@ const Blog3 = () => {
       <Navbar />
       <div className="md:flex">
         <div className="md:w-[85%]">
-          <div className="m-5">
+          <div data-aos="fade-up" className="m-5">
             <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog3img.25277cb2.jpg&w=1920&q=75" />
           </div>
           <div className="m-5 text-justify">
-            <div className="">
+            <div data-aos="fade-up" className="">
               <h1 className="text-2xl md:text-3xl font-semibold">
                 Rainwater Harvesting for Industries : Why Every Business Should
                 Consider It ?
@@ -75,7 +74,7 @@ const Blog3 = () => {
                 installations.
               </p>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h2 className="text-xl md:text-2xl font-semibold">
                 Understanding Rainwater Harvesting for Commercial Buildings
               </h2>
@@ -87,7 +86,7 @@ const Blog3 = () => {
                 significant and well worth exploring.
               </p>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h3 className="text-xl md:text-2xl font-semibold">
                 Why Rainwater Harvesting Makes Sense for Businesses
               </h3>
@@ -125,7 +124,7 @@ const Blog3 = () => {
                 </li>
               </ol>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h4 className="text-xl md:text-2xl font-semibold">
                 Meet InRain Construction: Your Partner for Rainwater Harvesting
                 Solutions
@@ -138,7 +137,7 @@ const Blog3 = () => {
                 systems into their operations.
               </p>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h5 className="text-xl md:text-2xl font-semibold">
                 Why Businesses Trust InRain Construction
               </h5>
@@ -164,7 +163,10 @@ const Blog3 = () => {
         </div>
         <div className="md:w-96">
           {blogHomepage.map((items) => (
-            <div className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3">
+            <div
+              data-aos="fade-up"
+              className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3"
+            >
               <div>
                 <img
                   className="rounded-lg w-52"

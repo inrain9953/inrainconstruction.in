@@ -5,7 +5,6 @@ import Head from "next/head";
 import Link from "next/link";
 import { blogHomepage } from "@/components/blogs/blog";
 
-
 const Blog1 = () => {
   const title =
     "Rainwater Harvesting System: Empower Your Life with Sustainable Practices";
@@ -51,11 +50,11 @@ const Blog1 = () => {
       <Navbar />
       <div className="md:flex">
         <div className="md:w-[85%]">
-          <div className="m-5">
+          <div data-aos="fade-up" className="m-5">
             <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog1.fca023a3.webp&w=1920&q=75" />
           </div>
           <div className="m-5 text-justify">
-            <div className="">
+            <div data-aos="fade-up" className="">
               <h1 className="text-2xl md:text-3xl font-semibold">
                 Rainwater Harvesting System: Empower Your Life with Sustainable
                 Practices
@@ -77,7 +76,7 @@ const Blog1 = () => {
                 in India.
               </p>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h2 className="text-xl md:text-2xl font-semibold">
                 Rainwater Harvesting: A Crucial Solution for India's Water
                 Crisis
@@ -91,7 +90,7 @@ const Blog1 = () => {
                 groundwater resources.
               </p>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h3 className="text-xl md:text-2xl font-semibold">
                 Benefits of Rainwater Harvesting Systems:
               </h3>
@@ -127,7 +126,7 @@ const Blog1 = () => {
                 </li>
               </ol>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h4 className="text-xl md:text-2xl font-semibold">
                 Customized Rainwater Harvesting for Diverse Needs:
               </h4>
@@ -158,7 +157,7 @@ const Blog1 = () => {
                 </li>
               </ol>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h5 className="text-xl md:text-2xl font-semibold">
                 Steps for Implementing Rainwater Harvesting:
               </h5>
@@ -194,7 +193,7 @@ const Blog1 = () => {
                 </li>
               </ol>
             </div>
-            <div className="mt-7">
+            <div data-aos="fade-up" className="mt-7">
               <h6 className="text-xl md:text-2xl font-semibold">Conclusion:</h6>
               <p className="mt-3 text-lg">
                 For businesses, environmentalists, and homeowners across India,
@@ -211,7 +210,10 @@ const Blog1 = () => {
         </div>
         <div className="md:w-96">
           {blogHomepage.map((items) => (
-            <div className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3">
+            <div
+              data-aos="fade-up"
+              className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3"
+            >
               <div>
                 <img
                   className="rounded-lg w-52"

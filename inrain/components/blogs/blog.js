@@ -24,5 +24,13 @@ export const blogHomepage = [
         image: "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog3img.25277cb2.jpg&w=1920&q=75",    
         description: 'As companies pursue sustainability, they seek innovative ways to lessen their environmental footprint. One increasingly popular approach is rainwater harvesting for commercial buildings.',
         url: '/blogs/rainwater-harvesting-for-industries'
+    },
+    {
+        id: uuidv4(),
+        date: 'November 20, 2023',
+        title: 'Stormwater Management in India: A Growing Need',
+        image: "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog4img.8db5c0ec.jpg&w=2048&q=75",
+        description: 'As urban areas in India expand and the effects of climate change become more apparent, managing stormwater has become an urgent priority. With heavier and more frequent rains, effective stormwater recharge and management systems are crucial to reducing floods, maintaining water quality, and protecting the environment.',
+        url: '/blogs/stormwater-management-in-india-a-growing-need'
     }
 ]

@@ -48,11 +48,11 @@ const Blog2 = () => {
       <Navbar />
       <div className="md:flex">
         <div className="md:w-[85%]">
-          <div className="m-5">
+          <div data-aos="fade-up" className="m-5">
             <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog2img.e72beb83.jpg&w=2048&q=75" />
           </div>
           <div className="m-5 text-justify">
-            <div className="">
+            <div className="" data-aos="fade-up">
               <h1 className="text-2xl md:text-3xl font-semibold">
                 Advancing Sustainability with Modular Rainwater Harvesting
               </h1>
@@ -72,7 +72,7 @@ const Blog2 = () => {
                 future.
               </p>
             </div>
-            <div className="mt-7">
+            <div className="mt-7" data-aos="fade-up">
               <h2 className="text-xl md:text-2xl font-semibold">
                 Modular Rainwater Harvesting System: A New Approach
               </h2>
@@ -85,7 +85,7 @@ const Blog2 = () => {
                 functionality comparable to traditional metal systems.
               </p>
             </div>
-            <div className="mt-7">
+            <div className="mt-7" data-aos="fade-up">
               <h3 className="text-xl md:text-2xl font-semibold">
                 Benefits of a Modular Rainwater Harvesting System:
               </h3>
@@ -131,7 +131,7 @@ const Blog2 = () => {
                 </li>
               </ol>
             </div>
-            <div className="mt-7">
+            <div className="mt-7" data-aos="fade-up">
               <h4 className="text-xl md:text-2xl font-semibold">
                 Creating a Sustainable Future with Integrated Modular Rainwater
                 Harvesting
@@ -162,21 +162,26 @@ const Blog2 = () => {
         </div>
         <div className="md:w-96">
           {blogHomepage.map((items) => (
-              <div className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3">
-                <div>
-                  <img
-                    className="rounded-lg w-52"
-                    src={items.image}
-                    alt={items.title}
-                  />
-                </div>
-                <div className="">
-                  <p className="text-sm text-gray-600">{items.date}</p>
-                  <Link href={items.url}><p className="font-semibold underline hover:text-green-500">
-                    {items.title}
-                  </p></Link>
-                </div>
+            <div
+              data-aos="fade-up"
+              className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3"
+            >
+              <div>
+                <img
+                  className="rounded-lg w-52"
+                  src={items.image}
+                  alt={items.title}
+                />
               </div>
+              <div className="">
+                <p className="text-sm text-gray-600">{items.date}</p>
+                <Link href={items.url}>
+                  <p className="font-semibold underline hover:text-green-500">
+                    {items.title}
+                  </p>
+                </Link>
+              </div>
+            </div>
           ))}
         </div>
       </div>
