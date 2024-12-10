@@ -10,16 +10,16 @@ import service7 from "../../public/service7.jpg";
 export const Main3 = () => {
   return (
     <>
-      <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="fade-up" className="md:content-center md:p-10">
+      <div className="m-5 md:flex md:justify-center md:m-10 mt-20">
+        <div data-aos="fade-up" className="md:content-center">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
-          <h1 className="text-center text-2xl font-semibold md:text-4xl">
+          <h2 className="text-center text-2xl font-semibold md:text-4xl">
             Rainwater Harvesting System in Delhi
-          </h1>
+          </h2>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
+          <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">
               InRain<sup>®</sup> Construction Pvt. Ltd.
             </bold>{" "}
@@ -51,12 +51,12 @@ export const Main3 = () => {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
-          <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+        <div data-aos="fade-up" className="m-2 flex justify-center items-center md:inline">
+          <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={approved}
                 loading="eager"
                 priority={true}
@@ -68,11 +68,11 @@ export const Main3 = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={trophy}
                 loading="eager"
                 priority={true}
@@ -86,12 +86,12 @@ export const Main3 = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+        <div data-aos="fade-up" className="m-2 flex justify-center items-center md:inline">
+          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={cerg}
                 loading="eager"
                 priority={true}
@@ -102,11 +102,11 @@ export const Main3 = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={trophy}
                 loading="eager"
                 priority={true}
@@ -132,14 +132,14 @@ export const Main3 = () => {
         />
       </div>
 
-      <div className="m-10 md:flex md:justify-center md:gap-24 md:m-10 md:mr-24 md:ml-24">
+      <div className="m-5 md:flex md:justify-center md:gap-24 md:m-10 md:mr-24 md:ml-24">
         <div data-aos="fade-up" className=" text-left">
-          <h2 className="font-semibold md:text-lg text-green-600">
+          <p className="font-semibold md:text-lg text-green-600">
             InRain<sup>®</sup>
-          </h2>
-          <h1 className="text-2xl font-semibold md:text-[40px]">
+          </p>
+          <h2 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting System
-          </h1>
+          </h2>
           <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
             We offer a state-of-the-art Rooftop Rainwater Harvesting System in
             Delhi, designed for efficient filtration, temporary storage, and

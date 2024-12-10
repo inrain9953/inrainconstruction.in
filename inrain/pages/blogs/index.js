@@ -12,17 +12,17 @@ import { Footer } from "@/components/footer/footer";
 import Head from "next/head";
 
 const Blogs = () => {
-  const title = "Rainwater Harvesting Blogs";
+  const title = "Rainwater Harvesting Blogs | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
   const keyword =
     "Modular rainwater harvesting, sustainable water management, water conservation system, rainwater reuse, eco-friendly water solutions, polymer-based rainwater harvesting, efficient water storage, quick installation rainwater systems, low-maintenance rainwater harvesting, urban water solutions, sustainable development";
   const canonical = "https://www.inrainconstruction.in/blogs";
   const ogUrl = "https://www.inrainconstruction.in/blogs";
-  const ogTitle = "Rainwater Harvesting Blogs";
+  const ogTitle = "Rainwater Harvesting Blogs | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
-  const twittertitle = "Rainwater Harvesting Blogs";
+  const twittertitle = "Rainwater Harvesting Blogs | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
 
@@ -68,9 +68,9 @@ const Blogs = () => {
                 <div className="p-3">
                   <p className="text-sm font-semibold">{items.date}</p>
                   <Link href={items.url}>
-                    <h1 className="font-semibold underline hover:text-green-500 text-lg mt-2">
+                    <h2 className="font-semibold underline hover:text-green-500 text-lg mt-2">
                       {items.title}
-                    </h1>
+                    </h2>
                   </Link>
                   <p className="mt-2 text-justify">{items.description}</p>
                   <Link href={items.url}>

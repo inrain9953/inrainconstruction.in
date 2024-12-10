@@ -12,18 +12,17 @@ import { AboutTechnology } from "@/components/aboutTechnology/aboutTechnology";
 import Head from "next/head";
 
 const About = () => {
-
-  const title = "About US | InRain® Construction Pvt. Ltd.";
+  const title = "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
   const desc =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
   const keyword =
-    "Rainwater Harvesting System, Water Conservation, Modular Tank Systems, Sustainable Water Management, Monolithic Structures, RWH Technology, Ground Water Recharge, Clean Energy Solutions, Modular Rainwater Harvesting, Water Table Recharge";
+    "Rainwater Harvesting System in Delhi, Water Conservation, Modular Tank Systems, Sustainable Water Management, RWH Technology, Ground Water Recharge, Water Table Recharge";
   const canonical = "https://www.inrainconstruction.in/about";
   const ogUrl = "https://www.inrainconstruction.in/about";
-  const ogTitle = "About Us | InRain® Construction Pvt. Ltd.";
+  const ogTitle = "Rainwater Harvesting System In Delhi | About Us | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
-  const twittertitle = "About US | InRain® Construction Pvt. Ltd.";
+  const twittertitle = "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
 
@@ -53,20 +52,20 @@ const About = () => {
       <div data-aos="fade-up" className="m-5">
         <Image
           className="w-full rounded-xl shadow-xl"
-          alt="img"
+          alt="save water banner"
           src={banner}
           loading="eager"
           priority={true}
           unoptimized={true}
         />
       </div>
-      <div data-aos="fade-up" className="m-10 text-left md:m-20">
+      <div data-aos="fade-up" className="m-5 text-left md:m-20">
         <div className="">
           <h1 className="text-2xl font-bold md:text-[3rem] md:font-semibold">
-            InRain<sup>®</sup> Construction Pvt. Ltd.
+            Rainwater Harvesting System In Delhi
           </h1>
-          <div className="md:flex md:items-center md:justify-between">
-            <p className="text-md text-justify pt-2 text-gray-700 md:w-2/3 md:text-lg md:pt-5">
+          <div className="md:flex md:mt-3 md:items-center md:justify-center md:gap-10">
+            <p className="text-md text-justify pt-2 text-gray-700 md:text-lg md:pt-5">
               At{" "}
               <bold className="text-green-500 font-semibold">
                 InRain<sup>®</sup> Construction Pvt. Ltd.
@@ -143,12 +142,12 @@ const About = () => {
       </div>
 
       <div className="">
-        <div data-aos="fade-up" className="text-left md:text-left md:m-20 m-10">
-          <h1 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
-            Why InRain<sup>®</sup> Construction :
-          </h1>
-          <div className="md:flex items-center">
-            <p className="text-md text-justify pt-5 text-gray-700 md:text-lg md:pt-5">
+        <div data-aos="fade-up" className="text-left md:text-left md:m-20 m-5">
+          <h2 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
+            About Us
+          </h2>
+          <div className="md:flex md:justify-center md:gap-10 md:items-center">
+            <p className="text-md text-justify pt-5 text-gray-700 md:text-lg">
               {" "}
               <bold className="font-semibold text-black">Expertise:</bold> With
               years of experience in rainwater harvesting, we have developed the
@@ -204,7 +203,7 @@ const About = () => {
             <Image
               data-aos="zoom-in-up"
               alt="img"
-              className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
+              className="md:w-80 drop-shadow-2xl object-cover m-auto"
               src={rain2}
               loading="eager"
               priority={true}
@@ -222,8 +221,8 @@ const About = () => {
             unoptimized={true}
           />
         </div>
-        <div className="text-center flex justify-center mt-10">
-          <ol className="drop-shadow-2xl inline-grid grid-cols-2 gap-6 md:flex">
+        <div className="text-center mt-10">
+          <ol className="drop-shadow-2xl inline-grid grid-cols-2 md:grid-cols-4 gap-5 ">
             {AboutContent.map((item) => (
               <div
                 data-aos="fade-up"

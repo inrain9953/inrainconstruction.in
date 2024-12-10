@@ -27,7 +27,7 @@ export const Main1 = () => {
       >
         <div className="relative">
           <h1 className="relative text-green-800 z-30 pt-5 text-lg font-semibold drop-shadow-md md:text-4xl md:pt-10 md:ml-16">
-            InRain<sup>®</sup> Construction Pvt. Ltd.
+            Modular Rainwater Harvesting System in India
           </h1>
           <hr className="m-2 md:m-4"></hr>
           <p className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
@@ -44,13 +44,6 @@ export const Main1 = () => {
               repeat={Infinity}
             />
           </span>
-
-          {/* <p className="relative rounded-xl bg-green-50 md:bg-transparent z-20 text-sm m-5 font-semibold align-middle md:text-lg md:ml-16 md:m-5">
-            At <bold className="text-green-700">InRain Construction,</bold> we
-            offer Modular Rainwater Harvesting System Service Provider that help
-            our clients optimize water resources and promote environmental
-            conservation.
-          </p> */}
         </div>
 
         <div className="filter-container hidden"></div>
@@ -66,7 +59,6 @@ export const Main1 = () => {
                 priority={true}
                 unoptimized={true}
               ></Image>
-              {/* <WaterDropIcon className="items-center m-4 absolute top-0" /> */}
               <p className="items-center m-4 text-sm font-semibold absolute top-5 text-white drop-shadow-2xl">
                 {feature.description}
               </p>

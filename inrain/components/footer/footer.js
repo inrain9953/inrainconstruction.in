@@ -78,14 +78,14 @@ export const Footer = () => {
                   <YouTubeIcon fontSize="large" />
                 </li>
               </Link>
-              <Link
+              {/* <Link
                 target="_blank"
                 href={"https://in.pinterest.com/inrainc0212/"}
               >
                 <li className="list-none hover:text-white">
                   <PinterestIcon fontSize="large" />
                 </li>
-              </Link>
+              </Link> */}
             </div>
           </div>
 

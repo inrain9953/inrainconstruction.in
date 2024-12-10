@@ -11,20 +11,20 @@ import service4 from "./../public/service4.jpg";
 import Head from "next/head";
 
 const Products = () => {
-  const title = "Our Products | InRain® Construction Pvt. Ltd.";
+  const title = "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const desc =
-    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile. Are you looking for Rainwater Harvesting products?";
+    "Are you looking for Rainwater Harvesting products? InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
   const keyword =
-    "Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Products, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
+    "Rainwater Harvesting Products, Self Cleaning Mesh Filter System, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
   const canonical = "https://www.inrainconstruction.in/products";
   const ogUrl = "https://www.inrainconstruction.in/products";
-  const ogTitle = "InRain® Rainwater Harvesting System | InRain® Construction";
+  const ogTitle = "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "InRain Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+    "Are you looking for Rainwater Harvesting products? InRain Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
   const twittertitle =
-    "InRain® Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
-    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+    "Are you looking for Rainwater Harvesting products? InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
 
   return (
     <>
@@ -61,11 +61,14 @@ const Products = () => {
       </div>
       <div>
         <div className="mb-14">
-          <div className="m-5 md:flex items-center md:m-10 md:gap-10">
+          <div className="text-center">
+          <h1 className="text-xl md:text-3xl font-semibold text-black">Rainwater Harvesting Products</h1>
+          </div>
+          <div className="m-5 md:grid md:grid-cols-2 items-center md:m-10 md:gap-10">
             <div data-aos="fade-up" className="text-center mb-5">
-              <h2 className="text-2xl font-semibold text-green-600">
+              <p className="text-2xl font-semibold text-green-600">
                 InRain<sup>®</sup>
-              </h2>
+              </p>
               <Image
                 src={product1}
                 alt="img"
@@ -73,9 +76,9 @@ const Products = () => {
                 priority={true}
                 unoptimized={true}
               />
-              <h1 className="text-xl md:text-2xl m-2 font-semibold">
+              <p className="text-xl md:text-2xl m-2 font-semibold">
                 Accident Free Honeycomb Structure
-              </h1>
+              </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div
@@ -221,9 +224,9 @@ const Products = () => {
                 unoptimized={true}
               />
             </div>
-            <h1 className="text-center text-xl md:text-2xl m-2 font-semibold">
+            <h2 className="text-center text-xl md:text-2xl m-2 font-semibold">
               High Quality Filtration System
-            </h1>
+            </h2>
           </div>
         </div>
       </div>

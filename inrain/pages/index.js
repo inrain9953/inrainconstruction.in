@@ -14,26 +14,26 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <title>
-          InRain® Construction Pvt. Ltd. - Rainwater Harvesting System in Delhi
+        Modular Rainwater Harvesting System in India | Rooftop Rainwater Harvesting System | InRain® Construction Pvt. Ltd.
         </title>
         <meta
           name="description"
-          content="Are you searching for a rain water harvesting system in Delhi? InRain Construction, A rain water harvesting company that provides modular based rain water harvesting system. Contact us today for a free consultation."
+          content="Are you searching for a modular rainwater harvesting system in india? InRain Construction, A rainwater harvesting company that provides modular based rainwater harvesting system. Contact us today for a free consultation."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="rainwater harvesting, modular rainwater harvesting, roof top rainwater harvesting, rainwater harvesting in delhi, rainwater harvesting for industries"
+          content="Modular Rainwater Harvesting in India, Rooftop Rainwater Harvesting System, modular rainwater harvesting for warehouses, modular rainwater harvesting for industries"
         />
         <meta name="canonical" content="https://www.inrainconstruction.in/" />
         <meta
           property="og:title"
-          content="Rainwater Harvesting System in Delhi | InRain® Construction Pvt. Ltd"
+          content=" Modular Rainwater Harvesting System in India | Rooftop Rainwater Harvesting System | InRain® Construction Pvt. Ltd."
         />
         <meta
           property="og:description"
-          content="Are you looking for a rainwater harvesting system? InRain® Construction Pvt. Ltd. offers Modular based Rainwater Harvesting System. Contact us today for a free consultation."
+          content="Are you looking for a modular rainwater harvesting system in india? InRain® Construction Pvt. Ltd. offers Modular based Rainwater Harvesting System. Contact us today for a free consultation."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.inrainconstruction.in/" />

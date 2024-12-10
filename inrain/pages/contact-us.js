@@ -6,6 +6,9 @@ import logo from "./../public/logo.png";
 import rain2 from "./../public/tree.png";
 import { useRouter } from "next/router";
 import solution_water from "../public/solution_water.jpg";
+import { MailOutline } from "@mui/icons-material";
+import CallIcon from "@mui/icons-material/Call";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Contact = () => {
   const router = useRouter();
@@ -48,13 +51,40 @@ const Contact = () => {
       </div>
       <div className="md:flex items-center">
         <div data-aos="fade-up" className="text-center pt-5 md:w-[60%]">
-          <h1 className="text-2xl font-semibold md:text-[3rem] m-3">
-            InRain<sup>®</sup> Construction Pvt. Ltd.
-          </h1>
-          <p className="md:text-xl text-green-500 m-3 drop-shadow-lg md:pt-3">
-            Our commitment to innovation, quality, and sustainability has made
-            us a trusted partner in the industry.
-          </p>
+          <div className="text-center m-5 text-black">
+            <h1 className="text-3xl font-semibold">Contact Us</h1>
+            <div>
+              <p className="text-lg mt-2 mb-2">
+                The Company has Successfully Installed Morethan 400 Rainwater
+                Harvesting Projects.
+              </p>
+              <a
+                className="hover:text-green-500 md:mr-5"
+                href="mailto:sales@inrainwaterharvesting.com"
+              >
+                <MailOutline fontSize="small" />
+                sales@inrainwaterharvesting.com
+              </a>
+              <br className="md:hidden" />
+              <a
+                className="hover:text-green-500 md:ml-5"
+                href="tel:+919910220794"
+              >
+                <CallIcon fontSize="small" />
+                +91-9910220794
+              </a>
+            </div>
+            <div className="mt-3">
+              <a
+                className="font-medium text-base hover:text-sky-700"
+                href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
+              >
+                <LocationOnIcon fontSize="small" />
+                Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
+                Satbari, New Delhi 110074
+              </a>
+            </div>
+          </div>
           <Image
             alt="img"
             className="w-9/12 drop-shadow-2xl object-cover m-auto"

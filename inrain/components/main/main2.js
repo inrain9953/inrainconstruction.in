@@ -5,10 +5,10 @@ export const Main2 = () => {
   return (
     <>
       <div data-aos="fade-up" className="flex flex-wrap justify-between">
-        <div className="m-10 md:ml-28 md:mr-28">
-          <h3 className="text-2xl font-semibold text-center mb-5 underline">
+        <div className="md:m-10 m-5 md:ml-28 md:mr-28">
+          <p className="text-2xl font-semibold text-center mb-5 underline">
             What We Do
-          </h3>
+          </p>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg">
             At{" "}
             <bold className="text-green-500 font-semibold">
