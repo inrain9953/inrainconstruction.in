@@ -5,14 +5,54 @@ import React from "react";
 import Image from "next/image";
 import rain2 from "../../public/tree.png";
 import serviceImg11 from "../../public/services/harvesting11.jpg";
+import Head from "next/head";
 
 const RWHInstallationCompany = () => {
+  const title =
+    "Rainwater Harvesting Installation Company | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "InRain Construction Pvt. Ltd. is a leading rainwater harvesting installation company providing sustainable water solutions for residential, commercial, and industrial properties with in-house manufacturing and expert services.";
+  const keyword =
+    "rainwater harvesting installation company, rainwater harvesting company, sustainable water solutions, rainwater harvesting systems, residential rainwater harvesting, commercial water management, industrial water solutions, eco-friendly water systems, Delhi NCR rainwater harvesting, water resource management, rainwater harvesting experts";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-installation-company";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-installation-company";
+  const ogTitle =
+    "Rainwater Harvesting Installation Company | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "InRain Construction Pvt. Ltd. is a leading rainwater harvesting installation company providing sustainable water solutions for residential, commercial, and industrial properties with in-house manufacturing and expert services.";
+  const twittertitle =
+    "Rainwater Harvesting Installation Company | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "InRain Construction Pvt. Ltd. is a leading rainwater harvesting installation company providing sustainable water solutions for residential, commercial, and industrial properties with in-house manufacturing and expert services.";
+
   return (
     <>
+    <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl font-semibold md:text-[2rem]">
@@ -43,9 +83,9 @@ const RWHInstallationCompany = () => {
           <br></br>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg11}
-          alt="img"
+          alt="rainwater harvesting installation"
           loading="eager"
           priority={true}
           unoptimized={true}
@@ -55,7 +95,7 @@ const RWHInstallationCompany = () => {
       <div className="">
         <div
           data-aos="zoom-in-up"
-          className="text-left md:text-left md:m-20 m-10"
+          className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-semibold md:text-[1.5rem]">
             Why Choose{" "}
@@ -123,8 +163,8 @@ const RWHInstallationCompany = () => {
             </p>
             <Image
               data-aos="zoom-in-up"
-              alt="img"
-              className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
+              alt="save rainwater"
+              className="w-1/2 md:w-1/4 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
               loading="eager"
               priority={true}

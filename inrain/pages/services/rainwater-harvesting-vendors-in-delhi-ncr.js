@@ -4,14 +4,54 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import Image from "next/image";
 import serviceImg7 from "../../public/services/harvesting7.jpg";
+import Head from "next/head";
 
 const RWHvendorsInNcr = () => {
+  const title =
+    "Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Explore InRain Construction Pvt. Ltd., a top rainwater harvesting vendor in Delhi-Gurgaon. Offering advanced modular systems with German technology, we provide cost-effective, eco-friendly solutions for water conservation and groundwater recharge.";
+  const keyword =
+    "Rainwater Harvesting Vendors in Delhi-Gurgaon, Delhi-Gurgaon Rainwater Harvesting, water conservation solutions, modular rainwater harvesting systems, eco-friendly water management, rainwater harvesting installation, water conservation Delhi, groundwater recharge solutions";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-vendors-in-delhi-ncr";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-vendors-in-delhi-ncr";
+  const ogTitle =
+    "Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Explore InRain Construction Pvt. Ltd., a top rainwater harvesting vendor in Delhi-Gurgaon. Offering advanced modular systems with German technology, we provide cost-effective, eco-friendly solutions for water conservation and groundwater recharge.";
+  const twittertitle =
+    "Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Explore InRain Construction Pvt. Ltd., a top rainwater harvesting vendor in Delhi-Gurgaon. Offering advanced modular systems with German technology, we provide cost-effective, eco-friendly solutions for water conservation and groundwater recharge.";
+
   return (
     <>
+    <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -59,9 +99,9 @@ const RWHvendorsInNcr = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg7}
-          alt="img"
+          alt="rainwater harvesting vendors in delhi gurgaon"
           loading="eager"
           priority={true}
           unoptimized={true}

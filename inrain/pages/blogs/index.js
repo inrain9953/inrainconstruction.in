@@ -22,7 +22,8 @@ const Blogs = () => {
   const ogTitle = "Rainwater Harvesting Blogs | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
-  const twittertitle = "Rainwater Harvesting Blogs | InRain® Construction Pvt. Ltd.";
+  const twittertitle =
+    "Rainwater Harvesting Blogs | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
 
@@ -49,6 +50,14 @@ const Blogs = () => {
         />
       </Head>
       <Navbar />
+      <div className="m-5">
+        <p className="text-xs md:text-lg text-black">
+          <Link className="hover:text-green-500" href={"/"}>
+            Home
+          </Link>{" "}
+          / Blogs
+        </p>
+      </div>
       <div>
         <div>
           <div className="md:grid md:grid-cols-3">

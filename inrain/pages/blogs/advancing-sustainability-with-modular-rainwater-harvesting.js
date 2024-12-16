@@ -6,7 +6,7 @@ import Head from "next/head";
 import { blogHomepage } from "@/components/blogs/blog";
 
 const Blog2 = () => {
-  const title = "Advancing Sustainability with Modular Rainwater Harvesting";
+  const title = "Advancing Sustainability with Modular Rainwater Harvesting | Modular Rainwater Harvesting System: A New Approach | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
   const keyword =
@@ -15,11 +15,11 @@ const Blog2 = () => {
     "https://www.inrainconstruction.in/blogs/advancing-sustainability-with-modular-rainwater-harvesting";
   const ogUrl =
     "https://www.inrainconstruction.in/blogs/advancing-sustainability-with-modular-rainwater-harvesting";
-  const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting";
+  const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting | Modular Rainwater Harvesting System: A New Approach | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
   const twittertitle =
-    "Advancing Sustainability with Modular Rainwater Harvesting";
+    "Advancing Sustainability with Modular Rainwater Harvesting | Modular Rainwater Harvesting System: A New Approach | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
 
@@ -49,7 +49,7 @@ const Blog2 = () => {
       <div className="md:flex">
         <div className="md:w-[85%]">
           <div data-aos="fade-up" className="m-5">
-            <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog2img.e72beb83.jpg&w=2048&q=75" />
+            <img alt="advancing sustainability with modular rainwater harvesting system" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog2img.e72beb83.jpg&w=2048&q=75" />
           </div>
           <div className="m-5 text-justify">
             <div className="" data-aos="fade-up">

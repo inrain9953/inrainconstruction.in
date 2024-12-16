@@ -5,14 +5,54 @@ import React from "react";
 import serviceImg11 from "../../public/services/harvesting11.jpg";
 import Image from "next/image";
 import rain2 from "../../public/tree.png";
+import Head from "next/head";
 
 const RWHSystemInDelhiNCR = () => {
+  const title =
+    "Rainwater Harvesting System in Delhi(NCR) | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Discover sustainable rainwater harvesting systems in Delhi (NCR) with InRain® Construction Pvt. Ltd. Efficiently collect, store, and use rainwater to address water scarcity, reduce urban flooding, and promote eco-friendly water management.";
+  const keyword =
+    "rainwater harvesting system Delhi NCR, sustainable water solutions, water scarcity solutions Delhi, urban water management, rainwater storage systems, rainwater collection Delhi, monsoon water harvesting, rainwater harvesting benefits, eco-friendly water management, industrial water harvesting Delhi, flood risk reduction Delhi, water conservation systems";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-delhi-ncr";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-delhi-ncr";
+  const ogTitle =
+    "Rainwater Harvesting System in Delhi(NCR) | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Discover sustainable rainwater harvesting systems in Delhi (NCR) with InRain® Construction Pvt. Ltd. Efficiently collect, store, and use rainwater to address water scarcity, reduce urban flooding, and promote eco-friendly water management.";
+  const twittertitle =
+    "Rainwater Harvesting System in Delhi(NCR) | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Discover sustainable rainwater harvesting systems in Delhi (NCR) with InRain® Construction Pvt. Ltd. Efficiently collect, store, and use rainwater to address water scarcity, reduce urban flooding, and promote eco-friendly water management.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -128,9 +168,9 @@ const RWHSystemInDelhiNCR = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg11}
-          alt="img"
+          alt="rainwater harvesting system in delhi ncr"
           loading="eager"
           priority={true}
           unoptimized={true}
@@ -140,7 +180,7 @@ const RWHSystemInDelhiNCR = () => {
       <div className="">
         <div
           data-aos="zoom-in-up"
-          className="text-left md:text-left md:m-20 m-10"
+          className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-semibold md:text-[2rem]">
             Why Choose{" "}
@@ -208,8 +248,8 @@ const RWHSystemInDelhiNCR = () => {
             </p>
             <Image
               data-aos="zoom-in-up"
-              alt="img"
-              className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
+              alt="rainwater harvesting"
+              className="w-1/2 md:w-1/4 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
               loading="eager"
               priority={true}

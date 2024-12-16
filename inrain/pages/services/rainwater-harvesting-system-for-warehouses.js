@@ -4,14 +4,54 @@ import React from "react";
 import serviceImg1 from "../../public/services/harvesting1.jpg";
 import Image from "next/image";
 import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
+import Head from "next/head";
 
 const RainwaterForWarehouses = () => {
+  const title =
+    "Rainwater Harvesting System for Warehouses | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Optimize water conservation with InRain® Construction Pvt. Ltd.'s rainwater harvesting systems for warehouses. Our modular, eco-friendly solutions reduce water costs, maximize space efficiency, and support sustainable operations with minimal maintenance.";
+  const keyword =
+    "rainwater harvesting system for warehouses, warehouse water management, modular rainwater systems, commercial rainwater harvesting, sustainable water solutions, co-polymer rainwater modules, water conservation for warehouses, industrial water-saving solutions, cost-effective rainwater harvesting, warehouse sustainability, rainwater storage solutions";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-for-warehouses";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-for-warehouses";
+  const ogTitle =
+    "Rainwater Harvesting System for Warehouses | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Optimize water conservation with InRain® Construction Pvt. Ltd.'s rainwater harvesting systems for warehouses. Our modular, eco-friendly solutions reduce water costs, maximize space efficiency, and support sustainable operations with minimal maintenance.";
+  const twittertitle =
+    "Rainwater Harvesting System for Warehouses | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Optimize water conservation with InRain® Construction Pvt. Ltd.'s rainwater harvesting systems for warehouses. Our modular, eco-friendly solutions reduce water costs, maximize space efficiency, and support sustainable operations with minimal maintenance.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -56,9 +96,9 @@ const RainwaterForWarehouses = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg1}
-          alt="img"
+          alt="rainwater harvesting system for warehouses"
           loading="eager"
           priority={true}
           unoptimized={true}

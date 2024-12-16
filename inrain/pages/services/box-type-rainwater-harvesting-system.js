@@ -4,14 +4,53 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import Image from "next/image";
 import serviceImg8 from "../../public/services/harvesting8.png";
+import Head from "next/head";
 
 const BoxTypeRWH = () => {
+  const title = "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Explore the Box Type Rainwater Harvesting System by InRain Construction Pvt. Ltd. Designed for efficiency and affordability, this compact system collects, filters, and stores rainwater for uses like irrigation, car washing, and more, reducing water bills and conserving resources.";
+  const keyword =
+    "Box Type Rainwater Harvesting System, rainwater storage box, rooftop rainwater collection, water conservation systems, affordable rainwater harvesting, compact rainwater systems, rainwater for irrigation, sustainable water solutions, water-saving technologies, rainwater management India";
+  const canonical =
+    "https://www.inrainconstruction.in/services/box-type-rainwater-harvesting-system";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/box-type-rainwater-harvesting-system";
+  const ogTitle =
+    "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Explore the Box Type Rainwater Harvesting System by InRain Construction Pvt. Ltd. Designed for efficiency and affordability, this compact system collects, filters, and stores rainwater for uses like irrigation, car washing, and more, reducing water bills and conserving resources.";
+  const twittertitle =
+    "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Explore the Box Type Rainwater Harvesting System by InRain Construction Pvt. Ltd. Designed for efficiency and affordability, this compact system collects, filters, and stores rainwater for uses like irrigation, car washing, and more, reducing water bills and conserving resources.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -56,9 +95,9 @@ const BoxTypeRWH = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg8}
-          alt="img"
+          alt="box type rainwater harvesting system"
           loading="eager"
           priority={true}
           unoptimized={true}

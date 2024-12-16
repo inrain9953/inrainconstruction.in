@@ -4,14 +4,54 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import serviceImg11 from "../../public/services/harvesting11.jpg";
 import Image from "next/image";
+import Head from "next/head";
 
 const RWHSystemInIndia = () => {
+  const title =
+    "Rainwater Harvesting System in India | The Significance of Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Explore sustainable rainwater harvesting systems in India with InRain® Construction Pvt. Ltd. Effectively collect, store, and use rainwater to combat water scarcity, reduce groundwater depletion, and support eco-friendly water management.";
+  const keyword =
+    "rainwater harvesting system in india, The Significance of Rainwater Harvesting in India, sustainable water solutions, water scarcity India, rainwater management systems, water conservation techniques, monsoon water harvesting, rainwater storage tanks, eco-friendly water solutions, groundwater recharge, industrial water harvesting, rainwater harvesting benefits India, rainwater filters and tanks";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-india";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-india";
+  const ogTitle =
+    "Rainwater Harvesting System in India | The Significance of Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Explore sustainable rainwater harvesting systems in India with InRain® Construction Pvt. Ltd. Effectively collect, store, and use rainwater to combat water scarcity, reduce groundwater depletion, and support eco-friendly water management.";
+  const twittertitle =
+    "Rainwater Harvesting System in India | The Significance of Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Explore sustainable rainwater harvesting systems in India with InRain® Construction Pvt. Ltd. Effectively collect, store, and use rainwater to combat water scarcity, reduce groundwater depletion, and support eco-friendly water management.";
+
   return (
     <>
+    <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -29,9 +69,9 @@ const RWHSystemInIndia = () => {
           </p>
           <br></br>
           <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h2 className="text-xl md:text-[1.5rem] font-semibold">
             The Significance of Rainwater Harvesting in India
-          </h3>
+          </h2>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             Rainwater harvesting is essential for India, where the monsoon
             season brings a large but often underutilized water supply. By
@@ -115,9 +155,9 @@ const RWHSystemInIndia = () => {
           </p>
           <br></br>
           <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h4 className="text-xl md:text-[1.5rem] font-semibold">
             Considerations and Maintenance
-          </h3>
+          </h4>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             When implementing a rainwater harvesting system, it is important to
             consider factors such as local laws, the size of the catchment area,
@@ -128,9 +168,9 @@ const RWHSystemInIndia = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg11}
-          alt="img"
+          alt="rainwater harvesting system in india"
           loading="eager"
           priority={true}
           unoptimized={true}

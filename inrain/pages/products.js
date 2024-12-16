@@ -9,16 +9,19 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Carousel } from "@/components/carousel/carousel";
 import service4 from "./../public/service4.jpg";
 import Head from "next/head";
+import Link from "next/link";
 
 const Products = () => {
-  const title = "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you looking for Rainwater Harvesting products? InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
   const keyword =
     "Rainwater Harvesting Products, Self Cleaning Mesh Filter System, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
   const canonical = "https://www.inrainconstruction.in/products";
   const ogUrl = "https://www.inrainconstruction.in/products";
-  const ogTitle = "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
+  const ogTitle =
+    "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Are you looking for Rainwater Harvesting products? InRain Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
   const twittertitle =
@@ -58,11 +61,21 @@ const Products = () => {
           priority={true}
           unoptimized={true}
         />
+        <div className="absolute md:bottom-3 bottom-2 md:left-5 left-2">
+          <p className="text-xs md:text-lg text-black">
+            <Link className="hover:text-green-500" href={"/"}>
+              Home
+            </Link>{" "}
+            / Products
+          </p>
+        </div>
       </div>
       <div>
         <div className="mb-14">
           <div className="text-center">
-          <h1 className="text-xl md:text-3xl font-semibold text-black">Rainwater Harvesting Products</h1>
+            <h1 className="text-xl md:text-3xl font-semibold text-black">
+              Rainwater Harvesting Products
+            </h1>
           </div>
           <div className="m-5 md:grid md:grid-cols-2 items-center md:m-10 md:gap-10">
             <div data-aos="fade-up" className="text-center mb-5">

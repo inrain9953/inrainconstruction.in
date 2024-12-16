@@ -7,7 +7,7 @@ import Head from "next/head";
 
 const Blog3 = () => {
   const title =
-    "Rainwater Harvesting for Industries : Why Every Business Should Consider It ?";
+    "Rainwater Harvesting for Industries : Why Every Business Should Consider It ? | Understanding Rainwater Harvesting for Commercial Buildings | InRain® Construction Pvt. Ltd.";
   const desc =
     "Learn why rainwater harvesting is a smart choice for industries. Discover its cost-saving benefits, sustainability advantages, and how InRain Construction can help your business implement effective rainwater harvesting systems for a greener future.";
   const keyword =
@@ -17,11 +17,11 @@ const Blog3 = () => {
   const ogUrl =
     "https://www.inrainconstruction.in/blogs/rainwater-harvesting-for-industries";
   const ogTitle =
-    "Rainwater Harvesting for Industries : Why Every Business Should Consider It ?";
+    "Rainwater Harvesting for Industries : Why Every Business Should Consider It ? | Understanding Rainwater Harvesting for Commercial Buildings | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Learn why rainwater harvesting is a smart choice for industries. Discover its cost-saving benefits, sustainability advantages, and how InRain Construction can help your business implement effective rainwater harvesting systems for a greener future.";
   const twittertitle =
-    "Rainwater Harvesting for Industries : Why Every Business Should Consider It ?";
+    "Rainwater Harvesting for Industries : Why Every Business Should Consider It ? | Understanding Rainwater Harvesting for Commercial Buildings | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Learn why rainwater harvesting is a smart choice for industries. Discover its cost-saving benefits, sustainability advantages, and how InRain Construction can help your business implement effective rainwater harvesting systems for a greener future.";
 
@@ -51,7 +51,7 @@ const Blog3 = () => {
       <div className="md:flex">
         <div className="md:w-[85%]">
           <div data-aos="fade-up" className="m-5">
-            <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog3img.25277cb2.jpg&w=1920&q=75" />
+            <img alt="rainwater harvesting for industries" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog3img.25277cb2.jpg&w=1920&q=75" />
           </div>
           <div className="m-5 text-justify">
             <div data-aos="fade-up" className="">

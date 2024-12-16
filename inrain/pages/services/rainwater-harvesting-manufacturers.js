@@ -4,14 +4,54 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import rain2 from "../../public/tree.png";
 import Image from "next/image";
+import Head from "next/head";
 
 const RWHManufacturer = () => {
+  const title =
+    "Rainwater Harvesting Manufacturers | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "InRain® Construction Pvt. Ltd., a leading rainwater harvesting manufacturer in Delhi, provides innovative and sustainable solutions for residential, commercial, and industrial water management with in-house manufacturing and expert services.";
+  const keyword =
+    "rainwater harvesting manufacturers, sustainable water management, rainwater harvesting systems, rainwater harvesting solutions, residential water conservation, commercial rainwater harvesting, industrial water solutions, eco-friendly water systems, Delhi rainwater harvesting, modular rainwater systems, water scarcity solutions";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-manufacturers";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-manufacturers";
+  const ogTitle =
+    "Rainwater Harvesting Manufacturers | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "InRain® Construction Pvt. Ltd., a leading rainwater harvesting manufacturer in Delhi, provides innovative and sustainable solutions for residential, commercial, and industrial water management with in-house manufacturing and expert services.";
+  const twittertitle =
+    "Rainwater Harvesting Manufacturers | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "InRain® Construction Pvt. Ltd., a leading rainwater harvesting manufacturer in Delhi, provides innovative and sustainable solutions for residential, commercial, and industrial water management with in-house manufacturing and expert services.";
+
   return (
     <>
+    <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl font-semibold md:text-[2rem]">
@@ -38,7 +78,7 @@ const RWHManufacturer = () => {
       <div className="">
         <div
           data-aos="zoom-in-up"
-          className="text-left md:text-left md:m-20 m-10"
+          className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
             Why Choose{" "}
@@ -105,8 +145,8 @@ const RWHManufacturer = () => {
             </p>
             <Image
               data-aos="zoom-in-up"
-              alt="img"
-              className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
+              alt="rainwater harvesting manufacturers"
+              className="w-1/2 md:w-1/4 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
               loading="eager"
               priority={true}

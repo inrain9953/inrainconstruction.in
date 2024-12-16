@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import service11 from "../../public/service11.jpg";
 import Head from "next/head";
+import Link from "next/link";
 const Services = () => {
   const title =
     "Modular Rainwater Harvesting Service Provider | InRain® Construction Pvt. Ltd.";
@@ -46,15 +47,23 @@ const Services = () => {
         />
       </Head>
       <Navbar />
-      <div className="m-5">
+      <div data-aos="fade-up" className="m-5">
         <Image
-          alt="img"
+          alt="rainwater harvesting services"
           className="w-full rounded-xl shadow-xl"
           src={service11}
           loading="eager"
           priority={true}
           unoptimized={true}
         />
+        <div className="absolute md:bottom-3 bottom-2 md:left-5 left-2">
+          <p className="text-xs md:text-lg text-black">
+            <Link className="hover:text-green-500" href={"/"}>
+              Home
+            </Link>{" "}
+            / Services
+          </p>
+        </div>
       </div>
       <div
         data-aos="zoom-in-up"
@@ -67,7 +76,10 @@ const Services = () => {
           Harvesting Rain, Sustaining Tomorrow.
         </p>
       </div>
-      <div data-aos="zoom-in-up" className="text-center m-5 md:m-10 md:text-left">
+      <div
+        data-aos="zoom-in-up"
+        className="text-center m-5 md:m-10 md:text-left"
+      >
         <h3 className="text-xl font-bold md:text-[2rem] md:font-semibold">
           The Services we provide
         </h3>

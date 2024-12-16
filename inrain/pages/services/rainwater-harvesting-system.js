@@ -4,14 +4,54 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import Image from "next/image";
 import serviceImg11 from "../../public/services/harvesting11.jpg";
+import Head from "next/head";
 
 const RainwaterHarvestingSystem = () => {
+  const title =
+    "Rainwater Harvesting System | The Importance of Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Discover the benefits of rainwater harvesting systems for sustainable water management. Learn how to conserve water, reduce stormwater runoff, and ease pressure on groundwater and municipal supplies with effective rainwater collection methods.";
+  const keyword =
+    "rainwater harvesting system, water conservation, sustainable water solutions, rainwater collection, stormwater management, groundwater recharge, rainwater storage tanks, irrigation water solutions, rainwater harvesting benefits, rainwater management systems, energy-efficient water use, flood prevention, eco-friendly water conservation, self-sufficient water supply, rainwater filters and tanks";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-india";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-india";
+  const ogTitle =
+    "Rainwater Harvesting System | The Importance of Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Discover the benefits of rainwater harvesting systems for sustainable water management. Learn how to conserve water, reduce stormwater runoff, and ease pressure on groundwater and municipal supplies with effective rainwater collection methods.";
+  const twittertitle =
+    "Rainwater Harvesting System | The Importance of Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Discover the benefits of rainwater harvesting systems for sustainable water management. Learn how to conserve water, reduce stormwater runoff, and ease pressure on groundwater and municipal supplies with effective rainwater collection methods.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -30,9 +70,9 @@ const RainwaterHarvestingSystem = () => {
           </p>
           <br></br>
           <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h2 className="text-xl md:text-[1.5rem] font-semibold">
             The Importance of Rainwater Harvesting
-          </h3>
+          </h2>
           <p className="text-md md:text-lg pt-5 text-gray-500">
             Rainwater is a valuable resource that, when harnessed effectively,
             can address water scarcity issues faced by many communities.
@@ -118,9 +158,9 @@ const RainwaterHarvestingSystem = () => {
           </p>
           <br></br>
           <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h4 className="text-xl md:text-[1.5rem] font-semibold">
             Considerations and Maintenance
-          </h3>
+          </h4>
           <p className="text-md md:text-lg pt-5 text-gray-500">
             When installing a rainwater harvesting system, it is important to
             consider factors such as local regulations, the size of the
@@ -131,9 +171,9 @@ const RainwaterHarvestingSystem = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg11}
-          alt="img"
+          alt="rainwater harvesting system"
           loading="eager"
           priority={true}
           unoptimized={true}

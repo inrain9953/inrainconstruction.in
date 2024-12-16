@@ -4,14 +4,54 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import Image from "next/image";
 import serviceImg5 from "../../public/services/harvesting5.jpg";
+import Head from "next/head";
 
 const RoofTopRWH = () => {
+  const title =
+    "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Explore the benefits of Roof-Top Rainwater Harvesting Systems with InRain Construction Pvt. Ltd. Our customized solutions include installation, maintenance, and advanced filtration options for safe and sustainable water conservation.";
+  const keyword =
+    "Roof-top rainwater harvesting system, rainwater harvesting system, sustainable water management, rainwater filtration, rainwater conservation, rainwater harvesting installation, rooftop rainwater collection, residential rainwater harvesting, commercial rainwater harvesting, eco-friendly water systems";
+  const canonical =
+    "https://www.inrainconstruction.in/services/roof-top-rainwater-harvesting-system";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/roof-top-rainwater-harvesting-system";
+  const ogTitle =
+    "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Explore the benefits of Roof-Top Rainwater Harvesting Systems with InRain Construction Pvt. Ltd. Our customized solutions include installation, maintenance, and advanced filtration options for safe and sustainable water conservation.";
+  const twittertitle =
+    "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Explore the benefits of Roof-Top Rainwater Harvesting Systems with InRain Construction Pvt. Ltd. Our customized solutions include installation, maintenance, and advanced filtration options for safe and sustainable water conservation.";
+
   return (
     <>
+    <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -58,9 +98,9 @@ const RoofTopRWH = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg5}
-          alt="img"
+          alt="rooftop rainwater harvesting system"
           loading="eager"
           priority={true}
           unoptimized={true}

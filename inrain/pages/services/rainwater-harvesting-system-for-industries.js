@@ -5,14 +5,54 @@ import React from "react";
 import Image from "next/image";
 import serviceImg11 from "../../public/services/harvesting11.jpg";
 import rain2 from "../../public/tree.png";
+import Head from "next/head";
 
 const RainwaterHarvestingSystemforIndustries = () => {
+  const title =
+    "Rainwater Harvesting System for Industries | Key Benefits of Rainwater Harvesting for Industries | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Explore InRain® Construction Pvt. Ltd.'s advanced rainwater harvesting systems for industries. Our sustainable solutions reduce water costs, ensure regulatory compliance, and promote environmental conservation through innovative technologies and in-house manufacturing.";
+  const keyword =
+    "rainwater harvesting system for industries, Key Benefits of Rainwater Harvesting for Industries, industrial water management, industrial water conservation, water scarcity solutions, rainwater filtration systems, water cost reduction, rainwater harvesting Delhi";
+  const canonical =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-for-industries";
+  const ogUrl =
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-for-industries";
+  const ogTitle =
+    "Rainwater Harvesting System for Industries | Key Benefits of Rainwater Harvesting for Industries | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Explore InRain® Construction Pvt. Ltd.'s advanced rainwater harvesting systems for industries. Our sustainable solutions reduce water costs, ensure regulatory compliance, and promote environmental conservation through innovative technologies and in-house manufacturing.";
+  const twittertitle =
+    "Rainwater Harvesting System for Industries | Key Benefits of Rainwater Harvesting for Industries | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Explore InRain® Construction Pvt. Ltd.'s advanced rainwater harvesting systems for industries. Our sustainable solutions reduce water costs, ensure regulatory compliance, and promote environmental conservation through innovative technologies and in-house manufacturing.";
+
   return (
     <>
+    <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl font-semibold md:text-[2rem]">
@@ -54,10 +94,10 @@ const RainwaterHarvestingSystemforIndustries = () => {
           </p>
           <br></br>
           <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h2 className="text-xl md:text-[1.5rem] font-semibold">
             Key Benefits of Rainwater Harvesting for Industries
-          </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          </h2>
+          <p className="text-md md:text-lg pt-5 text-justify text-gray-500">
             Incorporating rainwater harvesting into industrial operations offers
             several noteworthy benefits:
             <br></br>
@@ -107,9 +147,9 @@ const RainwaterHarvestingSystemforIndustries = () => {
           <br></br>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg11}
-          alt="img"
+          alt="rainwater harvesting system for industries"
           loading="eager"
           priority={true}
           unoptimized={true}
@@ -119,7 +159,7 @@ const RainwaterHarvestingSystemforIndustries = () => {
       <div className="">
         <div
           data-aos="zoom-in-up"
-          className="text-left md:text-left md:m-20 m-10"
+          className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-semibold md:text-[1.5rem]">
             Why Choose Us ?
@@ -127,7 +167,7 @@ const RainwaterHarvestingSystemforIndustries = () => {
           <p className="text-sm md:text-base text-green-500 font-semibold pt-1">
             InRain<sup className="text-xs">®</sup> Construction Pvt. Ltd.
           </p>
-          <div className="md:flex items-center">
+          <div className="md:flex items-center text-justify">
             <p className="text-md pt-5 text-gray-500 md:text-lg md:pt-5">
               {" "}
               <bold className="font-semibold text-black">Expertise:</bold> With
@@ -187,8 +227,8 @@ const RainwaterHarvestingSystemforIndustries = () => {
             </p>
             <Image
               data-aos="zoom-in-up"
-              alt="img"
-              className="w-9/12 drop-shadow-2xl md:ml-5 object-cover m-auto"
+              alt="rainwater harvesting system"
+              className="w-1/2 md:w-1/4 drop-shadow-2xl md:ml-5 object-cover m-auto"
               src={rain2}
               loading="eager"
               priority={true}

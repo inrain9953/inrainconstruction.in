@@ -7,21 +7,21 @@ import { blogHomepage } from "@/components/blogs/blog";
 
 const Blog1 = () => {
   const title =
-    "Rainwater Harvesting System: Empower Your Life with Sustainable Practices";
+    "Rainwater Harvesting System: Empower Your Life with Sustainable Practices | Benefits of Rainwater Harvesting Systems | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover how Rainwater Harvesting Systems offer sustainable solutions to India's water crisis. From cost savings for businesses to eco-friendly practices for homeowners, explore the benefits, implementation steps, and customized options to conserve water and ensure water security.";
   const keyword =
-    "Rainwater harvesting system, sustainable water solution, water conservation, India water crisis, cost-effective water system, eco-friendly practices, groundwater recharge, rainwater storage, rainwater collection, business water savings, luxury home sustainability, environmental responsibility";
+    "Rainwater harvesting system, Benefits of Rainwater Harvesting Systems, sustainable water solution, water conservation, India water crisis, cost-effective water system, eco-friendly practices, groundwater recharge, rainwater storage, rainwater collection";
   const canonical =
     "https://www.inrainconstruction.in/blogs/rainwater-harvesting-system-empower-your-life-with-sustainable-practices";
   const ogUrl =
     "https://www.inrainconstruction.in/blogs/rainwater-harvesting-system-empower-your-life-with-sustainable-practices";
   const ogTitle =
-    "Rainwater Harvesting System: Empower Your Life with Sustainable Practices";
+    "Rainwater Harvesting System: Empower Your Life with Sustainable Practices | Benefits of Rainwater Harvesting Systems | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Discover how Rainwater Harvesting Systems offer sustainable solutions to India's water crisis. From cost savings for businesses to eco-friendly practices for homeowners, explore the benefits, implementation steps, and customized options to conserve water and ensure water security.";
   const twittertitle =
-    "Rainwater Harvesting System: Empower Your Life with Sustainable Practices";
+    "Rainwater Harvesting System: Empower Your Life with Sustainable Practices | Benefits of Rainwater Harvesting Systems | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover how Rainwater Harvesting Systems offer sustainable solutions to India's water crisis. From cost savings for businesses to eco-friendly practices for homeowners, explore the benefits, implementation steps, and customized options to conserve water and ensure water security.";
 
@@ -51,7 +51,7 @@ const Blog1 = () => {
       <div className="md:flex">
         <div className="md:w-[85%]">
           <div data-aos="fade-up" className="m-5">
-            <img src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog1.fca023a3.webp&w=1920&q=75" />
+            <img alt="rainwater harvesting system empower your life" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog1.fca023a3.webp&w=1920&q=75" />
           </div>
           <div className="m-5 text-justify">
             <div data-aos="fade-up" className="">
@@ -77,10 +77,10 @@ const Blog1 = () => {
               </p>
             </div>
             <div data-aos="fade-up" className="mt-7">
-              <h2 className="text-xl md:text-2xl font-semibold">
+              <h3 className="text-xl md:text-2xl font-semibold">
                 Rainwater Harvesting: A Crucial Solution for India's Water
                 Crisis
-              </h2>
+              </h3>
               <p className="mt-3 text-lg">
                 India faces severe water challenges, with groundwater depletion
                 and unpredictable monsoon patterns impacting water availability.
@@ -91,9 +91,9 @@ const Blog1 = () => {
               </p>
             </div>
             <div data-aos="fade-up" className="mt-7">
-              <h3 className="text-xl md:text-2xl font-semibold">
+              <h2 className="text-xl md:text-2xl font-semibold">
                 Benefits of Rainwater Harvesting Systems:
-              </h3>
+              </h2>
               <ol className="mt-3 text-lg">
                 <li>
                   <bold className="font-semibold">

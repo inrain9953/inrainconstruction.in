@@ -8,7 +8,7 @@ import Head from "next/head";
 const Blog4 = () => {
 
     const title =
-    "Stormwater Management in India: A Growing Need";
+    "Stormwater Management in India: A Growing Need | What is Stormwater, and Why It's Important? | InRain® Construction Pvt. Ltd.";
   const desc =
     "Learn about stormwater management and recharge in India. Discover sustainable solutions to prevent flooding, improve water quality, and replenish aquifers while addressing the challenges of urbanization and climate change.";
   const keyword =
@@ -18,11 +18,11 @@ const Blog4 = () => {
   const ogUrl =
     "https://www.inrainconstruction.in/blogs/stormwater-management-in-india-a-growing-need";
   const ogTitle =
-    "Stormwater Management in India: A Growing Need";
+    "Stormwater Management in India: A Growing Need | What is Stormwater, and Why It's Important? | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Learn about stormwater management and recharge in India. Discover sustainable solutions to prevent flooding, improve water quality, and replenish aquifers while addressing the challenges of urbanization and climate change.";
   const twittertitle =
-    "Stormwater Management in India: A Growing Need";
+    "Stormwater Management in India: A Growing Need | What is Stormwater, and Why It's Important? | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Learn about stormwater management and recharge in India. Discover sustainable solutions to prevent flooding, improve water quality, and replenish aquifers while addressing the challenges of urbanization and climate change.";
 
@@ -52,7 +52,7 @@ const Blog4 = () => {
       <div className="md:flex">
         <div className="md:w-[85%]">
           <div data-aos="fade-up" className="m-5">
-            <img className="md:h-96" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog4img.8db5c0ec.jpg&w=2048&q=75" />
+            <img alt="stormwater management in india" className="md:h-96" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog4img.8db5c0ec.jpg&w=2048&q=75" />
           </div>
           <div className="m-5 text-justify">
             <div data-aos="fade-up" className="">

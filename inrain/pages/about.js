@@ -10,19 +10,23 @@ import { AboutContent } from "@/components/constant";
 import rain2 from "./../public/tree.png";
 import { AboutTechnology } from "@/components/aboutTechnology/aboutTechnology";
 import Head from "next/head";
+import Link from "next/link";
 
 const About = () => {
-  const title = "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
   const desc =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
   const keyword =
     "Rainwater Harvesting System in Delhi, Water Conservation, Modular Tank Systems, Sustainable Water Management, RWH Technology, Ground Water Recharge, Water Table Recharge";
   const canonical = "https://www.inrainconstruction.in/about";
   const ogUrl = "https://www.inrainconstruction.in/about";
-  const ogTitle = "Rainwater Harvesting System In Delhi | About Us | InRain® Construction Pvt. Ltd.";
+  const ogTitle =
+    "Rainwater Harvesting System In Delhi | About Us | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
-  const twittertitle = "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
+  const twittertitle =
+    "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
 
@@ -58,13 +62,21 @@ const About = () => {
           priority={true}
           unoptimized={true}
         />
+        <div className="absolute md:bottom-5 bottom-2 md:left-5 left-2">
+          <p className="text-xs md:text-lg text-black">
+            <Link className="hover:text-green-500" href={"/"}>
+              Home
+            </Link>{" "}
+            / About Us
+          </p>
+        </div>
       </div>
-      <div data-aos="fade-up" className="m-5 text-left md:m-20">
+      <div data-aos="fade-up" className="m-5 text-left md:m-10">
         <div className="">
           <h1 className="text-2xl font-bold md:text-[3rem] md:font-semibold">
             Rainwater Harvesting System In Delhi
           </h1>
-          <div className="md:flex md:mt-3 md:items-center md:justify-center md:gap-10">
+          <div className="md:flex md:mt-3 md:items-center md:justify-center md:gap-5">
             <p className="text-md text-justify pt-2 text-gray-700 md:text-lg md:pt-5">
               At{" "}
               <bold className="text-green-500 font-semibold">
@@ -117,7 +129,7 @@ const About = () => {
             </p>
             <Image
               className="w-full md:w-80 mt-5 rounded-lg"
-              alt="img"
+              alt="modular rainwater harvesting"
               src={aboutImg}
               loading="eager"
               priority={true}
@@ -127,9 +139,9 @@ const About = () => {
         </div>
       </div>
 
-      <div className="m-5 md:m-20 md:flex md:justify-center">
+      <div className="m-5 md:m-10 md:flex md:justify-center">
         <iframe
-          className="md:h-[500px] md:w-[70%]"
+          className="md:h-[500px] h-[225px] md:w-[900px]"
           width="100%"
           height="340px"
           title="Youtube Video Player"
@@ -142,11 +154,11 @@ const About = () => {
       </div>
 
       <div className="">
-        <div data-aos="fade-up" className="text-left md:text-left md:m-20 m-5">
+        <div data-aos="fade-up" className="text-left md:text-left md:m-10 m-5">
           <h2 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
             About Us
           </h2>
-          <div className="md:flex md:justify-center md:gap-10 md:items-center">
+          <div className="md:flex md:justify-center md:gap-5 md:items-center">
             <p className="text-md text-justify pt-5 text-gray-700 md:text-lg">
               {" "}
               <bold className="font-semibold text-black">Expertise:</bold> With
@@ -203,7 +215,7 @@ const About = () => {
             <Image
               data-aos="zoom-in-up"
               alt="img"
-              className="md:w-80 drop-shadow-2xl object-cover m-auto"
+              className="md:w-72 drop-shadow-2xl "
               src={rain2}
               loading="eager"
               priority={true}

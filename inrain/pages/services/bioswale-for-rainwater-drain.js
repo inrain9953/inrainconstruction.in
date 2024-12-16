@@ -4,14 +4,52 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import React from "react";
 import Image from "next/image";
 import serviceImg10 from "../../public/services/harvesting10.jpg";
+import Head from "next/head";
 
 const BioswaleForRainwater = () => {
+  const title =
+    "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
+  const desc =
+    "Discover bioswale solutions by InRain Construction Pvt. Ltd., a leader in sustainable rainwater management. Our expertly designed bioswales manage stormwater runoff, recharge groundwater, and enhance landscapes for residential and industrial areas using advanced techniques and native plants.";
+  const keyword =
+    "Bioswale for Rainwater Drain, bioswale rainwater management, bioswale construction, stormwater runoff solutions, sustainable rainwater systems, groundwater recharge, bioswale installation, rain garden design, stormwater management India, eco-friendly stormwater solutions, bioswale benefits, native plant landscaping";
+  const canonical = "https://www.inrainconstruction.in/services/bioswale-for-rainwater-drain";
+  const ogUrl = "https://www.inrainconstruction.in/services/bioswale-for-rainwater-drain";
+  const ogTitle =
+    "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
+  const ogDescription =
+    "Discover bioswale solutions by InRain Construction Pvt. Ltd., a leader in sustainable rainwater management. Our expertly designed bioswales manage stormwater runoff, recharge groundwater, and enhance landscapes for residential and industrial areas using advanced techniques and native plants.";
+  const twittertitle =
+    "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
+  const twitterdescription =
+    "Discover bioswale solutions by InRain Construction Pvt. Ltd., a leader in sustainable rainwater management. Our expertly designed bioswales manage stormwater runoff, recharge groundwater, and enhance landscapes for residential and industrial areas using advanced techniques and native plants.";
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content={desc} />
+        <meta name="keywords" content={keyword} />
+        <meta name="canonical" content={canonical} />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={ogUrl} />
+        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:description" content={twitterdescription} />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+      </Head>
       <Navbar />
       <div
         data-aos="zoom-in-up"
-        className="text-left m-10 md:m-20 md:flex items-center"
+        className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
@@ -67,9 +105,9 @@ const BioswaleForRainwater = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-10 md:h-72 md:min-w-96"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80"
           src={serviceImg10}
-          alt="img"
+          alt="bioswale for rainwater drain"
           loading="eager"
           priority={true}
           unoptimized={true}
