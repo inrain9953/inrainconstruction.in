@@ -77,8 +77,8 @@ const Products = () => {
               Rainwater Harvesting Products
             </h1>
           </div>
-          <div className="m-5 md:grid md:grid-cols-2 items-center md:m-10 md:gap-10">
-            <div data-aos="fade-up" className="text-center mb-5">
+          <div className="m-5 md:flex items-center md:m-10 md:gap-5">
+            <div data-aos="fade-up" className="text-center mb-5 md:w-[85%]">
               <p className="text-2xl font-semibold text-green-600">
                 InRain<sup>®</sup>
               </p>

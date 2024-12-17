@@ -10,7 +10,7 @@ const RainwaterInAjmer = () => {
 
   const title = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const desc = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
-  const keyword = `Rooftop Rainwater Harvesting System in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
+  const keyword = `Rainwater Harvesting System in ${location}, Rooftop Rainwater Harvesting System in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
   const canonical =
     "https://www.inrainconstruction.in/rainwater-harvesting-system-in-ajmer";
   const ogUrl =
@@ -18,7 +18,7 @@ const RainwaterInAjmer = () => {
   const ogTitle = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const ogDescription = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
   const twittertitle =
-    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+    `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const twitterdescription =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
 

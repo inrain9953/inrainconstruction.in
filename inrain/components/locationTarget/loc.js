@@ -33,13 +33,13 @@ const LocationTarget = ({ loc }) => {
         unoptimized={true}
       >
         <div className="relative">
-          <h1 className="relative text-green-800 z-30 pt-5 text-lg font-semibold drop-shadow-md md:text-4xl md:pt-10 md:ml-16">
-            InRain<sup>®</sup> Construction Pvt. Ltd.
-          </h1>
-          <hr className="m-2 md:m-4"></hr>
-          <h2 className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
-            Water Conservation <br></br>& <br></br>Management Company
+          <h2 className="relative text-green-800 z-30 pt-5 text-lg font-semibold drop-shadow-md md:text-4xl md:pt-10 md:ml-16">
+            Rainwater Harvesting System Service Provider in {loc}
           </h2>
+          <hr className="m-2 md:m-4"></hr>
+          <p className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
+            Water Conservation <br></br>& <br></br>Management Company
+          </p>
 
           <span className="relative z-20 text-md font-semibold align-middle lg:inline drop-shadow-md md:text-xl">
             <TypeAnimation
@@ -85,10 +85,10 @@ const LocationTarget = ({ loc }) => {
       </div>
 
       <div data-aos="fade-up" className="flex flex-wrap justify-between">
-        <div className="m-10 md:ml-28 md:mr-28">
-          <h3 className="text-2xl font-semibold text-center mb-5 underline">
+        <div className="m-5 md:m-10 md:ml-28 md:mr-28">
+          <p className="text-2xl font-semibold text-center mb-5 underline">
             What We Do
-          </h3>
+          </p>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg">
             At{" "}
             <bold className="text-green-500 font-semibold">
@@ -137,12 +137,12 @@ const LocationTarget = ({ loc }) => {
       </div>
       <Carousel />
 
-      <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="fade-up" className="md:content-center md:p-10">
-          <p className="text-center font-semibold text-md text-green-500 md:text-lg">
+      <div className="md:flex md:justify-center md:items-center md:m-10 mt-20">
+        <div data-aos="fade-up" className="md:content-center">
+          <p className="text-center font-semibold text-md text-green-500 md:text-sm">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
-          <h1 className="text-center text-2xl font-semibold md:text-4xl">
+          <h1 className="text-center text-2xl font-semibold md:text-3xl">
             Rainwater Harvesting System in {loc}
           </h1>
           <hr className="m-2 md:m-5"></hr>
@@ -156,10 +156,14 @@ const LocationTarget = ({ loc }) => {
             </bold>
             , specializing in delivering cutting-edge rainwater harvesting
             solutions tailored to meet the unique needs of our clients.<br></br>
-            <br></br><bold className="text-black font-semibold">We are committed to providing solutions in {loc}</bold> that not
-            only address water scarcity but also help our clients reduce their
-            environmental impact through sustainable practices. By continually
-            prioritizing innovation and environmental responsibility,{" "}
+            <br></br>
+            <bold className="text-black font-semibold">
+              We are committed to providing solutions in {loc}
+            </bold>{" "}
+            that not only address water scarcity but also help our clients
+            reduce their environmental impact through sustainable practices. By
+            continually prioritizing innovation and environmental
+            responsibility,{" "}
             <bold className="text-black font-semibold">
               <bold className="text-green-500 font-semibold">
                 InRain<sup>®</sup> Construction
@@ -176,77 +180,65 @@ const LocationTarget = ({ loc }) => {
           </p>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center md:inline"
-        >
-          <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
+          <div className="bg-white flex items-center justify-center m-2 h-40 w-40 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={approved}
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               ></Image>
               <p className="text-xs m-1">ISO 9001 : 2015</p>
-              <p className="text-sm font-semibold md:text-lg">
-                CERTIFIED COMPANY
-              </p>
+              <p className="text-sm font-semibold">CERTIFIED COMPANY</p>
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-40 w-40 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={trophy}
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               ></Image>
               <p className="text-xs m-1">Solution Provider</p>
-              <p className="text-sm font-semibold md:text-lg">
-                THE BEST INDUSTRIAL
-              </p>
+              <p className="text-sm font-semibold">THE BEST INDUSTRIAL</p>
             </div>
           </div>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center md:inline"
-        >
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
+          <div className="bg-white flex justify-center items-center m-2 h-40 w-40 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={cerg}
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               ></Image>
-              <p className="text-sm m-1 font-semibold md:text-lg">
+              <p className="text-sm m-1 font-semibold">
                 INRAIN<sup>®</sup> CONSTRUCTION PVT. LTD.
               </p>
             </div>
           </div>
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="bg-white flex justify-center items-center m-2 h-40 w-40 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={trophy}
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               ></Image>
               <p className="text-xs m-1">ISO 14001 : 2015</p>
-              <p className="text-sm font-semibold md:text-lg">
-                CERTIFIED COMPANY
-              </p>
+              <p className="text-sm font-semibold">CERTIFIED COMPANY</p>
             </div>
           </div>
         </div>
@@ -263,25 +255,30 @@ const LocationTarget = ({ loc }) => {
         />
       </div>
 
-      <div className="m-10 md:flex md:justify-center md:gap-24 md:m-10 md:mr-24 md:ml-24">
+      <div className="m-5 md:flex md:justify-center md:items-center md:gap-5 md:m-10">
         <div data-aos="fade-up" className=" text-left">
-          <h2 className="font-semibold md:text-lg text-green-600">
+          <p className="font-semibold md:text-lg text-green-600">
             InRain<sup>®</sup>
-          </h2>
-          <h1 className="text-2xl font-semibold md:text-[40px]">
+          </p>
+          <h2 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting System in {loc}
-          </h1>
+          </h2>
           <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
-            We offer a state-of-the-art <bold className="text-black font-semibold">Rooftop Rainwater Harvesting System in{" "}
-            {loc}</bold>, designed for efficient filtration, temporary storage, and
+            We offer a state-of-the-art{" "}
+            <bold className="text-black font-semibold">
+              Rooftop Rainwater Harvesting System in {loc}
+            </bold>
+            , designed for efficient filtration, temporary storage, and
             controlled release. This system is ideal for managing waste water
             channels and is built using our proprietary plastic injection-molded
             panels. We provide a wide range of modular options tailored to suit
-            your specific needs. <br></br> <bold className="text-black font-semibold">As a leading provider of Rooftop
-            Rainwater Harvesting Systems in {loc}, we take pride in delivering
-            top-tier, customized solutions.</bold> If you’re looking for the perfect
-            system to match your requirements, feel free to reach out to us for
-            personalized options and offers.{" "}
+            your specific needs. <br></br>{" "}
+            <bold className="text-black font-semibold">
+              As a leading provider of Rooftop Rainwater Harvesting Systems in{" "}
+              {loc}, we take pride in delivering top-tier, customized solutions.
+            </bold>{" "}
+            If you’re looking for the perfect system to match your requirements,
+            feel free to reach out to us for personalized options and offers.{" "}
           </p>
           <Link href={"/services/roof-top-rainwater-harvesting-system"}>
             <button className="animated-button mt-5 bg-white">
@@ -305,7 +302,7 @@ const LocationTarget = ({ loc }) => {
           </Link>
         </div>
 
-        <div className="md:ml-10 w-64 m-auto mt-10">
+        <div className="md:ml-10 w-64 m-auto md:m-10 mt-10">
           <div
             data-aos="fade-up"
             className="flex md:w-72 overflow-clip align-middle drop-shadow-2xl"

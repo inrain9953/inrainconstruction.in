@@ -1,19 +1,19 @@
-import { Footer } from "@/components/footer/footer";
-import LocationTarget from "@/components/locationTarget/loc";
-import { Navbar } from "@/components/navbar/navbar";
-import React from "react";
-import Head from "next/head";
+import { Footer } from '@/components/footer/footer'
+import { Navbar } from '@/components/navbar/navbar'
+import Head from 'next/head'
+import LocationTarget from '@/components/locationTarget/loc'
+import React from 'react'
 
-const RainwaterInDevanagere = () => {
-  const location = "Devanagere";
+const RainwaterInDelhi = () => {
+    const location = "Delhi";
 
   const title = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const desc = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
   const keyword = `Rainwater Harvesting System in ${location}, Rooftop Rainwater Harvesting System in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
   const canonical =
-    "https://www.inrainconstruction.in/rainwater-harvesting-system-in-devanagere";
+    "https://www.inrainconstruction.in/rainwater-harvesting-system-in-delhi";
   const ogUrl =
-    "https://www.inrainconstruction.in/rainwater-harvesting-system-in-devanagere";
+    "https://www.inrainconstruction.in/rainwater-harvesting-system-in-delhi";
   const ogTitle = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const ogDescription = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
   const twittertitle =
@@ -23,7 +23,7 @@ const RainwaterInDevanagere = () => {
 
   return (
     <>
-      <Head>
+    <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,11 +44,11 @@ const RainwaterInDevanagere = () => {
           content="InRain® Construction Pvt. Ltd."
         />
       </Head>
-      <Navbar />
-      <LocationTarget loc={"Devanagere"} />
-      <Footer />
+    <Navbar />
+    <LocationTarget loc={"Delhi"} />
+    <Footer />
     </>
-  );
-};
+  )
+}
 
-export default RainwaterInDevanagere;
+export default RainwaterInDelhi

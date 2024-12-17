@@ -9,7 +9,7 @@ const RainwaterInKarimnagar = () => {
 
   const title = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const desc = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
-  const keyword = `Rooftop Rainwater Harvesting System in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
+  const keyword = `Rainwater Harvesting System in ${location}, Rooftop Rainwater Harvesting System in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
   const canonical =
     "https://www.inrainconstruction.in/rainwater-harvesting-system-in-karimnagar";
   const ogUrl =

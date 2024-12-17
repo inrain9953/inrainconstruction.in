@@ -6,9 +6,9 @@ export const Carousel = () => {
   return (
     <>
       <div className="mt-10">
-        <h1 className="text-center text-xl md:text-3xl font-semibold text-green-600">
+        <p className="text-center text-xl md:text-3xl font-semibold text-green-600">
           Rainwater Harvesting Installation Process
-        </h1>
+        </p>
       </div>
       <div
         data-aos="fade-up"
@@ -17,7 +17,7 @@ export const Carousel = () => {
         {carouselSlider.map((items) => (
           <div className="m-4 md:m-10 carouselAnimation">
             <Image
-              alt="img"
+              alt="Rainwater Harvesting Process"
               className="h-52 min-w-40 md:min-w-48 md:h-56 drop-shadow-xl"
               src={items.img}
               loading="eager"

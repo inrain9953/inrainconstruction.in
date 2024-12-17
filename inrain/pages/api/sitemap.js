@@ -1,4 +1,5 @@
 import { data } from "autoprefixer";
+import { url } from "inspector";
 
 const { SitemapStream, streamToPromise } = require("sitemap");
 const { Readable } = require("stream");
@@ -111,15 +112,6 @@ export default async (req, res) => {
     { url: "/rainwater-harvesting-system-in-dehradun/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-in-jammu-kashmir/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-in-jhansi/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-aligarh/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-amritsar/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-bareilly/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-bikaner/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-faridabad/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-guwahati/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-mathura/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-noida/", changefreq: "daily", priority: 0.8 },
-    { url: "/rainwater-harvesting-system-system-warangal/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/rainwater-harvesting-for-industries", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/advancing-sustainability-with-modular-rainwater-harvesting", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/rainwater-harvesting-system-empower-your-life-with-sustainable-practices", changefreq: "daily", priority: 0.8 },
