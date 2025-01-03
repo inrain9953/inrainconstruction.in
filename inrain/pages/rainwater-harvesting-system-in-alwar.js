@@ -7,9 +7,9 @@ import Head from "next/head";
 const RainwaterInAlwar = () => {
   const location = "Alwar";
 
-  const title = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
+  const title = `Rainwater Harvesting in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const desc = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
-  const keyword = `Rainwater Harvesting System in ${location}, Rooftop Rainwater Harvesting System in ${location}, Rainwater Harvesting System Service Provider in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
+  const keyword = `Rainwater Harvesting in ${location}, Rooftop Rainwater Harvesting in ${location}, Rainwater Harvesting System Service Provider in ${location}, Modular Rainwater Harvesting System in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Rain Water Harvesting System Manufacturers In ${location}, Rain Water Harvesting System Suppliers In ${location}, Rain Water Harvesting System Exporters, Best Rain Water Harvesting System In ${location}`;
   const canonical =
     "https://www.inrainconstruction.in/rainwater-harvesting-system-in-alwar";
   const ogUrl =

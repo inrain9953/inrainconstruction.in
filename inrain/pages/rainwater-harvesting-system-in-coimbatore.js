@@ -7,17 +7,16 @@ import Head from "next/head";
 const RainwaterInCoimbatore = () => {
   const location = "Coimbatore";
 
-  const title = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
+  const title = `Rainwater Harvesting in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const desc = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
-  const keyword = `Rainwater Harvesting System in ${location}, Rooftop Rainwater Harvesting System in ${location}, Rainwater Harvesting System Service Provider in ${location}, Modular Rainwater Harvesting System in ${location}, Rainwater Harvesting Tank in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Storm water Management in ${location}`;
+  const keyword = `Rainwater Harvesting in ${location}, Rooftop Rainwater Harvesting in ${location}, Rainwater Harvesting System Service Provider in ${location}, Modular Rainwater Harvesting System in ${location}, Polymer Type Rainwater Harvesting System in ${location}, Rainwater Harvesting for Industries in ${location}, Rain Water Harvesting System Manufacturers In ${location}, Rain Water Harvesting System Suppliers In ${location}, Rain Water Harvesting System Exporters, Best Rain Water Harvesting System In ${location}`;
   const canonical =
     "https://www.inrainconstruction.in/rainwater-harvesting-system-in-coimbatore";
   const ogUrl =
     "https://www.inrainconstruction.in/rainwater-harvesting-system-in-coimbatore";
-  const ogTitle = `Rainwater Harvesting System in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
+  const ogTitle = `Rainwater Harvesting in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const ogDescription = `Looking for the best Rainwater Harvesting System in ${location}? We offer top-quality rainwater harvesting solutions at affordable prices. Contact the leading service provider today!`;
-  const twittertitle =
-    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+  const twittertitle = `Rainwater Harvesting in ${location} | Rainwater Harvesting System Service Provider in ${location}`;
   const twitterdescription =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
 

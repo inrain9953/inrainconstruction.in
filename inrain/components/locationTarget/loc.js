@@ -143,7 +143,7 @@ const LocationTarget = ({ loc }) => {
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-3xl">
-            Rainwater Harvesting System in {loc}
+            Rainwater Harvesting in {loc}
           </h1>
           <hr className="m-2 md:m-5"></hr>
           <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
@@ -152,7 +152,7 @@ const LocationTarget = ({ loc }) => {
             </bold>{" "}
             is a premier provider of{" "}
             <bold className="text-black font-semibold">
-              Rainwater Harvesting Systems in {loc}
+              Rainwater Harvesting in {loc}
             </bold>
             , specializing in delivering cutting-edge rainwater harvesting
             solutions tailored to meet the unique needs of our clients.<br></br>
@@ -261,12 +261,12 @@ const LocationTarget = ({ loc }) => {
             InRain<sup>®</sup>
           </p>
           <h2 className="text-2xl font-semibold md:text-[40px]">
-            Rooftop Rainwater Harvesting System in {loc}
+            Rooftop Rainwater Harvesting in {loc}
           </h2>
           <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
             We offer a state-of-the-art{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting System in {loc}
+              Rooftop Rainwater Harvesting in {loc}
             </bold>
             , designed for efficient filtration, temporary storage, and
             controlled release. This system is ideal for managing waste water
@@ -274,7 +274,7 @@ const LocationTarget = ({ loc }) => {
             panels. We provide a wide range of modular options tailored to suit
             your specific needs. <br></br>{" "}
             <bold className="text-black font-semibold">
-              As a leading provider of Rooftop Rainwater Harvesting Systems in{" "}
+              As a leading provider of Rooftop Rainwater Harvesting in{" "}
               {loc}, we take pride in delivering top-tier, customized solutions.
             </bold>{" "}
             If you’re looking for the perfect system to match your requirements,
