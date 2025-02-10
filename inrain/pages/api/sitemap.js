@@ -213,6 +213,8 @@ export default async (req, res) => {
     { url: "/modular-rainwater-harvesting-in-vellore/", changefreq: "daily", priority: 0.8 },
     { url: "/modular-rainwater-harvesting-in-visakhapatnam/", changefreq: "daily", priority: 0.8 },
     { url: "/modular-rainwater-harvesting-in-warangal/", changefreq: "daily", priority: 0.8 },
+    { url: "/rainwater-harvesting-in-india/", changefreq: "daily", priority: 0.8 },
+    { url: "/modular-rainwater-harvesting-in-india/", changefreq: "daily", priority: 0.8 },
   ];
 
   const stream = new SitemapStream({
