@@ -280,235 +280,235 @@ export const AboutContent = [
 export const Location = [
   {
     location: "Agartala",
-    url: "/rainwater-harvesting-in-agartala/",
+    url: "/rainwater-harvesting-system-in-agartala/",
   },
   {
     location: "Agra",
-    url: "/rainwater-harvesting-in-agra/",
+    url: "/rainwater-harvesting-system-in-agra/",
   },
   {
     location: "Ahmedabad",
-    url: "/rainwater-harvesting-in-ahmedabad/",
+    url: "/rainwater-harvesting-system-in-ahmedabad/",
   },
   {
     location: "Ajmer",
-    url: "/rainwater-harvesting-in-ajmer/",
+    url: "/rainwater-harvesting-system-in-ajmer/",
   },
   {
     location: "Aligarh",
-    url: "/rainwater-harvesting-in-aligarh/",
+    url: "/rainwater-harvesting-system-in-aligarh/",
   },
   {
     location: "Allahabad",
-    url: "/rainwater-harvesting-in-allahabad/",
+    url: "/rainwater-harvesting-system-in-allahabad/",
   },
   {
     location: "Alwar",
-    url: "/rainwater-harvesting-in-alwar/",
+    url: "/rainwater-harvesting-system-in-alwar/",
   },
   {
     location: "Amaravati",
-    url: "/rainwater-harvesting-in-amaravati/",
+    url: "/rainwater-harvesting-system-in-amaravati/",
   },
   {
     location: "Amritsar",
-    url: "/rainwater-harvesting-in-amritsar/",
+    url: "/rainwater-harvesting-system-in-amritsar/",
   },
   {
     location: "Ayodhya",
-    url: "/rainwater-harvesting-in-ayodhya/",
+    url: "/rainwater-harvesting-system-in-ayodhya/",
   },
   {
     location: "Bangalore",
-    url: "/rainwater-harvesting-in-bangalore/",
+    url: "/rainwater-harvesting-system-in-bangalore/",
   },
   {
     location: "Barabanki",
-    url: "/rainwater-harvesting-in-barabanki/",
+    url: "/rainwater-harvesting-system-in-barabanki/",
   },
   {
     location: "Bareilly",
-    url: "/rainwater-harvesting-in-bareilly/",
+    url: "/rainwater-harvesting-system-in-bareilly/",
   },
   {
     location: "Batala",
-    url: "/rainwater-harvesting-in-batala/",
+    url: "/rainwater-harvesting-system-in-batala/",
   },
   {
     location: "Bathinda",
-    url: "/rainwater-harvesting-in-bathinda/",
+    url: "/rainwater-harvesting-system-in-bathinda/",
   },
   {
     location: "Begusarai",
-    url: "/rainwater-harvesting-in-begusarai/",
+    url: "/rainwater-harvesting-system-in-begusarai/",
   },
   {
     location: "belagavi",
-    url: "/rainwater-harvesting-in-belagavi/",
+    url: "/rainwater-harvesting-system-in-belagavi/",
   },
   {
     location: "Bhagalpur",
-    url: "/rainwater-harvesting-in-bhagalpur/",
+    url: "/rainwater-harvesting-system-in-bhagalpur/",
   },
   {
     location: "Bhilwara",
-    url: "/rainwater-harvesting-in-bhilwara/",
+    url: "/rainwater-harvesting-system-in-bhilwara/",
   },
   {
     location: "Bhopal",
-    url: "/rainwater-harvesting-in-bhopal/",
+    url: "/rainwater-harvesting-system-in-bhopal/",
   },
   {
     location: "Bhubaneswar",
-    url: "/rainwater-harvesting-in-bhubaneswar/",
+    url: "/rainwater-harvesting-system-in-bhubaneswar/",
   },
   {
     location: "Bikaner",
-    url: "/rainwater-harvesting-in-bikaner/",
+    url: "/rainwater-harvesting-system-in-bikaner/",
   },
   {
     location: "Chandigarh",
-    url: "/rainwater-harvesting-in-chandigarh/",
+    url: "/rainwater-harvesting-system-in-chandigarh/",
   },
   {
     location: "Chennai",
-    url: "/rainwater-harvesting-in-chennai/",
+    url: "/rainwater-harvesting-system-in-chennai/",
   },
   {
     location: "Coimbatore",
-    url: "/rainwater-harvesting-in-coimbatore/",
+    url: "/rainwater-harvesting-system-in-coimbatore/",
   },
   {
     location: "Dehradun",
-    url: "/rainwater-harvesting-in-dehradun/",
+    url: "/rainwater-harvesting-system-in-dehradun/",
   },
   {
     location: "Delhi",
-    url: "/rainwater-harvesting-in-delhi/",
+    url: "/rainwater-harvesting-system-in-delhi/",
   },
   {
     location: "Devanagere",
-    url: "/rainwater-harvesting-in-devanagere/",
+    url: "/rainwater-harvesting-system-in-devanagere/",
   },
   {
     location: "Dharamshala",
-    url: "/rainwater-harvesting-in-dharamshala/",
+    url: "/rainwater-harvesting-system-in-dharamshala/",
   },
   {
     location: "Dholpur",
-    url: "/rainwater-harvesting-in-dholpur/",
+    url: "/rainwater-harvesting-system-in-dholpur/",
   },
   {
     location: "Faridabad",
-    url: "/rainwater-harvesting-in-faridabad/",
+    url: "/rainwater-harvesting-system-in-faridabad/",
   },
   {
     location: "Gandhinagar",
-    url: "/rainwater-harvesting-in-gandhinagar/",
+    url: "/rainwater-harvesting-system-in-gandhinagar/",
   },
   {
     location: "Gaya",
-    url: "/rainwater-harvesting-in-gaya/",
+    url: "/rainwater-harvesting-system-in-gaya/",
   },
   {
     location: "Ghaziabaad",
-    url: "/rainwater-harvesting-in-ghaziabad/",
+    url: "/rainwater-harvesting-system-in-ghaziabad/",
   },
   {
     location: "Gorakhpur",
-    url: "/rainwater-harvesting-in-gorakhpur/",
+    url: "/rainwater-harvesting-system-in-gorakhpur/",
   },
   {
     location: "Greater-Noida",
-    url: "/rainwater-harvesting-in-greater-noida/",
+    url: "/rainwater-harvesting-system-in-greater-noida/",
   },
   {
     location: "Gurgaon",
-    url: "/rainwater-harvesting-in-gurgaon/",
+    url: "/rainwater-harvesting-system-in-gurgaon/",
   },
   {
     location: "Guwahati",
-    url: "/rainwater-harvesting-in-guwahati/",
+    url: "/rainwater-harvesting-system-in-guwahati/",
   },
   {
     location: "Gwalior",
-    url: "/rainwater-harvesting-in-gwalior/",
+    url: "/rainwater-harvesting-system-in-gwalior/",
   },
   {
     location: "Hyderabad",
-    url: "/rainwater-harvesting-in-hyderabad/",
+    url: "/rainwater-harvesting-system-in-hyderabad/",
   },
   {
     location: "Imphal",
-    url: "/rainwater-harvesting-in-imphal/",
+    url: "/rainwater-harvesting-system-in-imphal/",
   },
   {
     location: "Indore",
-    url: "/rainwater-harvesting-in-indore/",
+    url: "/rainwater-harvesting-system-in-indore/",
   },
   {
     location: "Jabalpur",
-    url: "/rainwater-harvesting-in-jabalpur/",
+    url: "/rainwater-harvesting-system-in-jabalpur/",
   },
   {
     location: "Jaipur",
-    url: "/rainwater-harvesting-in-jaipur/",
+    url: "/rainwater-harvesting-system-in-jaipur/",
   },
   {
     location: "Jaisalmer",
-    url: "/rainwater-harvesting-in-jaisalmer/",
+    url: "/rainwater-harvesting-system-in-jaisalmer/",
   },
   {
     location: "Jalandhar",
-    url: "/rainwater-harvesting-in-jalandhar/",
+    url: "/rainwater-harvesting-system-in-jalandhar/",
   },
   {
     location: "Jammu",
-    url: "/rainwater-harvesting-in-jammu/",
+    url: "/rainwater-harvesting-system-in-jammu/",
   },
   {
     location: "Jhansi",
-    url: "/rainwater-harvesting-in-jhansi/",
+    url: "/rainwater-harvesting-system-in-jhansi/",
   },
   {
     location: "Jodhpur",
-    url: "/rainwater-harvesting-in-jodhpur/",
+    url: "/rainwater-harvesting-system-in-jodhpur/",
   },
   {
     location: "Kakinada",
-    url: "/rainwater-harvesting-in-kakinada/",
+    url: "/rainwater-harvesting-system-in-kakinada/",
   },
   {
     location: "Kanpur",
-    url: "/rainwater-harvesting-in-kanpur/",
+    url: "/rainwater-harvesting-system-in-kanpur/",  //yet to done
   },
   {
     location: "Karimnagar",
-    url: "/rainwater-harvesting-in-karimnagar/",
+    url: "/rainwater-harvesting-system-in-karimnagar/",
   },
   {
     location: "Kishangarh",
-    url: "/rainwater-harvesting-in-kishangarh/",
+    url: "/rainwater-harvesting-system-in-kishangarh/",
   },
   {
     location: "Kochi",
-    url: "/rainwater-harvesting-in-kochi/",
+    url: "/rainwater-harvesting-system-in-kochi/",
   },
   {
     location: "Kolkata",
-    url: "/rainwater-harvesting-in-kolkata/",
+    url: "/rainwater-harvesting-system-in-kolkata/",
   },
   {
     location: "Kota",
-    url: "/rainwater-harvesting-in-kota/",
+    url: "/rainwater-harvesting-system-in-kota/",
   },
   {
     location: "Lucknow",
-    url: "/rainwater-harvesting-in-lucknow/",
+    url: "/rainwater-harvesting-system-in-lucknow/",
   },
   {
     location: "Ludhiana",
-    url: "/rainwater-harvesting-in-ludhiana/",
+    url: "/rainwater-harvesting-system-in-ludhiana/",
   },
   {
     location: "Mangaluru",
@@ -516,123 +516,123 @@ export const Location = [
   },
   {
     location: "Mathura",
-    url: "/rainwater-harvesting-in-mathura/",
+    url: "/rainwater-harvesting-system-in-mathura/",
   },
   {
     location: "Meerut",
-    url: "/rainwater-harvesting-in-meerut/",
+    url: "/rainwater-harvesting-system-in-meerut/",
   },
   {
     location: "Moradabad",
-    url: "/rainwater-harvesting-in-moradabad/",
+    url: "/rainwater-harvesting-system-in-moradabad/",
   },
   {
     location: "Muzaffarnagar",
-    url: "/rainwater-harvesting-in-muzaffarnagar/",
+    url: "/rainwater-harvesting-system-in-muzaffarnagar/",
   },
   {
     location: "Nagpur",
-    url: "/rainwater-harvesting-in-nagpur/",
+    url: "/rainwater-harvesting-system-in-nagpur/",
   },
   {
     location: "Noida",
-    url: "/rainwater-harvesting-in-noida/",
+    url: "/rainwater-harvesting-system-in-noida/",
   },
   {
     location: "Pali",
-    url: "/rainwater-harvesting-in-pali/",
+    url: "/rainwater-harvesting-system-in-pali/",
   },
   {
     location: "Panaji",
-    url: "/rainwater-harvesting-in-panaji/",
+    url: "/rainwater-harvesting-system-in-panaji/",
   },
   {
     location: "Patiala",
-    url: "/rainwater-harvesting-in-patiala/",
+    url: "/rainwater-harvesting-system-in-patiala/",
   },
   {
     location: "Patna",
-    url: "/rainwater-harvesting-in-patna/",
+    url: "/rainwater-harvesting-system-in-patna/",
   },
   {
     location: "Pune",
-    url: "/rainwater-harvesting-in-pune/",
+    url: "/rainwater-harvesting-system-in-pune/",
   },
   {
     location: "Raipur",
-    url: "/rainwater-harvesting-in-raipur/",
+    url: "/rainwater-harvesting-system-in-raipur/",
   },
   {
     location: "Rajkot",
-    url: "/rainwater-harvesting-in-rajkot/",
+    url: "/rainwater-harvesting-system-in-rajkot/",
   },
   {
     location: "Ranchi",
-    url: "/rainwater-harvesting-in-ranchi/",
+    url: "/rainwater-harvesting-system-in-ranchi/",
   },
   {
     location: "Ratlam",
-    url: "/rainwater-harvesting-in-ratlam/",
+    url: "/rainwater-harvesting-system-in-ratlam/",
   },
   {
     location: "Rewa",
-    url: "/rainwater-harvesting-in-rewa/",
+    url: "/rainwater-harvesting-system-in-rewa/",
   },
   {
     location: "Shimla",
-    url: "/rainwater-harvesting-in-shimla/",
+    url: "/rainwater-harvesting-system-in-shimla/",
   },
   {
     location: "Sikar",
-    url: "/rainwater-harvesting-in-sikar/",
+    url: "/rainwater-harvesting-system-in-sikar/",
   },
   {
     location: "Solapur",
-    url: "/rainwater-harvesting-in-solapur/",
+    url: "/rainwater-harvesting-system-in-solapur/",
   },
   {
     location: "Srinagar",
-    url: "/rainwater-harvesting-in-srinagar/",
+    url: "/rainwater-harvesting-system-in-srinagar/",
   },
   {
     location: "Surat",
-    url: "/rainwater-harvesting-in-surat/",
+    url: "/rainwater-harvesting-system-in-surat/",
   },
   {
     location: "Thane",
-    url: "/rainwater-harvesting-in-thane/",
+    url: "/rainwater-harvesting-system-in-thane/",
   },
   {
     location: "Tirupati",
-    url: "/rainwater-harvesting-in-tirupati/",
+    url: "/rainwater-harvesting-system-in-tirupati/",
   },
   {
     location: "Udaipur",
-    url: "/rainwater-harvesting-in-udaipur/",
+    url: "/rainwater-harvesting-system-in-udaipur/",
   },
   {
     location: "Ujjain",
-    url: "/rainwater-harvesting-in-ujjain/",
+    url: "/rainwater-harvesting-system-in-ujjain/",
   },
   {
     location: "Vadodara",
-    url: "/rainwater-harvesting-in-vadodara/",
+    url: "/rainwater-harvesting-system-in-vadodara/",
   },
   {
     location: "Varanasi",
-    url: "/rainwater-harvesting-in-varanasi/",
+    url: "/rainwater-harvesting-system-in-varanasi/",
   },
   {
     location: "Vellore",
-    url: "/rainwater-harvesting-in-vellore/",
+    url: "/rainwater-harvesting-system-in-vellore/",
   },
   {
     location: "Visakhapatnam",
-    url: "/rainwater-harvesting-in-visakhapatnam/",
+    url: "/rainwater-harvesting-system-in-visakhapatnam/",
   },
   {
     location: "Warangal",
-    url: "/rainwater-harvesting-in-warangal/",
+    url: "/rainwater-harvesting-system-in-warangal/",
   },
 ];
 
