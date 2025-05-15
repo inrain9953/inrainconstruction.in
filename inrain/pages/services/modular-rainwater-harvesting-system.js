@@ -61,7 +61,7 @@ const ModularRWH = () => {
             <br></br>
           </p>
 
-          <ul className="list-disc p-5 font-semibold md:text-lg text-gray-600">
+          <ul className="list-disc p-5 font-semibold md:text-lg text-black">
             <li>Polymers as strong as metal</li>
             <li>Load-bearing capacity and top surface utilization</li>
             <li>Time-efficient installation</li>
@@ -75,16 +75,20 @@ const ModularRWH = () => {
           <p className="text-md md:text-lg text-gray-500">
             Urbanization has significantly increased water consumption, placing
             immense pressure on our limited natural resources. Reports of
-            declining water levels are common worldwide. Rainwater harvesting is
-            a crucial solution for sustainable development, and at InRain
-            Construction Pvt. Ltd., we offer advanced rainwater harvesting
-            methods using cutting-edge technology.
+            declining water levels are common worldwide.{" "}
+            <bold className="font-semibold text-black">
+              Rainwater harvesting is a crucial solution for sustainable
+              development, and at InRain, we offer advanced rainwater harvesting
+              methods using cutting-edge technology.
+            </bold>
             <br></br>
             <br></br>In recent years, modular rainwater harvesting has gained
-            popularity due to its numerous advantages over traditional systems.
-            This approach effectively addresses two key concerns: budget and
-            space. It is not only cost-effective but also allows for the
-            versatile use of space.
+            popularity due to its numerous advantages over traditional systems.{" "}
+            <bold className="font-semibold text-black">
+              This approach effectively addresses two key concerns: budget and
+              space. It is not only cost-effective but also allows for the
+              versatile use of space.
+            </bold>
             <br></br>
             <br></br>
             This technique utilizes polymer-based modular structures, known for
@@ -97,7 +101,7 @@ const ModularRWH = () => {
             <br></br>
           </p>
 
-          <ul className="list-disc p-5 font-semibold md:text-lg text-gray-600">
+          <ul className="list-disc p-5 font-semibold md:text-lg text-black">
             <li>
               Eco-friendly and economical : Polymers can be recycled and reused.
             </li>
@@ -127,10 +131,12 @@ const ModularRWH = () => {
           <br></br>
 
           <p className="text-md md:text-lg text-gray-500">
-            The modular rainwater harvesting system offers an affordable and
-            space-efficient way to collect and reuse rainwater. It allows you to
-            contribute to environmental sustainability without exceeding your
-            budget or compromising valuable space.
+            <bold className="font-semibold text-black">
+              The modular rainwater harvesting system offers an affordable and
+              space-efficient way to collect and reuse rainwater. It allows you
+              to contribute to environmental sustainability without exceeding
+              your budget or compromising valuable space.
+            </bold>
           </p>
         </div>
         <Image

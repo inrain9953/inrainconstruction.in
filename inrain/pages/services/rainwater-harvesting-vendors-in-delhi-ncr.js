@@ -28,7 +28,7 @@ const RWHvendorsInNcr = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -58,22 +58,26 @@ const RWHvendorsInNcr = () => {
             Rainwater Harvesting Vendors in Delhi-Gurgaon
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
-            </bold>{" "}
-            is a leading provider of water conservation and management services,
+            <bold className="text-green-500 font-semibold">InRain®</bold> is a
+            leading provider of water conservation and management services,
             known for delivering innovative, technology-driven solutions
-            tailored to contemporary needs. As a top vendor of rainwater
-            harvesting systems in the Delhi-Gurgaon region, we understand the
-            unique challenges faced by modern industries and housing societies.
+            tailored to contemporary needs.{" "}
+            <bold className="text-black font-semibold">
+              As a top vendor of rainwater harvesting systems in the
+              Delhi-Gurgaon region, we understand the unique challenges faced by
+              modern industries and housing societies.
+            </bold>{" "}
             Our approach combines advanced technology with cost-effectiveness to
             address these water conservation needs.
             <br></br>
             <br></br>
             Our rainwater harvesting systems utilize cutting-edge German
-            technology. We are dedicated to the 'Make in India' initiative, with
-            all manufacturing carried out in-house to maintain consistent
-            quality and enhance customer satisfaction.
+            technology.{" "}
+            <bold className="text-black font-semibold">
+              We are dedicated to the 'Make in India' initiative, with all
+              manufacturing carried out in-house to maintain consistent quality
+              and enhance customer satisfaction.
+            </bold>
             <br></br>
             <br></br>Given India's dense population and increasing demand for
             eco-friendly water conservation methods, our advanced modular
@@ -87,15 +91,16 @@ const RWHvendorsInNcr = () => {
             <br></br>
             With global groundwater levels rapidly declining due to overuse,
             effective rainwater harvesting systems are essential.{" "}
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
-            </bold>{" "}
+            <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
             contributes to this important socio-economic effort by facilitating
-            the use of natural rainwater. Our team has successfully supported
-            over 150 rainwater harvesting projects, offering comprehensive
-            services that include installation, maintenance, and management. Our
-            solutions are designed to be economical, eco-friendly, and superior
-            to traditional rainwater harvesting methods.
+            the use of natural rainwater.{" "}
+            <bold className="text-black font-semibold">
+              Our team has successfully supported over 150 rainwater harvesting
+              projects, offering comprehensive services that include
+              installation, maintenance, and management. Our solutions are
+              designed to be economical, eco-friendly, and superior to
+              traditional rainwater harvesting methods.
+            </bold>
           </p>
         </div>
         <Image

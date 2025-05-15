@@ -68,7 +68,7 @@ const RoofTopRWH = () => {
             <br></br>
             At{" "}
             <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.,
+              InRain®,
             </bold>{" "}
             we provide a wide range of rainwater harvesting solutions,
             customized to fit individual customer requirements. Whether you need
@@ -87,7 +87,7 @@ const RoofTopRWH = () => {
             micro-level filtration is required to ensure the water is free from
             contaminants and safe for consumption. At{" "}
             <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.,
+              InRain®,
             </bold>{" "}
             we offer a variety of filtration options to suit your needs.
             <br></br>

@@ -7,7 +7,6 @@ import serviceImg6 from "../../public/services/harvesting6.jpg";
 import Head from "next/head";
 
 const GroundWaterRechargeSystem = () => {
-
   const title =
     "Ground Water Recharge System For Industries | InRain® Construction Pvt. Ltd.";
   const desc =
@@ -29,7 +28,7 @@ const GroundWaterRechargeSystem = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -59,29 +58,29 @@ const GroundWaterRechargeSystem = () => {
             Ground Water Recharge System For Industries
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
+            <bold className="text-green-500 font-semibold">InRain</bold> is
+            dedicated to offering sustainable water conservation solutions for
+            both residential and commercial needs.{" "}
+            <bold className="text-black font-semibold">
+              With the increasing demand for industrial water supply and the
+              limited availability of water resources, groundwater recharge
+              systems have become crucial.
             </bold>{" "}
-            is dedicated to offering sustainable water conservation solutions
-            for both residential and commercial needs. With the increasing
-            demand for industrial water supply and the limited availability of
-            water resources, groundwater recharge systems have become crucial.
             Implementing a groundwater recharge system helps industries lessen
             their reliance on surface water sources and ensures a steady water
             supply during droughts or periods of scarcity.
             <br></br>
             <br></br>
-            At{" "}
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
-            </bold>{" "}
-            we specialize in groundwater recharge systems tailored for
-            industrial use. Naturally, groundwater is replenished when water
-            seeps through the surface and reaches the water table. Effective
-            groundwater recharge requires optimal infiltration levels.
-            Additionally, preserving wetlands, streams, and lakes supports the
-            natural replenishment of groundwater as water can seep through these
-            areas to reach the water table.
+            At <bold className="text-green-500 font-semibold">InRain</bold> we
+            specialize in groundwater recharge systems tailored for industrial
+            use. Naturally, groundwater is replenished when water seeps through
+            the surface and reaches the water table. Effective groundwater
+            recharge requires optimal infiltration levels.{" "}
+            <bold className="text-black font-semibold">
+              Additionally, preserving wetlands, streams, and lakes supports the
+              natural replenishment of groundwater as water can seep through
+              these areas to reach the water table.
+            </bold>
             <br></br>
             <br></br>Surface and artificial recharge methods are also effective
             in helping industries manage their water resources and reduce costs.
@@ -91,15 +90,21 @@ const GroundWaterRechargeSystem = () => {
             <br></br>
             <br></br>
             For areas with limited surface water, artificial recharge methods
-            are particularly useful. These techniques involve using artificial
-            structures such as wells, storage tanks, and infiltration galleries
-            to directly infuse water into the ground. This approach effectively
-            recharges groundwater even in water-scarce regions.
+            are particularly useful.{" "}
+            <bold className="text-black font-semibold">
+              These techniques involve using artificial structures such as
+              wells, storage tanks, and infiltration galleries to directly
+              infuse water into the ground.
+            </bold>{" "}
+            This approach effectively recharges groundwater even in water-scarce
+            regions.
             <br></br>
             <br></br>
-            Overall, recharging groundwater not only benefits the environment
-            but also helps industries cut down on their water expenses and
-            reduce their dependence on external water supplies.
+            <bold className="text-black font-semibold">
+              Overall, recharging groundwater not only benefits the environment
+              but also helps industries cut down on their water expenses and
+              reduce their dependence on external water supplies.
+            </bold>
           </p>
         </div>
         <Image

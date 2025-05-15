@@ -29,7 +29,7 @@ const RainwaterHarvestingSystemforIndustries = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -165,7 +165,7 @@ const RainwaterHarvestingSystemforIndustries = () => {
             Why Choose Us ?
           </h3>
           <p className="text-sm md:text-base text-green-500 font-semibold pt-1">
-            InRain<sup className="text-xs">®</sup> Construction Pvt. Ltd.
+            InRain®
           </p>
           <div className="md:flex items-center text-justify">
             <p className="text-md pt-5 text-gray-500 md:text-lg md:pt-5">
@@ -214,16 +214,14 @@ const RainwaterHarvestingSystemforIndustries = () => {
               operations running efficiently.
               <br></br>
               <br></br>
-              At{" "}
-              <bold className="font-semibold text-green-500">
-                InRain Construction Private Limited
-              </bold>{" "}
-              we are dedicated to revolutionizing water resource management with
-              our advanced rainwater harvesting solutions. Through our
-              expertise, commitment to sustainability, and in-house
-              manufacturing, we aim to create a more water-efficient,
-              environmentally conscious future for industries and communities
-              alike.{" "}
+              <bold className="font-semibold text-black">
+                At InRain® we are dedicated to revolutionizing water resource
+                management with our advanced rainwater harvesting solutions.
+                Through our expertise, commitment to sustainability, and
+                in-house manufacturing, we aim to create a more water-efficient,
+                environmentally conscious future for industries and communities
+                alike.
+              </bold>
             </p>
             <Image
               data-aos="zoom-in-up"

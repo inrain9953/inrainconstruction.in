@@ -73,7 +73,7 @@ const StormWaterRechargeManagementSystem = () => {
             <br></br>
             <br></br>At{" "}
             <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
+              InRain®
             </bold>{" "}
             we provide solutions that save time and money while conserving
             water. We employ various techniques to manage stormwater runoff.

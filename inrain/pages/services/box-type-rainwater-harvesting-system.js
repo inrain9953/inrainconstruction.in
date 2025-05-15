@@ -7,7 +7,8 @@ import serviceImg8 from "../../public/services/harvesting8.png";
 import Head from "next/head";
 
 const BoxTypeRWH = () => {
-  const title = "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the Box Type Rainwater Harvesting System by InRain Construction Pvt. Ltd. Designed for efficiency and affordability, this compact system collects, filters, and stores rainwater for uses like irrigation, car washing, and more, reducing water bills and conserving resources.";
   const keyword =
@@ -57,21 +58,24 @@ const BoxTypeRWH = () => {
             Box Type Rainwater Harvesting System
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            Rainwater harvesting is increasingly vital in today's world as it
-            contributes to enhancing global water reserves.{" "}
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
+            <bold className="font-semibold text-black">
+              Rainwater harvesting is increasingly vital in today's world as it
+              contributes to enhancing global water reserves.
             </bold>{" "}
-            is a prominent provider of water conservation and management
-            solutions, offering a range of rainwater harvesting options.
-            Utilizing cutting-edge technology, we deliver cost-effective water
-            conservation methods tailored to our clients' needs. Among the
-            various rainwater harvesting methods, the Box Type Rainwater
-            Harvesting System stands out for its efficiency in reducing reliance
-            on mains water. This system is particularly suited for applications
-            such as car washing and garden irrigation, as it does not require
-            extensive filtration or purification. It can also be used for
-            laundry and toilet flushing.
+            <bold className="text-green-500 font-semibold">InRain</bold> is a
+            prominent provider of water conservation and management solutions,
+            offering a range of rainwater harvesting options. Utilizing
+            cutting-edge technology, we deliver cost-effective water
+            conservation methods tailored to our client's needs.{" "}
+            <bold className="font-semibold text-black">
+              Among the various rainwater harvesting methods, the Box Type
+              Rainwater Harvesting System stands out for its efficiency in
+              reducing reliance on mains water.
+            </bold>{" "}
+            This system is particularly suited for applications such as car
+            washing and garden irrigation, as it does not require extensive
+            filtration or purification. It can also be used for laundry and
+            toilet flushing.
             <br></br>
             <br></br>
             The Box Type Rainwater Harvesting System is characterized by its use
@@ -88,14 +92,17 @@ const BoxTypeRWH = () => {
             effective use of stored rainwater.
             <br></br>
             <br></br>
-            The Box Type Rainwater Harvesting System features a compact design,
-            making it easy to install and budget-friendly. Our experienced team
-            assists customers in selecting the most suitable rainwater
-            harvesting system based on their specific needs and budget.
+            <bold className="font-semibold text-black">
+              The Box Type Rainwater Harvesting System features a compact
+              design, making it easy to install and budget-friendly. Our
+              experienced team assists customers in selecting the most suitable
+              rainwater harvesting system based on their specific needs and
+              budget.
+            </bold>
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 rounded-2xl shadow-2xl md:h-72 md:min-w-80"
           src={serviceImg8}
           alt="box type rainwater harvesting system"
           loading="eager"

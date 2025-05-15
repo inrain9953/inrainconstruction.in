@@ -51,7 +51,7 @@ body {
 }
 
 .main1-background {
-  background-image: url("../public/water-image.jpg");
+  background-image: url("../public/water-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

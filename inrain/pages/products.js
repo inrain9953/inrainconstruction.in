@@ -15,7 +15,7 @@ const Products = () => {
   const title =
     "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const desc =
-    "Are you looking for Rainwater Harvesting products? InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+    "Are you looking for Rainwater Harvesting products? InRain® provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
   const keyword =
     "Rainwater Harvesting Products, Self Cleaning Mesh Filter System, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
   const canonical = "https://www.inrainconstruction.in/products";
@@ -23,11 +23,11 @@ const Products = () => {
   const ogTitle =
     "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "Are you looking for Rainwater Harvesting products? InRain Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+    "Are you looking for Rainwater Harvesting products? InRain® provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
   const twittertitle =
     "Rainwater Harvesting Products | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
-    "Are you looking for Rainwater Harvesting products? InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+    "Are you looking for Rainwater Harvesting products? InRain® provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
 
   return (
     <>

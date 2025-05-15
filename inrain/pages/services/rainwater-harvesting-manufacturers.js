@@ -28,7 +28,7 @@ const RWHManufacturer = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -58,16 +58,16 @@ const RWHManufacturer = () => {
             Rainwater Harvesting Manufacturers
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            At{" "}
-            <bold className="text-green-500 font-semibold">
-              InRain® Construction Pvt. Ltd.,
+            At <bold className="text-green-500 font-semibold">InRain®,</bold> we
+            are committed to promoting sustainable water management and
+            preserving our natural resources.{" "}
+            <bold className="text-black font-semibold">
+              As a top rainwater harvesting manufacturer based in Delhi, we
+              specialize in creating innovative solutions for residential,
+              commercial, and industrial use.
             </bold>{" "}
-            we are committed to promoting sustainable water management and
-            preserving our natural resources. As a top rainwater harvesting
-            manufacturer based in Delhi, we specialize in creating innovative
-            solutions for residential, commercial, and industrial use. With
-            increasing concerns around water scarcity and the need for effective
-            water management, rainwater harvesting has become an
+            With increasing concerns around water scarcity and the need for
+            effective water management, rainwater harvesting has become an
             environmentally-friendly and viable solution. Our goal is to empower
             individuals, businesses, and communities to effectively capture
             rainwater, reducing their reliance on traditional water sources.
@@ -81,11 +81,7 @@ const RWHManufacturer = () => {
           className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
-            Why Choose{" "}
-            <bold className="text-green-500">
-              InRain<sup>®</sup> Construction Pvt. Ltd.
-            </bold>{" "}
-            ?
+            Why Choose <bold className="text-green-500">InRain® </bold> ?
           </h3>
           <div className="md:flex items-center">
             <p className="text-md pt-5 text-gray-500 md:text-lg md:pt-5">
@@ -134,14 +130,13 @@ const RWHManufacturer = () => {
               monitoring.
               <br></br>
               <br></br>
-              <bold className="font-semibold text-green-500">
-                InRain® Construction Private Limited
-              </bold>{" "}
-              is committed to revolutionizing water resource management through
-              advanced rainwater harvesting technologies. With our expertise,
-              state-of-the-art manufacturing capabilities, and dedication to
-              sustainability, we aim to foster a greener, water-efficient future
-              for our clients and communities.{" "}
+              <bold className="font-semibold text-black">
+                InRain® is committed to revolutionizing water resource
+                management through advanced rainwater harvesting technologies.
+                With our expertise, state-of-the-art manufacturing capabilities,
+                and dedication to sustainability, we aim to foster a greener,
+                water-efficient future for our clients and communities.
+              </bold>
             </p>
             <Image
               data-aos="zoom-in-up"

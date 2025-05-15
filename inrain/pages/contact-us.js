@@ -104,7 +104,7 @@ const Contact = () => {
             <h1 className="text-3xl font-semibold">Contact Us</h1>
             <div>
               <p className="text-lg mt-2 mb-2">
-                The Company has Successfully Installed Morethan 400 Rainwater
+                The Company has Successfully Installed Morethan 4000 Rainwater
                 Harvesting Projects.
               </p>
               <a

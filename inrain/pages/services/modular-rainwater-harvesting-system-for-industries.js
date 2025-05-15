@@ -66,9 +66,12 @@ const ModularRWHForIndustries = () => {
             harvesting. This time-honored practice has seen a resurgence due to
             its ability to help mitigate water shortages, reduce reliance on
             conventional water sources, and promote sustainability in industrial
-            processes. This article discusses the various aspects of modular
-            rainwater harvesting systems for industries, their benefits, and
-            their contribution to a sustainable future.
+            processes.{" "}
+            <bold className="font-semibold text-black">
+              This article discusses the various aspects of modular rainwater
+              harvesting systems for industries, their benefits, and their
+              contribution to a sustainable future.
+            </bold>
           </p>
           <br></br>
           <br></br>
@@ -85,11 +88,14 @@ const ModularRWHForIndustries = () => {
             sustainable supply.
             <br></br>
             <br></br>
-            Additionally, rainwater is naturally free of many contaminants found
-            in groundwater and surface water, making it ideal for various
-            non-potable uses in industrial settings. Its softness also minimizes
-            the need for water treatment chemicals and can lower maintenance
-            costs by reducing issues like scaling and corrosion in equipment.
+            <bold className="font-semibold text-black">
+              Additionally, rainwater is naturally free of many contaminants
+              found in groundwater and surface water, making it ideal for
+              various non-potable uses in industrial settings.
+            </bold>{" "}
+            Its softness also minimizes the need for water treatment chemicals
+            and can lower maintenance costs by reducing issues like scaling and
+            corrosion in equipment.
           </p>
           <br></br>
           <br></br>
@@ -143,7 +149,7 @@ const ModularRWHForIndustries = () => {
           <br></br>
         </div>
         <Image
-          className="mt-5 md:m-5 md:h-72 md:min-w-80"
+          className="mt-5 md:m-5 md:h-72 rounded-2xl shadow-2xl md:min-w-80"
           src={serviceImg11}
           alt="modular rainwater harvesting system for industries"
           loading="eager"
@@ -161,7 +167,7 @@ const ModularRWHForIndustries = () => {
             Why Choose Us ?
           </h1>
           <p className="text-sm md:text-base text-green-500 font-semibold pt-1">
-            InRain<sup className="text-xs">TM</sup> Construction Pvt. Ltd.
+            InRain®
           </p>
           <div className="md:flex items-center">
             <p className="text-md pt-5 text-gray-700 md:text-lg md:pt-5">

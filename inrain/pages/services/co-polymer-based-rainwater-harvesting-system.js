@@ -7,8 +7,8 @@ import { ServicesDetails } from "@/components/servicesDetails/servicesDetails";
 import Head from "next/head";
 
 const CoPolymerBased = () => {
-
-  const title = "Co-Polymer Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Co-Polymer Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover Co-Polymer Based Rainwater Harvesting Systems by InRain Construction Pvt. Ltd. Cost-effective, eco-friendly, and low-maintenance, these modular systems offer superior water filtration, portability, and long-lasting solutions for sustainable water conservation.";
   const keyword =
@@ -28,7 +28,7 @@ const CoPolymerBased = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -58,22 +58,26 @@ const CoPolymerBased = () => {
             Co-Polymer Based Rainwater Harvesting System
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            At{" "}
-            <bold className="text-green-500 font-semibold">
-              Inrain Construction Pvt. Ltd.,
+            At <bold className="text-green-500 font-semibold">InRain</bold> we
+            offer co-polymer-based rainwater harvesting systems designed for
+            effective water conservation and management.{" "}
+            <bold className="text-black font-semibold">
+              This modern approach to harvesting natural rainwater is both
+              cost-effective and easier to maintain compared to traditional
+              methods.
             </bold>{" "}
-            we offer co-polymer-based rainwater harvesting systems designed for
-            effective water conservation and management. This modern approach to
-            harvesting natural rainwater is both cost-effective and easier to
-            maintain compared to traditional methods. Known as the modular
-            rainwater harvesting technique, it utilizes stackable modules that
-            make construction and installation quicker and more efficient.
+            Known as the modular rainwater harvesting technique, it utilizes
+            stackable modules that make construction and installation quicker
+            and more efficient.
             <br></br>
             <br></br>
             The co-polymer-based system provides an eco-friendly and affordable
-            alternative to traditional rainwater harvesting. Co-polymer products
-            are significantly less expensive than the materials required for
-            building brick or reinforced cement concrete storage structures.
+            alternative to traditional rainwater harvesting.{" "}
+            <bold className="text-black font-semibold">
+              Co-polymer products are significantly less expensive than the
+              materials required for building brick or reinforced cement
+              concrete storage structures.
+            </bold>{" "}
             Additionally, traditional cement concrete storage systems are prone
             to algae and fungal growth, leading to ongoing maintenance needs. In
             contrast, co-polymer modules are not only cost-effective but also

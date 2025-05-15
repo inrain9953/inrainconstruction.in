@@ -29,7 +29,7 @@ const RWHInstallationCompany = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -59,11 +59,12 @@ const RWHInstallationCompany = () => {
             Rainwater Harvesting Installation Company
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.,
+            At <bold className="text-green-500 font-semibold">InRain®,</bold> we
+            take pride in being the{" "}
+            <bold className="text-black font-semibold">
+              leading company for rainwater harvesting installations, committed
+              to delivering sustainable water solutions.
             </bold>{" "}
-            we take pride in being the leading company for rainwater harvesting
-            installations, committed to delivering sustainable water solutions.
             Our expertise lies in designing, installing, and maintaining
             advanced rainwater harvesting systems for residential, commercial,
             and industrial properties in Delhi and surrounding regions.
@@ -73,10 +74,8 @@ const RWHInstallationCompany = () => {
             conventional water sources increases. Rainwater harvesting provides
             a practical and eco-friendly way to address water shortages while
             easing the burden on municipal water supplies. At{" "}
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.,
-            </bold>{" "}
-            we harness natural resources to meet water needs while reducing our
+            <bold className="text-green-500 font-semibold">InRain®,</bold> we
+            harness natural resources to meet water needs while reducing our
             environmental impact.
           </p>
           <br></br>
@@ -98,11 +97,7 @@ const RWHInstallationCompany = () => {
           className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-semibold md:text-[1.5rem]">
-            Why Choose{" "}
-            <bold className="text-green-500">
-              InRain<sup className="text-xs">®</sup> Construction Pvt. Ltd.
-            </bold>{" "}
-            ?
+            Why Choose <bold className="text-green-500">InRain®</bold> ?
           </h3>
           <div className="md:flex items-center">
             <p className="text-md text-justify pt-5 text-gray-500 md:text-lg md:pt-5">
@@ -152,14 +147,14 @@ const RWHInstallationCompany = () => {
               available to maintain long-term performance.
               <br></br>
               <br></br>
-              <bold className="font-semibold text-green-500">
-                InRain Construction Private Limited
-              </bold>{" "}
-              is committed to revolutionizing water resource management with
-              innovative rainwater harvesting techniques. Through our expertise,
-              quality manufacturing, and dedication to sustainability, we aim to
-              create a more water-efficient and eco-friendly future for our
-              clients and the communities we serve.{" "}
+              <bold className="font-semibold text-black">
+                InRain® is committed to revolutionizing water resource
+                management with innovative rainwater harvesting techniques.
+                Through our expertise, quality manufacturing, and dedication to
+                sustainability, we aim to create a more water-efficient and
+                eco-friendly future for our clients and the communities we
+                serve.
+              </bold>
             </p>
             <Image
               data-aos="zoom-in-up"

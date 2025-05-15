@@ -56,33 +56,36 @@ const RWHSystemInDelhiNCR = () => {
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
-            Rainwater Harvesting System in Delhi(NCR)
+            Rainwater Harvesting System in Delhi-NCR
           </h1>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            Water scarcity is a pressing issue in Delhi (NCR), driven by rapid
+            Water scarcity is a pressing issue in Delhi-NCR, driven by rapid
             population growth and urban expansion. With conventional water
             sources under increasing pressure, rainwater harvesting has emerged
             as a crucial solution for addressing these challenges in a
             sustainable manner. This age-old practice has gained renewed
             significance due to its ability to alleviate water shortages, lessen
             reliance on municipal supplies, and encourage
-            environmentally-friendly water management across the Delhi (NCR)
+            environmentally-friendly water management across the Delhi-NCR
             region.
           </p>
           <br></br>
           <br></br>
           <h3 className="text-xl md:text-[1.5rem] font-semibold">
-            The Importance of Rainwater Harvesting in Delhi(NCR)
+            The Importance of Rainwater Harvesting in Delhi-NCR
           </h3>
           <p className="text-md md:text-lg pt-5 text-gray-500">
-            In Delhi (NCR), rainwater harvesting is especially important as the
+            In Delhi-NCR, rainwater harvesting is especially important as the
             area experiences substantial, yet often underutilized, rainfall
-            during the monsoon season. By capturing and storing rainwater
-            through well-designed systems, the demand on groundwater can be
-            reduced, and urban flood risks can be minimized. The harvested
-            rainwater, which is naturally soft and free from many pollutants, is
-            ideal for various non-potable uses, including irrigation,
-            sanitation, and industrial operations.
+            during the monsoon season.{" "}
+            <bold className="text-black font-semibold">
+              By capturing and storing rainwater through well-designed systems,
+              the demand on groundwater can be reduced, and urban flood risks
+              can be minimized.
+            </bold>{" "}
+            The harvested rainwater, which is naturally soft and free from many
+            pollutants, is ideal for various non-potable uses, including
+            irrigation, sanitation, and industrial operations.
           </p>
           <br></br>
           <br></br>
@@ -136,13 +139,16 @@ const RWHSystemInDelhiNCR = () => {
           </h3>
           <p className="text-md md:text-lg pt-5 text-gray-500">
             There are many advantages to implementing a rainwater harvesting
-            system. Firstly, it helps relieve pressure on traditional water
-            sources like rivers and groundwater, contributing to their long-term
-            preservation. Secondly, rainwater harvesting reduces stormwater
-            runoff, lowering the risk of localized flooding in urban areas. By
-            utilizing rainwater for non-potable applications such as irrigation,
-            significant cost savings can be achieved, reducing the demand for
-            treated municipal water.
+            system.{" "}
+            <bold className="text-black font-semibold">
+              Firstly, it helps relieve pressure on traditional water sources
+              like rivers and groundwater, contributing to their long-term
+              preservation. Secondly, rainwater harvesting reduces stormwater
+              runoff, lowering the risk of localized flooding in urban areas.
+            </bold>{" "}
+            By utilizing rainwater for non-potable applications such as
+            irrigation, significant cost savings can be achieved, reducing the
+            demand for treated municipal water.
             <br></br>
             <br></br>
             Additionally, rainwater harvesting encourages self-reliance and
@@ -168,7 +174,7 @@ const RWHSystemInDelhiNCR = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 md:h-72 rounded-2xl shadow-2xl md:min-w-80"
           src={serviceImg11}
           alt="rainwater harvesting system in delhi ncr"
           loading="eager"
@@ -183,11 +189,7 @@ const RWHSystemInDelhiNCR = () => {
           className="text-left md:text-left md:m-10 m-5"
         >
           <h3 className="text-2xl font-semibold md:text-[2rem]">
-            Why Choose{" "}
-            <bold className="text-green-500">
-              InRain<sup className="text-xs">TM</sup> Construction Pvt. Ltd.
-            </bold>{" "}
-            ?
+            Why Choose <bold className="text-green-500">InRain®</bold> ?
           </h3>
           <div className="md:flex items-center">
             <p className="text-md pt-5 text-gray-500 md:text-lg md:pt-5">
@@ -237,14 +239,13 @@ const RWHSystemInDelhiNCR = () => {
               services to maintain continued efficiency.
               <br></br>
               <br></br>
-              <bold className="font-semibold text-green-500">
-                InRain Construction Private Limited
-              </bold>{" "}
-              is dedicated to transforming water resource management through
-              advanced rainwater harvesting techniques. With our industry
-              expertise, quality manufacturing capabilities, and
-              sustainability-focused approach, we strive to create a greener,
-              more water-efficient future for our clients and communities.{" "}
+              <bold className="font-semibold text-black">
+                InRain® is dedicated to transforming water resource management
+                through advanced rainwater harvesting techniques. With our
+                industry expertise, quality manufacturing capabilities, and
+                sustainability-focused approach, we strive to create a greener,
+                more water-efficient future for our clients and communities.
+              </bold>
             </p>
             <Image
               data-aos="zoom-in-up"

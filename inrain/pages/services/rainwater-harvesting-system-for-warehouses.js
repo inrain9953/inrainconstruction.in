@@ -58,10 +58,7 @@ const RainwaterForWarehouses = () => {
             Rainwater Harvesting System for Warehouses
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            At{" "}
-            <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
-            </bold>{" "}
+            At <bold className="text-green-500 font-semibold">InRain®,</bold>{" "}
             our goal is to deliver comprehensive water conservation and
             management solutions tailored to each client’s specific needs. As
             the demand for potable water continues to rise and natural water
@@ -76,9 +73,12 @@ const RainwaterForWarehouses = () => {
             this deplete natural resources quickly, but it also becomes costly.
             Installing a rainwater harvesting system for warehouses addresses
             both concerns by offering a cost-effective and environmentally
-            friendly alternative. Our expertise lies in understanding each
-            client’s unique needs and delivering customized solutions that help
-            optimize both space and cost.
+            friendly alternative.{" "}
+            <bold className="text-black font-semibold">
+              Our expertise lies in understanding each client’s unique needs and
+              delivering customized solutions that help optimize both space and
+              cost.
+            </bold>
             <br></br>
             <br></br> Our modular rainwater harvesting systems are ideal for
             water conservation in commercial spaces like warehouses. These
@@ -88,15 +88,18 @@ const RainwaterForWarehouses = () => {
             system is both cost-effective and environmentally friendly,
             promoting sustainable water conservation. For commercial spaces, the
             goal is often to minimize the space occupied by rainwater harvesting
-            systems. Our modular systems offer a high load-bearing capacity,
-            enabling the top surface to be used for other purposes, thus
-            maximizing space efficiency. In addition, these systems require
-            minimal maintenance, making them a practical and sustainable
-            solution for water management in warehouses.
+            systems.{" "}
+            <bold className="text-black font-semibold">
+              Our modular systems offer a high load-bearing capacity, enabling
+              the top surface to be used for other purposes, thus maximizing
+              space efficiency. In addition, these systems require minimal
+              maintenance, making them a practical and sustainable solution for
+              water management in warehouses.
+            </bold>
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 md:h-72 rounded-2xl shadow-2xl md:min-w-80"
           src={serviceImg1}
           alt="rainwater harvesting system for warehouses"
           loading="eager"

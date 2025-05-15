@@ -59,7 +59,7 @@ const RWHvendorsInIndia = () => {
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.
+              InRain®
             </bold>{" "}
             is a leading provider of water conservation and management services,
             recognized for delivering modern, technology-driven solutions
@@ -88,7 +88,7 @@ const RWHvendorsInIndia = () => {
             With the global groundwater levels depleting rapidly due to overuse,
             effective rainwater harvesting systems are crucial. At{" "}
             <bold className="text-green-500 font-semibold">
-              InRain Construction Pvt. Ltd.,
+              InRain®,
             </bold>{" "}
             we are dedicated to this important socio-economic cause by enabling
             the efficient use of natural rainwater. Our team has successfully

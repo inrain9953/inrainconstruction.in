@@ -16,25 +16,25 @@ const About = () => {
   const title =
     "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
   const desc =
-    "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+    "InRain® Construction Pvt. Ltd. specializes in advanced rainwater harvesting systems in Delhi. With over 1000 successful installations for clients like HUL, PepsiCo, and PWD, we offer innovative, sustainable, and cost-effective water management solutions to reduce water bills and improve groundwater levels.";
   const keyword =
-    "Rainwater Harvesting System in Delhi, Water Conservation, Modular Tank Systems, Sustainable Water Management, RWH Technology, Ground Water Recharge, Water Table Recharge";
+    "Rainwater Harvesting System in Delhi, Water Conservation, Rainwater Harvesting, Modular Tank Systems, Sustainable Water Management, RWH Technology, Ground Water Recharge";
   const canonical = "https://www.inrainconstruction.in/about";
   const ogUrl = "https://www.inrainconstruction.in/about";
   const ogTitle =
     "Rainwater Harvesting System In Delhi | About Us | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+    "InRain® Construction Pvt. Ltd. specializes in advanced rainwater harvesting systems in Delhi. With over 1000 successful installations for clients like HUL, PepsiCo, and PWD, we offer innovative, sustainable, and cost-effective water management solutions to reduce water bills and improve groundwater levels.";
   const twittertitle =
     "Rainwater Harvesting System In Delhi | About US | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
-    "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+    "InRain® Construction Pvt. Ltd. specializes in advanced rainwater harvesting systems in Delhi. With over 1000 successful installations for clients like HUL, PepsiCo, and PWD, we offer innovative, sustainable, and cost-effective water management solutions to reduce water bills and improve groundwater levels.";
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
@@ -83,11 +83,14 @@ const About = () => {
                 InRain<sup>®</sup> Construction Pvt. Ltd.
               </bold>
               , we excel in harnessing the potential of water through innovative
-              and advanced water harvesting solutions. Our mission is to help
-              clients maximize their water resources while promoting
-              environmental conservation. By offering comprehensive services, we
-              empower our clients to implement sustainable water management
-              practices effectively.<br></br>
+              and advanced water harvesting solutions.{" "}
+              <bold className="font-semibold text-black">
+                Our mission is to help clients maximize their water resources
+                while promoting environmental conservation
+              </bold>
+              . By offering comprehensive services, we empower our clients to
+              implement sustainable water management practices effectively.
+              <br></br>
               <br></br> Our journey began with a vision to address the growing
               water scarcity issues and make a positive environmental impact.
               Over the years, we have refined our techniques and expanded our
@@ -99,9 +102,13 @@ const About = () => {
               customized systems that align with the client’s goals and site
               conditions. We use advanced modeling and simulation tools to
               optimize the design, ensuring maximum water collection and
-              efficiency. Our systems are not only functional but also
-              aesthetically pleasing, seamlessly integrating with the existing
-              infrastructure.<br></br>
+              efficiency.{" "}
+              <bold className="font-semibold text-black">
+                Our systems are not only functional but also aesthetically
+                pleasing, seamlessly integrating with the existing
+                infrastructure.
+              </bold>
+              <br></br>
               <br></br>
               Our experienced specialists handle installation, utilizing the
               latest water harvesting techniques. We use high-quality materials
@@ -128,7 +135,7 @@ const About = () => {
               contributed to noteworthy natural benefits.
             </p>
             <Image
-              className="w-full md:w-80 mt-5 rounded-lg"
+              className="w-full md:w-80 mt-5 shadow-2xl rounded-lg"
               alt="modular rainwater harvesting"
               src={aboutImg}
               loading="eager"
@@ -141,7 +148,7 @@ const About = () => {
 
       <div className="m-5 md:m-10 md:flex md:justify-center">
         <iframe
-          className="md:h-[500px] h-[225px] md:w-[900px]"
+          className="md:h-[500px] shadow-2xl h-[225px] md:w-[900px]"
           width="100%"
           height="340px"
           title="Youtube Video Player"
@@ -155,20 +162,22 @@ const About = () => {
 
       <div className="">
         <div data-aos="fade-up" className="text-left md:text-left md:m-10 m-5">
-          <h2 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
+          <h2 className="text-2xl font-bold md:text-[35px] md:font-semibold">
             About Us
           </h2>
           <div className="md:flex md:justify-center md:gap-5 md:items-center">
             <p className="text-md text-justify pt-5 text-gray-700 md:text-lg">
               {" "}
-              <bold className="font-semibold text-black">Expertise:</bold> With
-              years of experience in rainwater harvesting, we have developed the
-              expertise and skills necessary to create customized solutions for
-              a variety of applications and environments. Our team stays up to
-              date with the latest industry advancements, allowing us to offer
-              innovative and cutting-edge solutions.<br></br>
+              <bold className="font-semibold text-[25px] text-black">
+                Expertise:
+              </bold>{" "}
+              With years of experience in rainwater harvesting, we have
+              developed the expertise and skills necessary to create customized
+              solutions for a variety of applications and environments. Our team
+              stays up to date with the latest industry advancements, allowing
+              us to offer innovative and cutting-edge solutions.<br></br>
               <br></br>{" "}
-              <bold className="font-semibold text-black">
+              <bold className="font-semibold text-[25px] text-black">
                 High-profile Clientele:
               </bold>{" "}
               Our successful collaborations with respected organizations such as
@@ -178,7 +187,7 @@ const About = () => {
               exceeding their expectations.
               <br></br>
               <br></br>{" "}
-              <bold className="font-semibold text-black">
+              <bold className="font-semibold text-[25px] text-black">
                 In-house Manufacturing:
               </bold>{" "}
               By operating our own manufacturing facilities for modular
@@ -187,7 +196,7 @@ const About = () => {
               quality, cost efficiency, and timely delivery of our products.
               <br></br>
               <br></br>{" "}
-              <bold className="font-semibold text-black">
+              <bold className="font-semibold text-[25px] text-black">
                 Sustainability Focus:
               </bold>{" "}
               We understand the critical role sustainable practices play in
@@ -195,7 +204,7 @@ const About = () => {
               solutions are designed to conserve water, promote ecological
               balance, and reduce reliance on external water sources.<br></br>
               <br></br>
-              <bold className="font-semibold text-black">
+              <bold className="font-semibold text-[25px] text-black">
                 Comprehensive Services:
               </bold>{" "}
               At InRain Construction, we offer a complete range of services,
