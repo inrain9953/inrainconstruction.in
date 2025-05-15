@@ -19,7 +19,6 @@ export default async function signup(req, res) {
         mobile: mobile,
         message: message,
       });
-      console.log(product);
       const result = await product.save();
 
       try {
