@@ -71,7 +71,7 @@ const GroundWaterRechargeSystem = () => {
             supply during droughts or periods of scarcity.
             <br></br>
             <br></br>
-            At <bold className="text-green-500 font-semibold">InRain</bold> we
+            At <bold className="text-green-500 font-semibold">InRain®</bold> we
             specialize in groundwater recharge systems tailored for industrial
             use. Naturally, groundwater is replenished when water seeps through
             the surface and reaches the water table. Effective groundwater

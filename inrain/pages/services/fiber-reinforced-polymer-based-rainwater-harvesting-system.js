@@ -65,7 +65,7 @@ const FRPbasedRWH = () => {
             by advanced technologies offering affordable and low-maintenance
             options.{" "}
             <bold className="text-black font-semibold">
-              At InRain, we provide a range of environmentally friendly
+              At InRain®, we provide a range of environmentally friendly
               solutions that are both economical and sustainable.
             </bold>
             <br></br>

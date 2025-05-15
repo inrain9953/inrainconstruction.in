@@ -66,7 +66,7 @@ const BioswaleForRainwater = () => {
             groundwater levels continue to decline, the company emphasizes the
             importance of capturing rainwater to alleviate water shortages.{" "}
             <bold className="text-black font-semibold">
-              InRain advocates for methods like bioswales, which help retain
+              InRain® advocates for methods like bioswales, which help retain
               water in the soil, preventing it from being lost in storm sewers.
             </bold>
             <br></br>

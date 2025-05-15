@@ -58,7 +58,7 @@ const CoPolymerBased = () => {
             Co-Polymer Based Rainwater Harvesting System
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
-            At <bold className="text-green-500 font-semibold">InRain</bold> we
+            At <bold className="text-green-500 font-semibold">InRain®</bold> we
             offer co-polymer-based rainwater harvesting systems designed for
             effective water conservation and management.{" "}
             <bold className="text-black font-semibold">

@@ -62,7 +62,7 @@ const BoxTypeRWH = () => {
               Rainwater harvesting is increasingly vital in today's world as it
               contributes to enhancing global water reserves.
             </bold>{" "}
-            <bold className="text-green-500 font-semibold">InRain</bold> is a
+            <bold className="text-green-500 font-semibold">InRain®</bold> is a
             prominent provider of water conservation and management solutions,
             offering a range of rainwater harvesting options. Utilizing
             cutting-edge technology, we deliver cost-effective water
