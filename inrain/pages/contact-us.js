@@ -11,16 +11,20 @@ import CallIcon from "@mui/icons-material/Call";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Link from "next/link";
 import Head from "next/head";
+import { useState } from "react";
+import axios from "axios";
 
 const Contact = () => {
-  const title = "Rainwater Harvesting Company | Contact Us | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Rainwater Harvesting Company | Contact Us | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
   const keyword =
     "Modular rainwater harvesting, sustainable water management, water conservation system, rainwater reuse, eco-friendly water solutions, polymer-based rainwater harvesting, efficient water storage, quick installation rainwater systems, low-maintenance rainwater harvesting, urban water solutions, sustainable development";
   const canonical = "https://www.inrainconstruction.in/contact-us";
   const ogUrl = "https://www.inrainconstruction.in/contact-us";
-  const ogTitle = "Rainwater Harvesting Company | Contact Us | InRain® Construction Pvt. Ltd.";
+  const ogTitle =
+    "Rainwater Harvesting Company | Contact Us | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
   const twittertitle =
@@ -28,38 +32,41 @@ const Contact = () => {
   const twitterdescription =
     "Explore the benefits of Modular Rainwater Harvesting Systems, an innovative solution for water conservation. Learn how this space-efficient, cost-effective, and eco-friendly technology can address water scarcity while supporting sustainable development.";
 
-
-
-    
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    message: "",
+  });
 
   const router = useRouter();
-  const contactapikey = "b31f7db9-d973-45c2-bd1f-9013efbc3f00";
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
 
-    formData.append("access_key", contactapikey);
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    }).then((res) => res.json());
-
-    if (res.success) {
-      router.push("/thank-you");
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("/api/signup", formData);
+      if (response.status == 200) {
+        alert(response.data);
+        router.push("/");
+      } else {
+        alert("Invalid Submission. Try Again...");
+      }
+    } catch (error) {
+      alert("Refresh the page and try again...");
     }
   };
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -166,14 +173,18 @@ const Contact = () => {
                 name="name"
                 id="name"
                 placeholder="Name"
+                value={formData.name}
+                onChange={handleChange}
               />
               <input
                 required=""
                 className="input"
                 type="tel"
-                name="phone"
+                name="mobile"
                 id="phone"
                 placeholder="Phone No."
+                value={formData.mobile}
+                onChange={handleChange}
               />
               <input
                 required=""
@@ -182,6 +193,8 @@ const Contact = () => {
                 name="email"
                 id="email"
                 placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
               />
               <textarea
                 required=""
@@ -190,6 +203,8 @@ const Contact = () => {
                 name="message"
                 id="message"
                 placeholder="Message"
+                value={formData.message}
+                onChange={handleChange}
               />
 
               <input
