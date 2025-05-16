@@ -5,7 +5,7 @@ import nodemailer from "nodemailer";
 export default async function signup(req, res) {
   const username = process.env.newinrainmail;
   const password = process.env.newinrainmailpassword;
-  const sub = "Leads from Website - inrainconstruction.in";
+  const sub = "Lead from Website - inrainconstruction.in";
   const GoogleAds = "This is not from Google Ads";
 
   try {
@@ -20,6 +20,9 @@ export default async function signup(req, res) {
         message: message,
       });
       const result = await product.save();
+      res.send(
+        `Dear ${result.name}, \nThank you for your interest. \nOur Team will get back to you soon...`
+      );
 
       try {
         const transporter = nodemailer.createTransport({
@@ -42,9 +45,6 @@ export default async function signup(req, res) {
       } catch (err) {
         console.log("Connection not build");
       }
-
-      res.send(`Dear ${result.name}, \n Thank you for your interest \n Our Team will get back to you soon...`);
-
     } else {
       res.setHeader("Allow", ["POST"]);
       return res.status(405).end(`Method ${req.method} Not Allowed`);
