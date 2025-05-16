@@ -13,6 +13,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { useState } from "react";
 import axios from "axios";
+import { Button } from "@mui/material";
 
 const Contact = () => {
   const title =
@@ -38,6 +39,7 @@ const Contact = () => {
     mobile: "",
     message: "",
   });
+  const [responseData, setResponseData] = useState("");
 
   const router = useRouter();
 
@@ -50,18 +52,22 @@ const Contact = () => {
   };
 
   const onSubmit = async (e) => {
+    document.querySelector(".loading").style.display = "flex";
     e.preventDefault();
+
     try {
       const response = await axios.post("/api/signup", formData);
       if (response.status == 200) {
-        alert(response.data);
-        router.push("/");
+        setResponseData(response.data);
       } else {
         alert("Invalid Submission. Try Again...");
       }
     } catch (error) {
       alert("Refresh the page and try again...");
     }
+
+    document.querySelector(".loading").style.display = "none";
+    document.querySelector(".AfterLoading").style.display = "flex";
   };
 
   return (
@@ -149,6 +155,33 @@ const Contact = () => {
             priority={true}
             unoptimized={true}
           />
+        </div>
+        <div className="hidden z-10 loading bg-gray-200 rounded-2xl h-56 w-72 justify-center m-auto fixed top-0 bottom-0 left-0 right-0">
+          <div className="loader">
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
+        </div>
+        <div className="hidden z-10 AfterLoading flex-col shadow-2xl items-center bg-gray-200 rounded-2xl h-56 w-72 justify-center m-auto fixed top-0 bottom-0 left-0 right-0">
+          <div>
+            <p
+              style={{ whiteSpace: "pre-line" }}
+              className="text-base text-left p-5 font-semibold"
+            >
+              {responseData}
+            </p>
+          </div>
+          <div>
+            <Button
+              variant="contained"
+              onClick={() => {
+                router.push("/");
+              }}
+            >
+              Close
+            </Button>
+          </div>
         </div>
         <div
           data-aos="fade-up"
