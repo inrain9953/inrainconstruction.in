@@ -3,8 +3,8 @@ import { Product } from "./lib/product";
 import nodemailer from "nodemailer";
 
 export default async function signup(req, res) {
-  const username = process.env.inrainmail;
-  const password = process.env.inrainmailpassword;
+  const username = process.env.newinrainmail;
+  const password = process.env.newinrainmailpassword;
   const sub = "Leads from Website - inrainconstruction.in";
   const GoogleAds = "This is not from Google Ads";
 
@@ -32,7 +32,7 @@ export default async function signup(req, res) {
 
         const mailOptions = {
           from: username,
-          to: process.env.receivingmail,
+          to: process.env.newreceivingmail,
           subject: sub,
           text: `Submission: ${GoogleAds} \n\n Name: ${name} \n\n Email: ${email} \n\n Mobile No: ${mobile} \n\n Message: ${message}`,
         };
@@ -43,7 +43,7 @@ export default async function signup(req, res) {
         console.log("Connection not build");
       }
 
-      res.send("Our Team will get back to you soon...");
+      res.send(`Dear ${result.name}, \n Thank you for your interest \n Our Team will get back to you soon...`);
 
     } else {
       res.setHeader("Allow", ["POST"]);
