@@ -19,7 +19,7 @@ export const Clients = () => {
           <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
             <Image
               alt="img"
-              className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
+              className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl rounded-xl"
               src={items.img}
               loading="eager"
               priority={true}
@@ -40,7 +40,7 @@ export const Clients = () => {
           <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
             <Image
               alt="img"
-              className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
+              className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl rounded-xl"
               src={items.img}
               loading="eager"
               priority={true}

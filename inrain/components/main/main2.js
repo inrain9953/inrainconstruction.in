@@ -12,7 +12,7 @@ export const Main2 = () => {
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg">
             At{" "}
             <bold className="text-green-500 font-semibold">
-              InRain<sup>®</sup> Construction Pvt. Ltd.
+              InRain® Construction Pvt. Ltd.
             </bold>
             , our core expertise lies in{" "}
             <bold className="font-semibold text-black">
@@ -29,7 +29,7 @@ export const Main2 = () => {
             <br></br> Over the years, we have built a solid reputation for
             success, having{" "}
             <bold className="font-semibold text-black">
-              completed more than 1000 Rainwater Harvesting (RWH) units
+              completed more than 4000 Rainwater Harvesting (RWH) units
             </bold>{" "}
             for a wide range of esteemed clients.{" "}
             <bold className="font-semibold text-black">

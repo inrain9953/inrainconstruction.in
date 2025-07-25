@@ -29,22 +29,22 @@ export const Navbar = () => {
             ></Image>
           </Link>
           <div className="hidden md:flex gap-16 text-lg mr-5">
-            <Link className="hover:text-green-500 hover:font-semibold" href={"/"}>
+            <Link className="hover:text-white" href={"/"}>
               Home
             </Link>
-            <Link className="hover:text-green-500 hover:font-semibold" href="/about">
+            <Link className="hover:text-white" href="/about">
               About
             </Link>
-            <Link className="hover:text-green-500 hover:font-semibold" href="/services">
+            <Link className="hover:text-white" href="/services">
               Services
             </Link>
-            <Link className="hover:text-green-500 hover:font-semibold" href="/products">
+            <Link className="hover:text-white" href="/products">
               Products
             </Link>
-            <Link className="hover:text-green-500 hover:font-semibold" href="/blogs">
+            <Link className="hover:text-white" href="/blogs">
               Blogs
             </Link>
-            <Link className="hover:text-green-500 hover:font-semibold" href="/contact-us">
+            <Link className="hover:text-white" href="/contact-us">
               Contact
             </Link>
             <a className="nav-hid" href="tel:+919953070003">
@@ -84,7 +84,7 @@ export const Navbar = () => {
         <div className="hidden md:flex justify-center gap-6 bg-sky-500">
           <MailOutline />
           <a
-            className="hover:text-green-700"
+            className="hover:text-white"
             href="mailto:sales@inrainwaterharvesting.com"
           >
             sales@inrainwaterharvesting.com
@@ -92,14 +92,14 @@ export const Navbar = () => {
           <br></br>
           <MailOutline />
           <a
-            className="hover:text-green-700"
+            className="hover:text-white"
             href="mailto:inrainconstruction@gmail.com"
           >
             inrainconstruction@gmail.com
           </a>
           <br></br>
           <CallIcon />
-          <a className="hover:text-green-700" href="tel:+919953070003">
+          <a className="hover:text-white" href="tel:+919953070003">
             +91-9953070003
           </a>
         </div>
