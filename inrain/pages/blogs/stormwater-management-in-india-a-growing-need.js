@@ -72,7 +72,7 @@ const Blog4 = () => {
             </div>
             <div data-aos="fade-up" className="mt-7">
               <h2 className="text-xl md:text-2xl font-semibold">
-                What is Stormwater, and Why It's Important?
+                What Is Stormwater, and Why Is It Important?
               </h2>
               <p className="mt-3 text-lg">
                 Stormwater refers to the runoff generated during rainstorms or

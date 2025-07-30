@@ -90,9 +90,9 @@ const Blog5 = () => {
                   Rainwater Harvesting System
                 </Link>
                 . Standing atop what appears to be a simple part of the
-                landscape, Jaya reveals a massive 30,000-litre underground tank.
+                landscape, Jaya reveals a massive 30,000-liter underground tank.
                 This is the heart of their water independence, diligently
-                collecting a staggering 1.3 lakh litres of rainwater annually.
+                collecting a staggering 1.3 lakh liters of rainwater annually.
                 This precious resource caters to all their needs, from the
                 simple act of drinking a glass of water to preparing meals and
                 keeping the home clean, significantly diminishing their reliance
@@ -105,8 +105,8 @@ const Blog5 = () => {
               </h2>
               <p className="mt-3 text-lg">
                 But Jaya's commitment to sustainability flows much deeper than
-                just rainwater harvesting. Every day, a remarkable 800 litres of
-                greywater – wastewater from the kitchen and bathrooms – is
+                just rainwater harvesting. Every day, a remarkable 800 liters of
+                greywater—wastewater from the kitchen and bathrooms — is
                 meticulously recycled. The journey begins in a baffle tank,
                 where the initial stage of treatment takes place. From there,
                 the water embarks on a natural purification process within a

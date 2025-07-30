@@ -12,11 +12,11 @@ const RainwaterHarvestingSystem = () => {
   const desc =
     "Discover the benefits of rainwater harvesting systems for sustainable water management. Learn how to conserve water, reduce stormwater runoff, and ease pressure on groundwater and municipal supplies with effective rainwater collection methods.";
   const keyword =
-    "rainwater harvesting system, water conservation, sustainable water solutions, rainwater collection, stormwater management, groundwater recharge, rainwater storage tanks, irrigation water solutions, rainwater harvesting benefits, rainwater management systems, energy-efficient water use, flood prevention, eco-friendly water conservation, self-sufficient water supply, rainwater filters and tanks";
+    "rainwater harvesting system, water conservation, sustainable water solutions, stormwater management, groundwater recharge, rainwater storage tanks, rainwater harvesting benefits, flood prevention, eco-friendly rainwater conservation, rainwater filters and tanks";
   const canonical =
-    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-india";
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system";
   const ogUrl =
-    "https://www.inrainconstruction.in/services/rainwater-harvesting-system-in-india";
+    "https://www.inrainconstruction.in/services/rainwater-harvesting-system";
   const ogTitle =
     "Rainwater Harvesting System | The Importance of Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const ogDescription =
@@ -50,14 +50,14 @@ const RainwaterHarvestingSystem = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Rainwater Harvesting System
           </h1>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md md:text-lg pt-2 text-gray-500">
             Water scarcity is a critical global challenge, and as populations
             increase, it becomes essential to explore alternative water
             conservation methods. One approach that is gaining traction is
@@ -68,12 +68,10 @@ const RainwaterHarvestingSystem = () => {
             harvesting systems, their advantages, and their role in fostering a
             more sustainable future.
           </p>
-          <br></br>
-          <br></br>
-          <h2 className="text-xl md:text-[1.5rem] font-semibold">
+          <h2 className="text-xl md:text-[1.5rem] mt-5 font-semibold">
             The Importance of Rainwater Harvesting
           </h2>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md md:text-lg pt-2 text-gray-500">
             Rainwater is a valuable resource that, when harnessed effectively,
             can address water scarcity issues faced by many communities.
             Harvesting rainwater offers several benefits over traditional water
@@ -84,58 +82,54 @@ const RainwaterHarvestingSystem = () => {
             in other water sources, making it ideal for non-potable purposes
             like irrigation, toilet flushing, and various industrial uses.
           </p>
-          <br></br>
-          <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h3 className="text-xl md:text-[1.5rem] mt-5 font-semibold">
             Components of a Rainwater Harvesting System
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md md:text-lg pt-2 text-gray-500">
             A rainwater harvesting system comprises several critical elements
             that work together to capture, store, and distribute rainwater.
             These key components include:
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Gutters and Downspouts:
-            </bold>{" "}
-            These structures channel the rainwater from the catchment surface
-            into the storage system.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Leaf Screens and Filters:
-            </bold>{" "}
-            These prevent debris, such as leaves and other contaminants, from
-            entering the system and blocking pipes or tanks.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Storage Tanks:
-            </bold>{" "}
-            These containers are designed to hold the collected rainwater and
-            can be installed above or below ground, depending on space and local
-            regulations.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              First Flush Diverters:
-            </bold>{" "}
-            These devices ensure that the initial runoff, which may carry
-            pollutants and debris, is directed away from the storage system.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Pumps and Distribution Systems:
-            </bold>{" "}
-            These are used to extract and distribute the stored rainwater for
-            various purposes, including irrigation or other non-potable uses.
           </p>
-          <br></br>
-          <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <ul className="text-md md:text-lg pt-2 flex flex-col gap-2 text-gray-500">
+            <li>
+              <bold className="font-semibold text-black">
+                Gutters and Downspouts:
+              </bold>{" "}
+              These structures channel the rainwater from the catchment surface
+              into the storage system.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">
+                Leaf Screens and Filters:
+              </bold>{" "}
+              These prevent debris, such as leaves and other contaminants, from
+              entering the system and blocking pipes or tanks.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">Storage Tanks:</bold>{" "}
+              These containers are designed to hold the collected rainwater and
+              can be installed above or below ground, depending on space and
+              local regulations.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">
+                First Flush Diverters:
+              </bold>{" "}
+              These devices ensure that the initial runoff, which may carry
+              pollutants and debris, is directed away from the storage system.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">
+                Pumps and Distribution Systems:
+              </bold>{" "}
+              These are used to extract and distribute the stored rainwater for
+              various purposes, including irrigation or other non-potable uses.
+            </li>
+          </ul>
+          <h3 className="text-xl md:text-[1.5rem] mt-5 font-semibold">
             Benefits of Rainwater Harvesting
           </h3>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md md:text-lg pt-2 text-gray-500">
             There are many advantages to implementing a rainwater harvesting
             system. One of the key benefits is that it reduces the pressure on
             traditional water sources, such as rivers and groundwater, ensuring
@@ -147,7 +141,6 @@ const RainwaterHarvestingSystem = () => {
             for both homeowners and businesses by decreasing the need for
             treated municipal water.
             <br></br>
-            <br></br>
             Moreover, rainwater harvesting enhances self-sufficiency, especially
             in areas susceptible to droughts or water restrictions. It enables
             individuals and communities to manage their water needs
@@ -156,12 +149,10 @@ const RainwaterHarvestingSystem = () => {
             harvesting helps conserve energy required for water treatment and
             distribution.
           </p>
-          <br></br>
-          <br></br>
-          <h4 className="text-xl md:text-[1.5rem] font-semibold">
+          <h4 className="text-xl md:text-[1.5rem] mt-5 font-semibold">
             Considerations and Maintenance
           </h4>
-          <p className="text-md md:text-lg pt-5 text-gray-500">
+          <p className="text-md md:text-lg pt-2 text-gray-500">
             When installing a rainwater harvesting system, it is important to
             consider factors such as local regulations, the size of the
             catchment area, and the intended uses of the harvested water.
@@ -171,7 +162,7 @@ const RainwaterHarvestingSystem = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80 rounded-xl"
           src={serviceImg11}
           alt="rainwater harvesting system"
           loading="eager"

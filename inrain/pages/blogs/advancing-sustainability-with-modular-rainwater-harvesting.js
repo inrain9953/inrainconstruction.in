@@ -152,7 +152,7 @@ const Blog2 = () => {
                 <br />
                 Modular Rainwater Harvesting transforms rainwater into a
                 valuable resource that aligns with social and environmental
-                goals, while also providing cost and space savings. It’s a
+                goals while also providing cost and space savings. It’s a
                 forward-thinking approach that contributes to environmental
                 preservation. Embrace this innovative system to support a
                 greener, more sustainable future.

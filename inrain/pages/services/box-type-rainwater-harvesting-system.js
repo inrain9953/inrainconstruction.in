@@ -12,7 +12,7 @@ const BoxTypeRWH = () => {
   const desc =
     "Explore the Box Type Rainwater Harvesting System by InRain Construction Pvt. Ltd. Designed for efficiency and affordability, this compact system collects, filters, and stores rainwater for uses like irrigation, car washing, and more, reducing water bills and conserving resources.";
   const keyword =
-    "Box Type Rainwater Harvesting System, rainwater storage box, rooftop rainwater collection, water conservation systems, affordable rainwater harvesting, compact rainwater systems, rainwater for irrigation, sustainable water solutions, water-saving technologies, rainwater management India";
+    "Box Type Rainwater Harvesting System, rainwater storage box, rooftop rainwater collection, water conservation systems, affordable rainwater harvesting, compact rainwater systems, rainwater for irrigation, sustainable water solutions, rainwater management India";
   const canonical =
     "https://www.inrainconstruction.in/services/box-type-rainwater-harvesting-system";
   const ogUrl =
@@ -50,16 +50,16 @@ const BoxTypeRWH = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
-            Box Type Rainwater Harvesting System
+            Box-Type Rainwater Harvesting System
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             <bold className="font-semibold text-black">
-              Rainwater harvesting is increasingly vital in today's world as it
+              Rainwater harvesting is increasingly vital in today's world, as it
               contributes to enhancing global water reserves.
             </bold>{" "}
             <bold className="text-green-500 font-semibold">InRain®</bold> is a
@@ -83,7 +83,7 @@ const BoxTypeRWH = () => {
             collector, which then passes through a filter to remove rooftop
             impurities. The filtered water is stored in the box for later use.
             <br></br>
-            <br></br>Key features of the Box Type System include its
+            <br></br>Key features of the Box-type System include its
             installation and water supply mechanism. This system is designed to
             prioritize water supply from the rainwater box before drawing from
             the mains. In the event that the rainwater box is depleted, the

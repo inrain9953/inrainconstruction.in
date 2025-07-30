@@ -92,13 +92,13 @@ const LocationTarget = ({ loc }) => {
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg">
             At{" "}
             <bold className="text-green-500 font-semibold">
-              InRain<sup>®</sup> Construction Pvt. Ltd.
+              InRain® Construction Pvt. Ltd.
             </bold>
             , our core expertise lies in{" "}
             <bold className="font-semibold text-black">
               developing advanced and innovative rainwater harvesting solutions
             </bold>
-            . We are dedicated to make use of rainwater to help our clients
+            . We are dedicated to making use of rainwater to help our clients
             optimize their water resources effectively and contribute to{" "}
             <bold className="font-semibold text-black">
               environmental sustainability
@@ -140,7 +140,7 @@ const LocationTarget = ({ loc }) => {
       <div className="md:flex md:justify-center md:items-center md:m-10 mt-20">
         <div data-aos="fade-up" className="md:content-center">
           <p className="text-center font-semibold text-md text-green-500 md:text-sm">
-            InRain<sup>®</sup> Construction Pvt Ltd.
+            InRain® Construction Pvt Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-3xl">
             Rainwater Harvesting in {loc}
@@ -148,7 +148,7 @@ const LocationTarget = ({ loc }) => {
           <hr className="m-2 md:m-5"></hr>
           <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">
-              InRain<sup>®</sup> Construction Pvt. Ltd.
+              InRain® Construction Pvt. Ltd.
             </bold>{" "}
             is a premier provider of{" "}
             <bold className="text-black font-semibold">
@@ -264,12 +264,12 @@ const LocationTarget = ({ loc }) => {
             Rooftop Rainwater Harvesting in {loc}
           </h2>
           <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
-            We offer a state-of-the-art{" "}
+            We offer state-of-the-art{" "}
             <bold className="text-black font-semibold">
               Rooftop Rainwater Harvesting in {loc}
             </bold>
             , designed for efficient filtration, temporary storage, and
-            controlled release. This system is ideal for managing waste water
+            controlled release. This system is ideal for managing wastewater
             channels and is built using our proprietary plastic injection-molded
             panels. We provide a wide range of modular options tailored to suit
             your specific needs. <br></br>{" "}

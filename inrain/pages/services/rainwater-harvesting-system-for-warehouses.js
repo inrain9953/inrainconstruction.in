@@ -12,7 +12,7 @@ const RainwaterForWarehouses = () => {
   const desc =
     "Optimize water conservation with InRain® Construction Pvt. Ltd.'s rainwater harvesting systems for warehouses. Our modular, eco-friendly solutions reduce water costs, maximize space efficiency, and support sustainable operations with minimal maintenance.";
   const keyword =
-    "rainwater harvesting system for warehouses, warehouse water management, modular rainwater systems, commercial rainwater harvesting, sustainable water solutions, co-polymer rainwater modules, water conservation for warehouses, industrial water-saving solutions, cost-effective rainwater harvesting, warehouse sustainability, rainwater storage solutions";
+    "rainwater harvesting system for warehouses, warehouse water management, commercial rainwater harvesting, water conservation for warehouses, industrial water-saving solutions, warehouse sustainability, rainwater storage solutions";
   const canonical =
     "https://www.inrainconstruction.in/services/rainwater-harvesting-system-for-warehouses";
   const ogUrl =
@@ -50,7 +50,7 @@ const RainwaterForWarehouses = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">

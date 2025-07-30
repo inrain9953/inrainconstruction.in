@@ -12,7 +12,7 @@ const FRPbasedRWH = () => {
   const desc =
     "Explore Fiber Reinforced Polymer (FRP) based Rainwater Harvesting Systems by InRain Construction Pvt. Ltd. Lightweight, corrosion-resistant, and eco-friendly, FRP systems provide cost-effective and durable water conservation solutions for homes and businesses.";
   const keyword =
-    "FRP rainwater harvesting systems, fiber reinforced polymer tanks, eco-friendly water storage, cost-efficient rainwater systems, durable water conservation solutions, lightweight rainwater systems, sustainable water management, portable rainwater harvesting, corrosion-resistant water tanks, UV-resistant rainwater storage, modern water conservation technology.";
+    "FRP rainwater harvesting systems, fiber reinforced polymer tanks, eco-friendly water storage, cost-efficient rainwater systems, durable water conservation solutions, sustainable water management, portable rainwater harvesting, corrosion-resistant water tanks";
   const canonical =
     "https://www.inrainconstruction.in/services/fiber-reinforced-polymer-based-rainwater-harvesting-system";
   const ogUrl =
@@ -50,7 +50,7 @@ const FRPbasedRWH = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
@@ -80,8 +80,8 @@ const FRPbasedRWH = () => {
             </bold>
             <br></br>
             <br></br>In traditional rainwater harvesting methods, installation
-            and maintenance costs posed significant challenges, as concrete or
-            metal collection tanks were both expensive and prone to corrosion or
+            and maintenance costs pose significant challenges, as concrete or
+            metal collection tanks are both expensive and prone to corrosion or
             infestation. FRP systems, on the other hand, are highly durable and
             require minimal maintenance, sparking growing interest in FRP-based
             rainwater harvesting solutions.
@@ -90,7 +90,7 @@ const FRPbasedRWH = () => {
             These FRP systems are portable, recyclable, and reduce both waste
             and costs, making them an eco-friendly choice that encourages more
             widespread adoption of sustainable water conservation practices. By
-            reducing reliance on mains water supply, they also contribute to
+            reducing reliance on the main water supply, they also contribute to
             environmental preservation.
             <br></br>
             <br></br>

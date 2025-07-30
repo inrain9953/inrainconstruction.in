@@ -12,7 +12,7 @@ const Services = () => {
   const desc =
     "Explore InRain® Construction Pvt. Ltd., a trusted provider of modular rainwater harvesting solutions in India and Delhi NCR. Offering tailored systems for industries and warehouses using advanced co-polymer, modular, and FRP technologies. Enhance water efficiency and sustainability with our high-quality, cost-effective services.";
   const keyword =
-    "Modular rainwater harvesting service provider, rainwater harvesting service provider, modular rainwater harvesting system India, rainwater harvesting Delhi NCR, co-polymer technology, FRP rainwater systems, sustainable water solutions, industrial rainwater harvesting, warehouse rainwater harvesting";
+    "Modular rainwater harvesting service provider, rainwater harvesting service provider, co-polymer technology, FRP rainwater systems, sustainable water solutions, industrial rainwater harvesting, warehouse rainwater harvesting";
   const canonical = "https://www.inrainconstruction.in/services";
   const ogUrl = "https://www.inrainconstruction.in/services";
   const ogTitle =
@@ -80,13 +80,13 @@ const Services = () => {
         data-aos="zoom-in-up"
         className="text-center m-5 md:m-10 md:text-left"
       >
-        <h3 className="text-xl font-bold md:text-[2rem] md:font-semibold">
-          The Services we provide
-        </h3>
+        <h2 className="text-xl font-bold md:text-[2rem] md:font-semibold">
+          The services we provide
+        </h2>
         <p className="text-md text-justify md:text-lg pt-3 md:pt-5 md:mr-64 text-gray-500">
           At{" "}
           <bold className="text-green-500 font-semibold">
-            InRain<sup>®</sup> Construction Pvt. Ltd.,
+            InRain® Construction Pvt. Ltd.,
           </bold>{" "}
           we provide a comprehensive range of{" "}
           <bold className="text-green-500 font-semibold">
@@ -95,13 +95,13 @@ const Services = () => {
           solutions, customized to meet the unique requirements of our clients.{" "}
           <bold className="text-black font-semibold">
             Our offerings include the design and installation of Rainwater
-            Harvesting Systems for warehouses, utilizing co-polymer, modular,
-            and Fiber Reinforced Polymer (FRP) technologies.
+            Harvesting Systems for warehouses, utilizing copolymer, modular, and
+            Fiber-Reinforced Polymer (FRP) technologies.
           </bold>
           <br></br>
           <br></br>{" "}
           <bold className="text-black font-semibold">
-            As a leading rainwater harvesting system provider in India and the
+            As a leading rainwater harvesting system provider in India and
             Delhi(NCR),
           </bold>{" "}
           we deliver high-quality services to industries and commercial sectors.

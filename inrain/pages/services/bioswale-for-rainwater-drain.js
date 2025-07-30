@@ -11,7 +11,7 @@ const BioswaleForRainwater = () => {
   const desc =
     "Discover bioswale solutions by InRain Construction Pvt. Ltd., a leader in sustainable rainwater management. Our expertly designed bioswales manage stormwater runoff, recharge groundwater, and enhance landscapes for residential and industrial areas using advanced techniques and native plants.";
   const keyword =
-    "Bioswale for Rainwater Drain, bioswale rainwater management, bioswale construction, stormwater runoff solutions, sustainable rainwater systems, groundwater recharge, bioswale installation, rain garden design, stormwater management India, eco-friendly stormwater solutions, bioswale benefits, native plant landscaping";
+    "Bioswale for Rainwater Drain, bioswale rainwater management, bioswale construction, stormwater runoff solutions, sustainable rainwater systems, groundwater recharge, bioswale installation, rain garden design, stormwater management India, eco-friendly stormwater solutions, bioswale benefits";
   const canonical =
     "https://www.inrainconstruction.in/services/bioswale-for-rainwater-drain";
   const ogUrl =
@@ -49,7 +49,7 @@ const BioswaleForRainwater = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
@@ -71,7 +71,7 @@ const BioswaleForRainwater = () => {
             </bold>
             <br></br>
             <br></br>
-            Specializing in the construction of bioswales, we brings extensive
+            Specializing in the construction of bioswales, we bring extensive
             expertise to the field. These bioswales are large, linear rain
             gardens designed to manage stormwater. Beyond their functional
             purpose, they are landscaped with native plants, serving as both

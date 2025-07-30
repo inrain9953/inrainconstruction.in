@@ -174,7 +174,7 @@ const About = () => {
               With years of experience in rainwater harvesting, we have
               developed the expertise and skills necessary to create customized
               solutions for a variety of applications and environments. Our team
-              stays up to date with the latest industry advancements, allowing
+              stays up-to-date with the latest industry advancements, allowing
               us to offer innovative and cutting-edge solutions.<br></br>
               <br></br>{" "}
               <bold className="font-semibold text-[25px] text-black">

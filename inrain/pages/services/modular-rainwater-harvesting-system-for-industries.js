@@ -50,14 +50,14 @@ const ModularRWHForIndustries = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl font-semibold md:text-[2rem]">
             Modular Rainwater Harvesting System for Industries
           </h1>
-          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-2 text-gray-500">
             As water scarcity becomes an increasingly critical global challenge,
             industries that depend heavily on water for their operations are
             facing mounting pressure. With growing populations and industrial
@@ -73,12 +73,10 @@ const ModularRWHForIndustries = () => {
               contribution to a sustainable future.
             </bold>
           </p>
-          <br></br>
-          <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h2 className="text-xl md:text-[1.5rem] mt-5 font-semibold">
             The Importance of Modular Rainwater Harvesting for Industries
-          </h3>
-          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
+          </h2>
+          <p className="text-md text-justify md:text-lg pt-2 text-gray-500">
             For industries, rainwater harvesting provides a valuable alternative
             water source, significantly reducing the need for municipal supplies
             and groundwater. Many industrial processes, such as cooling,
@@ -86,7 +84,6 @@ const ModularRWHForIndustries = () => {
             By capturing and utilizing rainwater, industries can ease the burden
             on traditional water resources and create a more reliable and
             sustainable supply.
-            <br></br>
             <br></br>
             <bold className="font-semibold text-black">
               Additionally, rainwater is naturally free of many contaminants
@@ -97,56 +94,54 @@ const ModularRWHForIndustries = () => {
             and can lower maintenance costs by reducing issues like scaling and
             corrosion in equipment.
           </p>
-          <br></br>
-          <br></br>
-          <h3 className="text-xl md:text-[1.5rem] font-semibold">
+          <h3 className="text-xl md:text-[1.5rem] mt-5 font-semibold">
             Benefits of Modular Rainwater Harvesting for Industries
           </h3>
-          <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
+          <p className="text-md text-justify md:text-lg pt-2 text-gray-500">
             Installing a modular rainwater harvesting system in industrial
             environments offers several key advantages:
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Water Conservation:
-            </bold>{" "}
-            It helps lower demand on conventional water sources, ensuring their
-            sustainability and preserving them for other essential uses.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">Cost Savings:</bold>{" "}
-            Using rainwater for non-potable purposes can result in substantial
-            cost savings, reducing reliance on treated municipal water and
-            cutting water bills.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Environmental Impact:
-            </bold>{" "}
-            By decreasing stormwater runoff, rainwater harvesting reduces the
-            risk of flooding and erosion. It also minimizes the environmental
-            impact of industrial water use by lessening groundwater and surface
-            water extraction.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Regulatory Compliance:
-            </bold>{" "}
-            Many regions offer incentives and require compliance with
-            sustainable water management practices. Implementing rainwater
-            harvesting systems can help industries meet these regulations and
-            benefit from available incentives.
-            <br></br>
-            <br></br>
-            <bold className="font-semibold text-black">
-              Operational Resilience:
-            </bold>{" "}
-            Having an independent water source strengthens an industry’s ability
-            to withstand disruptions in water supply caused by droughts, water
-            restrictions, or infrastructure failures.
           </p>
-          <br></br>
-          <br></br>
+          <ul className="text-md text-justify md:text-lg pt-2 text-gray-500 flex flex-col gap-3">
+            <li>
+              <bold className="font-semibold text-black">
+                Water Conservation:
+              </bold>{" "}
+              It helps lower demand on conventional water sources, ensuring
+              their sustainability and preserving them for other essential uses.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">Cost Savings:</bold>{" "}
+              Using rainwater for non-potable purposes can result in substantial
+              cost savings, reducing reliance on treated municipal water and
+              cutting water bills.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">
+                Environmental Impact:
+              </bold>{" "}
+              By decreasing stormwater runoff, rainwater harvesting reduces the
+              risk of flooding and erosion. It also minimizes the environmental
+              impact of industrial water use by lessening groundwater and
+              surface water extraction.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">
+                Regulatory Compliance:
+              </bold>{" "}
+              Many regions offer incentives and require compliance with
+              sustainable water management practices. Implementing rainwater
+              harvesting systems can help industries meet these regulations and
+              benefit from available incentives.
+            </li>
+            <li>
+              <bold className="font-semibold text-black">
+                Operational Resilience:
+              </bold>{" "}
+              Having an independent water source strengthens an industry’s
+              ability to withstand disruptions in water supply caused by
+              droughts, water restrictions, or infrastructure failures.
+            </li>
+          </ul>
         </div>
         <Image
           className="mt-5 md:m-5 md:h-72 rounded-2xl shadow-2xl md:min-w-80"
@@ -159,77 +154,73 @@ const ModularRWHForIndustries = () => {
       </div>
 
       <div className="">
-        <div
-          data-aos="zoom-in-up"
-          className="text-left md:text-left md:m-10 m-5"
-        >
-          <h1 className="text-2xl font-bold md:text-[2rem] md:font-semibold">
-            Why Choose Us ?
-          </h1>
-          <p className="text-sm md:text-base text-green-500 font-semibold pt-1">
-            InRain®
-          </p>
-          <div className="md:flex items-center">
-            <p className="text-md pt-5 text-gray-700 md:text-lg md:pt-5">
-              {" "}
-              <bold className="font-semibold text-black">Expertise:</bold>{" "}
-              Leveraging our extensive experience in rainwater harvesting, we
-              possess the expertise and skills necessary to develop tailored
-              solutions for various applications and environments. Our team
-              stays abreast of the latest advancements in the industry, enabling
-              us to provide innovative and cutting-edge solutions.<br></br>
-              <br></br>{" "}
-              <bold className="font-semibold text-black">
-                High-profile Clientele:
-              </bold>{" "}
-              Our successful partnerships with renowned organizations such as
-              HUL, PepsiCo, and Sobha Developers demonstrate our capability to
-              meet the highest standards of quality and reliability. We value
-              our strong client relationships and are committed to consistently
-              exceeding expectations.
-              <br></br>
-              <br></br>{" "}
-              <bold className="font-semibold text-black">
-                In-house Manufacturing:
-              </bold>{" "}
-              With our own manufacturing facilities for rainwater harvesting
-              modular structures and filters, we retain complete control over
-              the production process. This ensures superior quality,
-              cost-effectiveness, and timely delivery of our products.
-              <br></br>
-              <br></br>{" "}
-              <bold className="font-semibold text-black">
-                Sustainability Focus:
-              </bold>{" "}
-              We recognize the importance of sustainable practices in addressing
-              water scarcity and protecting the environment. Our solutions are
-              designed to conserve water, support ecological balance, and reduce
-              dependence on external water sources.
-              <br></br>
-              <br></br>
-              <bold className="font-semibold text-black">
-                Comprehensive Services:
-              </bold>{" "}
-              InRain Construction offers a full range of services from initial
-              project assessment through installation and ongoing maintenance,
-              ensuring the optimal performance of rainwater harvesting systems.
-              Our dedicated team provides technical support and monitoring
-              services to maintain continued efficiency.
-              <br></br>
-              <br></br>
-              <bold className="font-semibold text-green-500">
-                InRain Construction Private Limited
-              </bold>{" "}
-              is dedicated to transforming water resource management through
-              advanced rainwater harvesting techniques. With our industry
-              expertise, quality manufacturing capabilities, and
-              sustainability-focused approach, we strive to create a greener,
-              more water-efficient future for our clients and communities.{" "}
-            </p>
+        <div className="text-left md:text-left md:m-10 m-5">
+          <h3 className="text-2xl font-semibold md:text-[2rem]">
+            Why Choose <bold className="text-green-500">InRain®</bold> ?
+          </h3>
+          <div className="md:grid md:grid-cols-2 items-center gap-5 justify-center text-justify">
+            <ul
+              data-aos="fade-up"
+              className="text-md pt-3 text-gray-500 md:text-lg flex flex-col gap-3"
+            >
+              <li>
+                <bold className="font-semibold text-black">Expertise:</bold>{" "}
+                Leveraging our extensive experience in rainwater harvesting, we
+                possess the expertise and skills necessary to develop tailored
+                solutions for various applications and environments. Our team
+                stays abreast of the latest advancements in the industry,
+                enabling us to provide innovative and cutting-edge solutions.
+                <br></br>
+              </li>
+              <li>
+                <bold className="font-semibold text-black">
+                  High-profile Clientele:
+                </bold>{" "}
+                Our successful partnerships with renowned organizations such as
+                HUL, PepsiCo, and Sobha Developers demonstrate our capability to
+                meet the highest standards of quality and reliability. We value
+                our strong client relationships and are committed to
+                consistently exceeding expectations.
+              </li>
+              <li>
+                <bold className="font-semibold text-black">
+                  In-house Manufacturing:
+                </bold>{" "}
+                With our own manufacturing facilities for rainwater harvesting
+                modular structures and filters, we retain complete control over
+                the production process. This ensures superior quality,
+                cost-effectiveness, and timely delivery of our products.
+              </li>
+              <li>
+                <bold className="font-semibold text-black">
+                  Sustainability Focus:
+                </bold>{" "}
+                We recognize the importance of sustainable practices in
+                addressing water scarcity and protecting the environment. Our
+                solutions are designed to conserve water, support ecological
+                balance, and reduce dependence on external water sources.
+              </li>
+              <li>
+                <bold className="font-semibold text-black">
+                  Comprehensive Services:
+                </bold>{" "}
+                InRain Construction offers a full range of services from initial
+                project assessment through installation and ongoing maintenance,
+                ensuring the optimal performance of rainwater harvesting
+                systems. Our dedicated team provides technical support and
+                monitoring services to maintain continued efficiency.
+              </li>
+              <li>
+                InRain® is dedicated to transforming water resource management
+                through advanced rainwater harvesting techniques. With our
+                industry expertise, quality manufacturing capabilities, and
+                sustainability-focused approach, we strive to create a greener,
+                more water-efficient future for our clients and communities.
+              </li>
+            </ul>
             <Image
-              data-aos="zoom-in-up"
-              alt="save rainwater"
-              className="w-1/2 md:w-1/4 drop-shadow-2xl md:ml-5 object-cover m-auto"
+              alt="rainwater harvesting"
+              className="drop-shadow-2xl m-auto"
               src={rain2}
               loading="eager"
               priority={true}

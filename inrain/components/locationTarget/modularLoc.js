@@ -97,7 +97,7 @@ const ModularLoc = ({ loc }) => {
             <bold className="font-semibold text-black">
               developing advanced and innovative rainwater harvesting solutions
             </bold>
-            . We are dedicated to make use of rainwater to help our clients
+            . We are dedicated to making use of rainwater to help our clients
             optimize their water resources effectively and contribute to{" "}
             <bold className="font-semibold text-black">
               environmental sustainability
@@ -108,7 +108,7 @@ const ModularLoc = ({ loc }) => {
             <br></br> Over the years, we have built a solid reputation for
             success, having{" "}
             <bold className="font-semibold text-black">
-              completed more than 1000 Rainwater Harvesting (RWH) units
+              completed more than 4000 Rainwater Harvesting (RWH) units
             </bold>{" "}
             for a wide range of esteemed clients.{" "}
             <bold className="font-semibold text-black">
@@ -139,7 +139,7 @@ const ModularLoc = ({ loc }) => {
       <div className="md:flex md:justify-center md:items-center md:m-10 mt-20">
         <div data-aos="fade-up" className="md:content-center">
           <p className="text-center font-semibold text-md text-green-500 md:text-sm">
-            InRain<sup>®</sup> Construction Pvt. Ltd.
+            InRain® Construction Pvt. Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-3xl">
             Modular Rainwater Harvesting in {loc}
@@ -178,7 +178,7 @@ const ModularLoc = ({ loc }) => {
             </bold>{" "}
             <br />
             <br />
-            We believe in unite innovation with environmental responsibility.
+            We believe in uniting innovation with environmental responsibility.
             Our team works closely with clients to understand their unique
             requirements and develop tailored systems that make the best use of
             available resources. Whether{" "}
@@ -283,13 +283,13 @@ const ModularLoc = ({ loc }) => {
       <div className="m-5 md:flex md:justify-center md:items-center md:gap-5 md:m-10">
         <div data-aos="fade-up" className=" text-left">
           <p className="font-semibold md:text-lg text-green-600">
-            InRain<sup>®</sup>
+            InRain®
           </p>
           <h2 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting in {loc}
           </h2>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg mt-3 md:mt-5">
-            We proudly offers advanced{" "}
+            We proudly offer advanced{" "}
             <bold className="text-black font-semibold">
               Rooftop Rainwater Harvesting in {loc},
             </bold>{" "}
@@ -297,9 +297,9 @@ const ModularLoc = ({ loc }) => {
             residential and commercial properties. Our systems focus on
             effective filtration, temporary storage, and controlled release,
             making them an ideal solution for optimizing water resources while
-            managing waste water channels,{" "}
+            managing wastewater channels.{" "}
             <bold className="font-semibold text-black">
-              these systems are engineered for durability, efficiency, and ease
+              These systems are engineered for durability, efficiency, and ease
               of installation.
             </bold>
             <br /> We understand that every property has unique requirements,

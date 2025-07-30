@@ -105,14 +105,14 @@ const Products = () => {
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    Reduce the amount of digging and can make a big volume
-                    storage in compact space.
+                    Reduce the amount of digging and create a large volume of
+                    storage in a compact space.
                   </p>
                 </div>
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    As digging is small so post processing is easy.
+                    As digging is small, post-processing is easy.
                   </p>
                 </div>
               </div>
@@ -128,21 +128,22 @@ const Products = () => {
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    Installation can be done only by hand.
+                    Installation can only be done by hand.
                   </p>
                 </div>
 
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    Compared to using concrete no need curing time.
+                    Compared to using concrete, there is no need for curing
+                    time.
                   </p>
                 </div>
 
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    No need of heavy equipment unlikely to use pre-casting
+                    No need for heavy equipment, unlikely to use pre-casting
                     concrete products.
                   </p>
                 </div>
@@ -159,7 +160,7 @@ const Products = () => {
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    Having load bearing strength up to 46 ton/sqm.
+                    Having a load-bearing strength of up to 46 tons/sqm.
                   </p>
                 </div>
               </div>
@@ -195,7 +196,7 @@ const Products = () => {
                 <div className="flex items-center text-left">
                   <ArrowRightAltIcon />
                   <p className="m-1 text-base">
-                    Excellent chemical and water resistant, do not pollute the
+                    Excellent chemical and water-resistant, it does not pollute the
                     water.
                   </p>
                 </div>
@@ -221,7 +222,7 @@ const Products = () => {
           </div>
 
           <div data-aos="fade-up" className="mt-10 m-5 md:m-10">
-            <div className="md:grid grid-cols-2 items-center">
+            <div className="md:grid grid-cols-2 items-center bg-white">
               <Image
                 src={product3}
                 alt="img"

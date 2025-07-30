@@ -12,7 +12,7 @@ const RWHvendorsInNcr = () => {
   const desc =
     "Explore InRain Construction Pvt. Ltd., a top rainwater harvesting vendor in Delhi-Gurgaon. Offering advanced modular systems with German technology, we provide cost-effective, eco-friendly solutions for water conservation and groundwater recharge.";
   const keyword =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon, Delhi-Gurgaon Rainwater Harvesting, water conservation solutions, modular rainwater harvesting systems, eco-friendly water management, rainwater harvesting installation, water conservation Delhi, groundwater recharge solutions";
+    "Rainwater Harvesting Vendors in Delhi-Gurgaon, Delhi-Gurgaon Rainwater Harvesting, water conservation solutions, rainwater harvesting installation, water conservation Delhi, groundwater recharge solutions";
   const canonical =
     "https://www.inrainconstruction.in/services/rainwater-harvesting-vendors-in-delhi-ncr";
   const ogUrl =
@@ -50,7 +50,7 @@ const RWHvendorsInNcr = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
@@ -69,7 +69,6 @@ const RWHvendorsInNcr = () => {
             </bold>{" "}
             Our approach combines advanced technology with cost-effectiveness to
             address these water conservation needs.
-            <br></br>
             <br></br>
             Our rainwater harvesting systems utilize cutting-edge German
             technology.{" "}
@@ -104,7 +103,7 @@ const RWHvendorsInNcr = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80 rounded-xl"
           src={serviceImg7}
           alt="rainwater harvesting vendors in delhi gurgaon"
           loading="eager"

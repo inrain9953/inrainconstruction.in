@@ -12,7 +12,7 @@ const RWHvendorsInIndia = () => {
   const desc =
     "Discover InRain Construction Pvt. Ltd., a top rainwater harvesting vendor in India. Offering innovative, modular systems with German technology, we deliver cost-effective and eco-friendly solutions for water conservation and groundwater recharge.";
   const keyword =
-    "Rainwater Harvesting Vendors in India, water conservation solutions India, eco-friendly water management, rainwater harvesting installation India, sustainable water solutions, groundwater recharge India, Make in India rainwater systems";
+    "Rainwater Harvesting Vendors in India, water conservation solutions India, eco-friendly water management, rainwater harvesting installation India, sustainable rainwater solutions";
   const canonical =
     "https://www.inrainconstruction.in/services/rainwater-harvesting-vendors-in-india";
   const ogUrl =
@@ -50,7 +50,7 @@ const RWHvendorsInIndia = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
@@ -69,7 +69,6 @@ const RWHvendorsInIndia = () => {
             solutions are designed to be both technologically advanced and
             cost-effective, meeting diverse water conservation requirements.
             <br></br>
-            <br></br>
             Our rainwater harvesting systems leverage state-of-the-art German
             technology. We take pride in our commitment to the ‘Make in India’
             initiative, with all manufacturing conducted in-house to ensure
@@ -85,7 +84,7 @@ const RWHvendorsInIndia = () => {
             advantage in densely populated areas.
             <br></br>
             <br></br>
-            With the global groundwater levels depleting rapidly due to overuse,
+            With global groundwater levels depleting rapidly due to overuse,
             effective rainwater harvesting systems are crucial. At{" "}
             <bold className="text-green-500 font-semibold">
               InRain®,
@@ -100,7 +99,7 @@ const RWHvendorsInIndia = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80 drop-shadow-xl rounded-xl"
           src={serviceImg7}
           alt="rainwater harvesting vendors in india"
           loading="eager"

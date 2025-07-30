@@ -8,21 +8,21 @@ import Head from "next/head";
 
 const GroundWaterRechargeSystem = () => {
   const title =
-    "Ground Water Recharge System For Industries | InRain® Construction Pvt. Ltd.";
+    "Groundwater Recharge System For Industries | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover sustainable Groundwater Recharge Systems for industries by InRain Construction Pvt. Ltd. Reduce reliance on surface water, ensure steady water supply, and lower costs with advanced natural and artificial recharge techniques.";
   const keyword =
-    "groundwater recharge system for industries, industrial water conservation, artificial recharge methods, surface recharge techniques, water management for industries, sustainable water solutions, recharge pits for industries, infiltration galleries, industrial groundwater replenishment, drought water solutions, groundwater recharge benefits, eco-friendly industrial water systems, reduce water expenses, industrial water sustainability.";
+    "groundwater recharge system for industries, industrial water conservation, artificial recharge methods, surface recharge techniques, water management for industries, sustainable water solutions, recharge pits for industries, drought water solutions, groundwater recharge benefits, reduce water expenses, industrial water sustainability.";
   const canonical =
     "https://www.inrainconstruction.in/services/ground-water-recharge-system-for-industries";
   const ogUrl =
     "https://www.inrainconstruction.in/services/ground-water-recharge-system-for-industries";
   const ogTitle =
-    "Ground Water Recharge System For Industries | InRain® Construction Pvt. Ltd.";
+    "Groundwater Recharge System For Industries | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Discover sustainable Groundwater Recharge Systems for industries by InRain Construction Pvt. Ltd. Reduce reliance on surface water, ensure steady water supply, and lower costs with advanced natural and artificial recharge techniques.";
   const twittertitle =
-    "Ground Water Recharge System For Industries | InRain® Construction Pvt. Ltd.";
+    "Groundwater Recharge System For Industries | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover sustainable Groundwater Recharge Systems for industries by InRain Construction Pvt. Ltd. Reduce reliance on surface water, ensure steady water supply, and lower costs with advanced natural and artificial recharge techniques.";
 
@@ -50,12 +50,12 @@ const GroundWaterRechargeSystem = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
-            Ground Water Recharge System For Industries
+            Groundwater Recharge System for Industries
           </h1>
           <p className="text-md text-justify md:text-lg pt-5 text-gray-500">
             <bold className="text-green-500 font-semibold">InRain</bold> is
@@ -78,7 +78,7 @@ const GroundWaterRechargeSystem = () => {
             recharge requires optimal infiltration levels.{" "}
             <bold className="text-black font-semibold">
               Additionally, preserving wetlands, streams, and lakes supports the
-              natural replenishment of groundwater as water can seep through
+              natural replenishment of groundwater, as water can seep through
               these areas to reach the water table.
             </bold>
             <br></br>

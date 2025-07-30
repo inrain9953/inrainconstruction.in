@@ -12,7 +12,7 @@ const CoPolymerBased = () => {
   const desc =
     "Discover Co-Polymer Based Rainwater Harvesting Systems by InRain Construction Pvt. Ltd. Cost-effective, eco-friendly, and low-maintenance, these modular systems offer superior water filtration, portability, and long-lasting solutions for sustainable water conservation.";
   const keyword =
-    "Co-Polymer Based Rainwater Harvesting System, co-polymer rainwater harvesting, modular rainwater systems, eco-friendly water conservation, cost-effective rainwater harvesting, portable rainwater storage, low-maintenance rainwater systems, water recharge solutions, sustainable water management, modern rainwater harvesting, rainwater filtration tanks, underground water storage systems";
+    "Co-Polymer Based Rainwater Harvesting System, co-polymer rainwater harvesting, modular rainwater systems, eco-friendly water conservation, portable rainwater storage, low-maintenance rainwater systems, water recharge solutions, sustainable water management, modern rainwater harvesting";
   const canonical =
     "https://www.inrainconstruction.in/services/co-polymer-based-rainwater-harvesting-system";
   const ogUrl =
@@ -50,7 +50,7 @@ const CoPolymerBased = () => {
       </Head>
       <Navbar />
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left m-5 md:m-10 md:flex items-center"
       >
         <div className="">
@@ -90,7 +90,7 @@ const CoPolymerBased = () => {
             <br></br>
           </p>
           <ul className="list-disc text-justify p-5 font-semibold md:text-lg">
-            <li>Environmentally friendly and cost-effective.</li>
+            <li>This system is both environmentally friendly and cost-effective.</li>
             <li>
               Percolation storage tanks covered with geo-sheets for superior
               filtration.
@@ -127,8 +127,8 @@ const CoPolymerBased = () => {
         />
       </div>
       <div
-        data-aos="zoom-in-up"
-        className="text-center m-5 md:m-10  bg-sky-300 rounded-xl"
+        data-aos="fade-up"
+        className="text-center m-5 md:m-10 bg-sky-300 rounded-xl"
       >
         <p className="p-5 text-justify text-md md:text-lg ">
           Unlike conventional rainwater harvesting (RWH) systems, modular RWH

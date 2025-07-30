@@ -18,7 +18,7 @@ export const Main2 = () => {
             <bold className="font-semibold text-black">
               developing advanced and innovative rainwater harvesting solutions
             </bold>
-            . We are dedicated to make use of rainwater to help our clients
+            . We are dedicated to making use of rainwater to help our clients
             optimize their water resources effectively and contribute to{" "}
             <bold className="font-semibold text-black">
               environmental sustainability
@@ -49,7 +49,7 @@ export const Main2 = () => {
             our efforts in promoting sustainable water management practices,
             <bold className="font-semibold text-black">
               {" "}
-              ensuring that our solutions make a lasting positive impact on both
+              ensuring that our solutions have a lasting positive impact on both
               our clients and the environment.
             </bold>
           </p>

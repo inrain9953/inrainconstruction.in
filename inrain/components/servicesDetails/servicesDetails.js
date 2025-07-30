@@ -9,7 +9,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-system-for-warehouses"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting System for Warehouses
@@ -20,7 +20,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/co-polymer-based-rainwater-harvesting-system"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Co-polymer based Rainwater Harvesting System
@@ -31,7 +31,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/modular-rainwater-harvesting-system"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Modular Rainwater Harvesting System
@@ -46,7 +46,7 @@ export const ServicesDetails = () => {
         >
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               FRP based Rainwater Harvesting System
@@ -57,7 +57,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/roof-top-rainwater-harvesting-system"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Roof top Rainwater Harvesting System
@@ -68,7 +68,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/ground-water-recharge-system-for-industries"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Ground water recharge system for industries
@@ -79,7 +79,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-vendors-in-delhi-ncr"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting vendors in Delhi(NCR)
@@ -90,7 +90,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-vendors-in-india"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting vendors in India
@@ -101,7 +101,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/box-type-rainwater-harvesting-system"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Box type Rainwater Harvesting System
@@ -112,7 +112,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/storm-water-recharge-and-management-system"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Storm water recharge and management system
@@ -123,7 +123,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/bioswale-for-rainwater-drain"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Bioswale for Rainwater drain
@@ -134,7 +134,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-system"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting System
@@ -145,7 +145,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-system-for-industries"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting System for industries
@@ -158,7 +158,7 @@ export const ServicesDetails = () => {
         >
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting Installation Company
@@ -169,7 +169,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-system-in-india"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting System in India
@@ -182,7 +182,7 @@ export const ServicesDetails = () => {
         >
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Modular Rainwater Harvesting System for industries
@@ -193,7 +193,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-system-in-delhi-ncr"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting System in Delhi-NCR
@@ -204,7 +204,7 @@ export const ServicesDetails = () => {
         <Link href={"/services/rainwater-harvesting-manufacturers"}>
           <div
             data-aos="fade-up"
-            className="md:h-36 hover:font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
+            className="md:h-36 hover:bg-green-400 font-semibold text-center justify-center bg-green-500 rounded-xl items-center flex"
           >
             <p className="text-sm p-2 md:text-lg">
               Rainwater Harvesting System manufacturers

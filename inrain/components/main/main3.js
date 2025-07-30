@@ -13,7 +13,7 @@ export const Main3 = () => {
       <div className="m-5 md:flex md:justify-center md:m-10 mt-20">
         <div data-aos="fade-up" className="md:content-center">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
-            InRain<sup>®</sup> Construction Pvt Ltd.
+            InRain® Construction Pvt Ltd.
           </p>
           <h2 className="text-center text-2xl font-semibold md:text-4xl">
             Rainwater Harvesting System in Delhi
@@ -51,7 +51,10 @@ export const Main3 = () => {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="m-2 flex justify-center items-center md:inline">
+        <div
+          data-aos="fade-up"
+          className="m-2 flex justify-center items-center md:inline"
+        >
           <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
             <div>
               <Image
@@ -86,7 +89,10 @@ export const Main3 = () => {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="m-2 flex justify-center items-center md:inline">
+        <div
+          data-aos="fade-up"
+          className="m-2 flex justify-center items-center md:inline"
+        >
           <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
             <div>
               <Image
@@ -143,7 +149,7 @@ export const Main3 = () => {
           <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
             We offer a state-of-the-art Rooftop Rainwater Harvesting System in
             Delhi, designed for efficient filtration, temporary storage, and
-            controlled release. This system is ideal for managing waste water
+            controlled release. This system is ideal for managing wastewater
             channels and is built using our proprietary plastic injection-molded
             panels. We provide a wide range of modular options tailored to suit
             your specific needs. <br></br> As a leading provider of Rooftop

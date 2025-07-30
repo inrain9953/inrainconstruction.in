@@ -5,6 +5,7 @@ import React from "react";
 import serviceImg3 from "../../public/services/harvesting3.jpg";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 
 const ModularRWH = () => {
   const title =
@@ -12,7 +13,7 @@ const ModularRWH = () => {
   const desc =
     "Discover Modular Rainwater Harvesting Systems by InRain Construction Pvt. Ltd. Efficient, eco-friendly, and cost-effective solutions using durable polymer modules for sustainable water management.";
   const keyword =
-    "modular rainwater harvesting system, polymer rainwater systems, rainwater harvesting technology, eco-friendly water solutions, rainwater storage and reuse, load-bearing polymer modules, sustainable water management, space-saving rainwater systems, cost-effective rainwater harvesting, advanced filtration systems, geotextile filtration, urban water conservation, portable rainwater systems, low-maintenance water solutions, rainwater harvesting for urban areas";
+    "modular rainwater harvesting system, rainwater harvesting technology, eco-friendly water solutions, rainwater storage and reuse, load-bearing polymer modules, sustainable water management, cost-effective rainwater harvesting, advanced filtration systems, rainwater harvesting for urban areas";
   const canonical =
     "https://www.inrainconstruction.in/services/modular-rainwater-harvesting-system";
   const ogUrl =
@@ -50,15 +51,23 @@ const ModularRWH = () => {
       </Head>
       <Navbar />
       <div className="text-left m-5 md:m-10 md:flex items-center">
-        <div data-aos="zoom-in-up" className="">
+        <div data-aos="fade-up" className="">
           <h1 className="text-2xl md:text-[2rem] font-semibold">
             Modular Rainwater Harvesting System
           </h1>
           <p className="text-md md:text-lg text-gray-500 pt-5">
-            Infusing Modular Rainwater Harvesting Technology to store and reuse
-            rainwater is key to securing a future with abundant water resources.
-            <br></br>
-            <br></br>
+            Infusing{" "}
+            <Link
+              href={
+                "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+              }
+              target="_blank"
+              className="font-semibold text-green-500 hover:text-sky-600"
+            >
+              Modular Rainwater Harvesting
+            </Link>{" "}
+            Technology to store and reuse rainwater is key to securing a future
+            with abundant water resources.
           </p>
 
           <ul className="list-disc p-5 font-semibold md:text-lg text-black">
@@ -72,7 +81,7 @@ const ModularRWH = () => {
             <li>Cost-effective solution</li>
           </ul>
 
-          <p className="text-md md:text-lg text-gray-500">
+          <p className="text-md md:text-lg text-justify text-gray-500">
             Urbanization has significantly increased water consumption, placing
             immense pressure on our limited natural resources. Reports of
             declining water levels are common worldwide.{" "}
@@ -81,7 +90,6 @@ const ModularRWH = () => {
               development, and at InRain, we offer advanced rainwater harvesting
               methods using cutting-edge technology.
             </bold>
-            <br></br>
             <br></br>In recent years, modular rainwater harvesting has gained
             popularity due to its numerous advantages over traditional systems.{" "}
             <bold className="font-semibold text-black">
@@ -90,45 +98,40 @@ const ModularRWH = () => {
               versatile use of space.
             </bold>
             <br></br>
-            <br></br>
             This technique utilizes polymer-based modular structures, known for
             their strength and load-bearing capacity. Areas designated for
             rainwater harvesting with modular systems can even be used for
             vehicle parking. Installation is also quicker compared to
             traditional rainwater harvesting systems. Here are some of the key
             benefits:
-            <br></br>
-            <br></br>
           </p>
 
-          <ul className="list-disc p-5 font-semibold md:text-lg text-black">
+          <ul className="list-disc p-5 font-semibold text-justify md:text-lg text-black">
             <li>
-              Eco-friendly and economical : Polymers can be recycled and reused.
+              Eco-friendly and economical: Polymers can be recycled and reused.
             </li>
             <li>
-              Excellent filtration : The percolation tank is covered with a
+              Excellent filtration: The percolation tank is covered with a
               geotextile sheet for superior filtration.
             </li>
             <li>
-              Safety : The percolation tank is placed underground, preventing
+              Safety: The percolation tank is placed underground, preventing
               unauthorized access.
             </li>
             <li>
-              Cost-saving maintenance : Minimal to no maintenance is required
+              Cost-saving maintenance: Minimal to no maintenance is required as
               compared to conventional systems.
             </li>
             <li>
-              Higher recharge capacity : Water enters from five sides,
-              increasing efficiency.
+              Higher recharge capacity: Water enters from five sides, increasing
+              efficiency.
             </li>
-            <li>Durability : Co-polymer modules have a long lifespan.</li>
+            <li>Durability: Co-polymer modules have a long lifespan.</li>
             <li>
-              Portability : These stackable co-polymer modules can be easily
+              Portability: These stackable co-polymer modules can be easily
               relocated and reinstalled at different sites.
             </li>
           </ul>
-          <br></br>
-          <br></br>
 
           <p className="text-md md:text-lg text-gray-500">
             <bold className="font-semibold text-black">
@@ -140,7 +143,8 @@ const ModularRWH = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          data-aos="fade-up"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80 rounded-xl"
           src={serviceImg3}
           alt="modular rainwater harvesting system"
           loading="eager"
@@ -150,7 +154,7 @@ const ModularRWH = () => {
       </div>
 
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-center m-5 md:m-10 bg-sky-300 rounded-xl"
       >
         <p className="p-5 text-md md:text-lg">

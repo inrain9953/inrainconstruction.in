@@ -18,7 +18,7 @@ export const AboutTechnology = () => {
         </h3>
         <div
           data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-2 m-2 md:mt-10 mt-5"
+          className="grid grid-cols-1 md:grid-cols-2 m-2 md:mt-10 mt-5 bg-white"
         >
           <Image
             className=""
@@ -39,7 +39,7 @@ export const AboutTechnology = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-3 m-2"
+          className="grid grid-cols-1 md:grid-cols-3 m-2 bg-white"
         >
           <Image
             className=""
