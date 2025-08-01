@@ -147,12 +147,23 @@ const LocationTarget = ({ loc }) => {
           </h1>
           <hr className="m-2 md:m-5"></hr>
           <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
-            <bold className="text-green-500 font-semibold">
+            <Link
+              href={"https://www.inrainconstruction.com/"}
+              target="_blank"
+              className="text-green-500 font-semibold hover:text-sky-500"
+            >
               InRain® Construction Pvt. Ltd.
-            </bold>{" "}
+            </Link>{" "}
             is a premier provider of{" "}
             <bold className="text-black font-semibold">
-              Rainwater Harvesting in {loc}
+              <Link
+                className="text-green-500 font-semibold hover:text-sky-500"
+                href={`https://www.inrainconstruction.com/rainwater-harvesting-system`}
+                target="_blank"
+              >
+                Rainwater Harvesting
+              </Link>{" "}
+              in {loc}
             </bold>
             , specializing in delivering cutting-edge rainwater harvesting
             solutions tailored to meet the unique needs of our clients.<br></br>
@@ -266,7 +277,16 @@ const LocationTarget = ({ loc }) => {
           <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
             We offer state-of-the-art{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting in {loc}
+              <Link
+                className="text-green-500 font-semibold hover:text-sky-500"
+                href={
+                  "https://www.inrainconstruction.com/roof-top-rainwater-harvesting-system-RRWHS-InRain"
+                }
+                target="_blank"
+              >
+                Rooftop Rainwater Harvesting
+              </Link>{" "}
+              in {loc}
             </bold>
             , designed for efficient filtration, temporary storage, and
             controlled release. This system is ideal for managing wastewater
@@ -274,8 +294,8 @@ const LocationTarget = ({ loc }) => {
             panels. We provide a wide range of modular options tailored to suit
             your specific needs. <br></br>{" "}
             <bold className="text-black font-semibold">
-              As a leading provider of Rooftop Rainwater Harvesting in{" "}
-              {loc}, we take pride in delivering top-tier, customized solutions.
+              As a leading provider of Rooftop Rainwater Harvesting in {loc}, we
+              take pride in delivering top-tier, customized solutions.
             </bold>{" "}
             If you’re looking for the perfect system to match your requirements,
             feel free to reach out to us for personalized options and offers.{" "}

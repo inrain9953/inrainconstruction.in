@@ -1,4 +1,3 @@
-import { Main1 } from "@/components/main/main1";
 import { Navbar } from "@/components/navbar/navbar";
 import React from "react";
 import Link from "next/link";
@@ -8,7 +7,7 @@ const _error = () => {
   return (
     <>
       <Navbar />
-      <div className="m-5">
+      <div className="m-5 md:p-10 md:shadow-2xl rounded-xl">
         <div className="text-center">
           <h1 className="text-xl md:text-2xl text-green-500 font-semibold">
             InRain® Construction Private Limited

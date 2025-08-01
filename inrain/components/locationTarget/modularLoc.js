@@ -282,16 +282,23 @@ const ModularLoc = ({ loc }) => {
 
       <div className="m-5 md:flex md:justify-center md:items-center md:gap-5 md:m-10">
         <div data-aos="fade-up" className=" text-left">
-          <p className="font-semibold md:text-lg text-green-600">
-            InRain®
-          </p>
+          <p className="font-semibold md:text-lg text-green-600">InRain®</p>
           <h2 className="text-2xl font-semibold md:text-[40px]">
             Rooftop Rainwater Harvesting in {loc}
           </h2>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-lg mt-3 md:mt-5">
             We proudly offer advanced{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting in {loc},
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/roof-top-rainwater-harvesting-system-RRWHS-InRain"
+                }
+                target="_blank"
+                className="text-sky-500 hover:text-green-500"
+              >
+                Rooftop Rainwater Harvesting
+              </Link>{" "}
+              in {loc},
             </bold>{" "}
             designed to efficiently capture and manage rainwater for both
             residential and commercial properties. Our systems focus on
