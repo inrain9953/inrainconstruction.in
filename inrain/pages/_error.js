@@ -55,10 +55,10 @@ const _error = () => {
             <li>
               🔹 Contact Us for any assistance:{" "}
               <Link
-                href={"mailto:sales@inrainwaterharvesting.com"}
+                href={"mailto:inrainconstruction@gmail.com"}
                 className="font-semibold text-green-500 hover:text-sky-500"
               >
-                sales@inrainwaterharvesting.com
+                inrainconstruction@gmail.com
               </Link>{" "}
               |{" "}
               <Link

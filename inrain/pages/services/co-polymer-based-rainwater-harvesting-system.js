@@ -30,7 +30,7 @@ const CoPolymerBased = () => {
     <>
       <Head>
         <title>{title}</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
@@ -118,7 +118,7 @@ const CoPolymerBased = () => {
           </p>
         </div>
         <Image
-          className="mt-10 md:m-5 md:h-72 md:min-w-80"
+          className="mt-10 md:m-5 md:h-72 md:min-w-80 rounded-xl shadow-2xl"
           src={serviceImg2}
           alt="co-polymer based rainwater harvesting system"
           loading="eager"
