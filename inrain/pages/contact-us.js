@@ -54,6 +54,16 @@ const Contact = () => {
   const onSubmit = async (e) => {
     document.querySelector(".loading").style.display = "flex";
     e.preventDefault();
+    if (
+      formData.name == "" ||
+      formData.email == "" ||
+      formData.mobile == "" ||
+      formData.message == ""
+    ) {
+      alert("Please fill all the fields...");
+      document.querySelector(".loading").style.display = "none";
+      return;
+    }
 
     try {
       const response = await axios.post("/api/signup", formData);

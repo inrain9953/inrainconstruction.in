@@ -1,80 +1,92 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { features } from "../constant";
+import RainAnimation from "../Rain/RainAnimation";
 
 export const Main1 = () => {
-  useEffect(() => {
-    const filterContainer = document.querySelector(".filter-container");
-    const waterFilter = document.querySelector(".water");
-    const constainerDetails = document.querySelector(".container-details");
-    setTimeout(() => {
-      filterContainer.classList.add("filter-active");
-      waterFilter.classList.add("water-disable");
-      constainerDetails.classList.add("container-details-active");
-    }, 4010);
-  }, []);
-
+  const router = useRouter();
   return (
-    <>
-      <div
-        data-aos="fade-up"
-        className="text-center main1-background md:text-left"
-        loading="eager"
-        priority={true}
-        unoptimized={true}
-      >
-        <div className="relative">
-          <h1 className="relative text-green-800 z-30 pt-5 text-lg font-semibold drop-shadow-md md:text-4xl md:pt-10 md:ml-16">
-            Modular Rainwater Harvesting System in India
-          </h1>
-          <hr className="m-2 md:m-4"></hr>
-          <p className="relative z-20 text-2xl font-semibold align-middle md:text-3xl md:ml-16 md:m-5">
-            Water Conservation <br></br>& <br></br>Management Company
-          </p>
+    <div className="relative">
+      <RainAnimation />
+      <div className="absolute inset-0 z-10 flex flex-col px-4 py-8">
+        {/* TOP CONTENT */}
+        <div className="flex items-center justify-center w-full flex-1">
+          <div className="backdrop-blur-sm bg-transparent shadow-2xl rounded-3xl p-6 md:p-10 max-w-3xl w-full text-center md:text-left transition duration-300 hover:scale-[1.01]">
+            {/* Heading */}
+            <h1 className="text-2xl md:text-3xl font-bold text-green-900 leading-tight">
+              Modular Rainwater Harvesting System in India
+            </h1>
 
-          <span className="relative z-20 text-md font-semibold align-middle lg:inline drop-shadow-md md:text-xl">
-            <TypeAnimation
-              className="md:ml-16"
-              sequence={[
-                "Atmosphere of Excellence in Water Conservation & Management Technologies",
-                3000,
-              ]}
-              repeat={Infinity}
-            />
-          </span>
-        </div>
+            {/* Divider */}
+            <div className="w-84 h-1 bg-green-600 rounded-full mt-4 mb-5 mx-auto md:mx-0"></div>
 
-        <div className="filter-container hidden"></div>
+            {/* Subheading */}
+            <p className="text-lg md:text-2xl font-semibold text-gray-800 mb-3">
+              Water Conservation & Management Company
+            </p>
 
-        <div className="hidden flex-wrap mt-5 justify-between absolute bottom-0 z-10 container-details w-full">
-          {features.map((feature) => (
-            <div className="m-4 w-36 md:w-40 rounded-lg text-center items-center drop-shadow-2xl h-32 flex cursor-pointer">
-              <Image
-                alt="img"
-                className="object-cover h-28 rounded-lg opacity-60"
-                src={feature.img}
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              ></Image>
-              <p className="items-center m-4 text-sm font-semibold absolute top-5 text-white drop-shadow-2xl">
-                {feature.description}
-              </p>
+            {/* Animated Text */}
+            <div className="text-sm md:text-lg font-medium text-gray-700 min-h-[48px]">
+              <TypeAnimation
+                sequence={[
+                  "Atmosphere of Excellence in Water Conservation & Management Technologies",
+                  3000,
+                ]}
+                repeat={Infinity}
+              />
             </div>
-          ))}
-        </div>
-      </div>
 
-      <div className="water">
-        <p className="water-content text-xl font-semibold">
-          Save The Water <br></br>Save The Life
-        </p>
-        <div className="drop-container">
-          <div className="drop"></div>
+            {/* CTA Buttons */}
+            <div className="mt-2 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <button
+                onClick={(e) => router.push("/services")}
+                className="px-6 py-3 bg-green-700 text-white rounded-xl shadow-lg hover:bg-green-800 hover:scale-105 transition-all duration-300"
+              >
+                Explore Solutions
+              </button>
+              <button onClick={(e) => router.push('/contact-us')} className="px-6 py-3 border border-green-700 text-green-800 rounded-xl hover:bg-green-100 hover:scale-105 transition-all duration-300">
+                Get Free Site Inspection
+              </button>
+            </div>
+
+            {/* Trust Line */}
+            <p className="text-xs text-gray-600 font-semibold mt-4">
+              4,000+ installations across India
+            </p>
+          </div>
+        </div>
+
+        {/* BOTTOM FEATURES */}
+        <div className="w-full">
+          <div className="flex gap-4 overflow-x-auto md:overflow-visible md:flex-wrap md:justify-center pb-2">
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className="relative min-w-[140px] md:w-40 h-28 md:h-32 rounded-xl overflow-hidden cursor-pointer group shadow-lg flex-shrink-0"
+              >
+                {/* Image */}
+                <Image
+                  alt="feature"
+                  src={feature.img}
+                  fill
+                  className="object-cover group-hover:scale-110 transition duration-500"
+                  priority
+                />
+
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+
+                {/* Text */}
+                <p className="absolute inset-0 flex items-center justify-center text-center text-white text-xs md:text-sm font-semibold px-2 leading-tight">
+                  {feature.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
