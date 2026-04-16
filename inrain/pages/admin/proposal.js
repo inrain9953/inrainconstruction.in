@@ -131,6 +131,13 @@ const Proposal = () => {
     setCostOfOneRWH(Number(totalCost.toFixed(2)));
   }, [boqDetails]);
 
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      window.location.href = "/admin";
+    }
+  }, []);
+
   async function getProposal(e) {
     e.preventDefault();
     setLoading(true);
