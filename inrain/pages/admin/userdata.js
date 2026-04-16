@@ -2,8 +2,11 @@ import { Navbar } from "@/components/navbar/navbar";
 import { Footer } from "@/components/footer/footer";
 import { useEffect, useState } from "react";
 import withAuth from "@/components/withauth";
+import { Button } from "@mui/material";
+import { useRouter } from "next/navigation";
 function UserData() {
   const [products, setProducts] = useState([]);
+  const router = useRouter();
 
   useEffect(() => {
     async function fetchData() {
@@ -19,9 +22,9 @@ function UserData() {
       }
     }
 
-    setTimeout(() => {
-      localStorage.removeItem("token");
-    }, 3000);
+    // setTimeout(() => {
+    //   localStorage.removeItem("token");
+    // }, 3000);
 
     fetchData();
   }, []);
@@ -59,6 +62,11 @@ function UserData() {
             ))}
           </tbody>
         </table>
+      </div>
+      <div className="flex justify-center items-center mt-5">
+        <Button variant="contained" onClick={(e) => router.push("/admin/proposal")}>
+          Make Proposal
+        </Button>
       </div>
 
       <Footer />
