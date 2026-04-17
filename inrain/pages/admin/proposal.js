@@ -337,7 +337,7 @@ const Proposal = () => {
               <h2 className="text-xl text-center font-semibold mb-4 text-gray-700">
                 Pit Details
               </h2>
-              <div className="flex justify-center items-center gap-8">
+              <div className="flex flex-col md:flex-row justify-center items-center gap-6">
                 <div className="border rounded-xl p-4 bg-gray-50">
                   <h3 className="font-medium text-gray-700" htmlFor="size">
                     Size of Pit:
