@@ -126,7 +126,16 @@ export default function MobileSidebar ({ sidebarOpen, setSidebarOpen }) {
       >
         {/* ── Header ── */}
         <div className='flex items-center justify-between px-5 py-4 border-b border-gray-100 shrink-0'>
-          <Image src='/logo.png' alt='logo' width={100} height={100} />
+          <Image
+            onClick={() => {
+              DynamicRoute('/')
+              setSidebarOpen(false)
+            }}
+            src='/logo.png'
+            alt='logo'
+            width={100}
+            height={100}
+          />
           <button
             onClick={() => setSidebarOpen(false)}
             className='w-9 h-9 flex items-center justify-center bg-gray-100 hover:bg-indigo-100 hover:text-indigo-600 text-gray-500 rounded-xl border-none cursor-pointer transition-colors duration-150'

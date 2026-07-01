@@ -165,7 +165,7 @@ const RWHForIndustries = ({ location }) => {
               </p>
 
               <Link
-                href={`/contact-us`}
+                href={`/${location.slug}/contact-us`}
                 className='bg-sky-500 hover:bg-sky-600 transition px-6 py-3 rounded-xl font-semibold'
               >
                 Get a Quote
