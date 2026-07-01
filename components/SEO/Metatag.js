@@ -23,10 +23,10 @@ const Metatag = ({ data }) => {
       <meta name='geo.region' content='IN' />
       <meta name='geo.placename' content={data.canonical} />
       <meta property='og:site_name' content='InRain® Construction Pvt. Ltd.' />
-      {/* <meta
+      <meta
         name='google-site-verification'
-        content='PbDVyrzTtY0TXIc1bKpuhHLByOKSJEhYPGZ95GZtMyk'
-      /> */}
+        content='f5HmR_XHPeBiTtIA27g5bBonwT1sdqQD_u7cP3tQIV4'
+      />
       <link rel='icon' href='/favicon.ico' />
       <link
         rel='apple-touch-icon'
