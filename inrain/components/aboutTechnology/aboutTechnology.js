@@ -1,72 +1,94 @@
-import React from "react";
-import Image from "next/image";
-import tech1 from "../../public/Technology/main1.jpg";
-import tech2 from "../../public/Technology/main2.jpeg";
-import tech3 from "../../public/Technology/main3.jpg";
-import tech4 from "../../public/Technology/main4.jpg";
-import tech5 from "../../public/Technology/main5.jpg";
+import React from 'react'
+import Image from 'next/image'
 
 export const AboutTechnology = () => {
   return (
-    <>
-      <div className="text-center pt-10 m-5 md:m-10">
-        <h3
-          data-aos="fade-up"
-          className="md:text-4xl font-semibold text-2xl"
-        >
-          About Our Technology
-        </h3>
-        <div
-          data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-2 m-2 md:mt-10 mt-5 bg-white"
-        >
-          <Image
-            className=""
-            src={tech1}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
-          />
-          <Image
-            className=""
-            src={tech2}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
-          />
+    <section className='py-10'>
+      <div className='mx-auto max-w-7xl px-5 md:px-10'>
+        {/* Section Heading */}
+        <div className='mb-12 text-center'>
+          <span
+            data-aos='fade-up'
+            className='text-sm font-semibold uppercase tracking-widest text-green-600'
+          >
+            Innovation & Engineering
+          </span>
+
+          <h3
+            data-aos='fade-up'
+            className='mt-3 text-2xl font-bold text-gray-900 md:text-4xl'
+          >
+            Our Technology
+          </h3>
+
+          <div
+            data-aos='fade-up'
+            className='mx-auto mt-4 h-1 w-24 rounded-full bg-green-500'
+          ></div>
         </div>
+
+        {/* Top Row */}
         <div
-          data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-3 m-2 bg-white"
+          data-aos='fade-up'
+          className='grid grid-cols-1 gap-6 md:grid-cols-2'
         >
-          <Image
-            className=""
-            src={tech3}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
-          />
-          <Image
-            className=""
-            src={tech4}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
-          />
-          <Image
-            className=""
-            src={tech5}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
-          />
+          <div className='group overflow-hidden rounded-3xl shadow-xl'>
+            <Image
+              src='/Technology/main1.jpg'
+              alt='Technology'
+              width={800}
+              height={500}
+              className='h-72 w-full object-cover transition duration-500 group-hover:scale-105'
+            />
+          </div>
+
+          <div className='group overflow-hidden rounded-3xl shadow-xl'>
+            <Image
+              src='/Technology/main2.jpeg'
+              alt='Technology'
+              width={800}
+              height={500}
+              className='h-72 w-full object-cover transition duration-500 group-hover:scale-105'
+            />
+          </div>
+        </div>
+
+        {/* Bottom Row */}
+        <div
+          data-aos='fade-up'
+          className='mt-6 grid grid-cols-1 gap-6 md:grid-cols-3'
+        >
+          <div className='group overflow-hidden rounded-3xl shadow-xl'>
+            <Image
+              src='/Technology/main3.jpg'
+              alt='Technology'
+              width={500}
+              height={350}
+              className='h-64 w-full object-cover transition duration-500 group-hover:scale-105'
+            />
+          </div>
+
+          <div className='group overflow-hidden rounded-3xl shadow-xl'>
+            <Image
+              src='/Technology/main4.jpg'
+              alt='Technology'
+              width={500}
+              height={350}
+              className='h-64 w-full object-cover transition duration-500 group-hover:scale-105'
+            />
+          </div>
+
+          <div className='group overflow-hidden rounded-3xl shadow-xl'>
+            <Image
+              src='/Technology/main5.jpg'
+              alt='Technology'
+              width={500}
+              height={350}
+              className='h-64 w-full object-cover transition duration-500 group-hover:scale-105'
+            />
+          </div>
         </div>
       </div>
-    </>
-  );
-};
+    </section>
+  )
+}

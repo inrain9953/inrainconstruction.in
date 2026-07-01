@@ -1,16 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'standalone',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'www.inrainconstruction.in',
-        port: '',
-        pathname: './public/**',
-      },
-    ]
-  }
-};
+    formats: ['image/avif', 'image/webp']
+  },
+  /* config options here */
+  reactCompiler: true
+}
 
-export default nextConfig;
+export default nextConfig

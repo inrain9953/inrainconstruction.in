@@ -1,5 +1,3 @@
-import { Footer } from '@/components/footer/footer'
-import { Navbar } from '@/components/navbar/navbar'
 import React from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
@@ -8,11 +6,8 @@ import CallIcon from '@mui/icons-material/Call'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import Link from 'next/link'
 import { useState } from 'react'
-import Metatag from '@/components/SEO/Metatag'
-import Schema from '@/components/SEO/Schema'
-import BreadcrumbSchema from '@/components/SEO/Breadcrumb'
 
-const Contact = () => {
+const ContactPage = ({ location }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -66,41 +61,8 @@ const Contact = () => {
     })
   }
 
-  const data = {
-    title: `Contact Us | InRain Construction Private Limited - Delhi, India`,
-    desc: `Contact InRain® Construction Private Limited for our best Rainwater Harvesting Service. Enquire Now!`,
-    keyword: `Rainwater Harvesting Service, Modular Rainwater Harvesting Service, Rainwater Harvesting Installation company, Rainwater Harvesting for Industries`,
-    canonical: `https://www.inrainconstruction.in/contact-us`
-  }
-
-  const crumb = [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Home',
-      item: `https://www.inrainconstruction.in/`
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'Contact Us',
-      item: `https://www.inrainconstruction.in/contact-us`
-    }
-  ]
-
-  const ContactCity = {
-    loc: 'Delhi',
-    slug: 'contact-us',
-    pincode: '110001',
-    id: 123
-  }
-
   return (
-    <>
-      <Metatag data={data} />
-      <Schema location={ContactCity} />
-      <BreadcrumbSchema location={crumb} />
-      <Navbar />
+    <main>
       <section
         data-aos='fade-up'
         className='relative mx-5 mt-5 overflow-hidden rounded-3xl shadow-2xl md:mx-10'
@@ -185,7 +147,7 @@ const Contact = () => {
 
                 <div className='p-8'>
                   {/* Email */}
-                  <div className='flex items-center gap-4 mb-6'>
+                  <div className='flex items-center gap-4 mb-3'>
                     <div className='h-12 w-12 rounded-full bg-green-100 flex items-center justify-center'>
                       <MailOutline className='text-green-600' />
                     </div>
@@ -201,7 +163,7 @@ const Contact = () => {
                   </div>
 
                   {/* Phone */}
-                  <div className='flex items-center gap-4 mb-6'>
+                  <div className='flex items-center gap-4 mb-3'>
                     <div className='h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center'>
                       <CallIcon className='text-blue-600' />
                     </div>
@@ -224,7 +186,7 @@ const Contact = () => {
 
                     <div>
                       <span className='text-gray-600 hover:text-green-600 font-semibold'>
-                        Delhi - 110001
+                        {location.loc} - {location.pincode}, India
                       </span>
                     </div>
                   </div>
@@ -372,10 +334,8 @@ const Contact = () => {
           </div>
         </div>
       )}
-
-      <Footer />
-    </>
+    </main>
   )
 }
 
-export default Contact
+export default ContactPage

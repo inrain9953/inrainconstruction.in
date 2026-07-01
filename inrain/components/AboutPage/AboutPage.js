@@ -1,46 +1,12 @@
-import { Footer } from '@/components/footer/footer'
-import { Navbar } from '@/components/navbar/navbar'
 import React from 'react'
 import Image from 'next/image'
 import { AboutContent } from '@/components/constant'
 import { AboutTechnology } from '@/components/aboutTechnology/aboutTechnology'
 import Link from 'next/link'
-import Metatag from '@/components/SEO/Metatag'
-import Schema from '@/components/SEO/Schema'
-import BreadcrumbSchema from '@/components/SEO/Breadcrumb'
 
-const About = () => {
-  const city = { loc: 'Delhi', slug: '', pincode: '110001', id: 7 }
-
-  const data = {
-    title: 'About Us | InRain Construction Private Limited -  Delhi, India',
-    desc: 'About InRain® Construction Private Limited. Enquire Now!',
-    keyword:
-      'Rainwater Harvesting System, Modular Rainwater Harvesting, Rainwater Harvesting Installation company, Rainwater Harvesting for Industries',
-    canonical: 'https://www.inrainconstruction.in/about'
-  }
-
-  const crumb = [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Home',
-      item: `https://www.inrainconstruction.in/`
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'About Us',
-      item: `https://www.inrainconstruction.in/about`
-    }
-  ]
+const AboutPage = ({ location }) => {
   return (
     <>
-      <Metatag data={data} />
-      <Schema location={city} />
-      <BreadcrumbSchema location={crumb} />
-      <Navbar />
-
       <section className='relative mx-4 md:mx-10 mt-5 overflow-hidden rounded-2xl shadow-2xl'>
         {/* Banner Image */}
         <Image
@@ -83,7 +49,7 @@ const About = () => {
             </span>
 
             <h2 className='mt-3 text-2xl font-bold text-gray-900 md:text-4xl'>
-              The Best Rainwater Harvesting Company
+              The Best Rainwater Harvesting Company in {location.loc}
             </h2>
 
             <div className='mx-auto mt-4 h-1 w-24 rounded-full bg-green-500'></div>
@@ -93,7 +59,7 @@ const About = () => {
           <div className='grid grid-cols-1 gap-10 lg:grid-cols-3'>
             {/* Text Content */}
             <div className='lg:col-span-2'>
-              <div className='rounded-2xl bg-white p-6 shadow-xl md:p-10'>
+              <div className='rounded-2xl bg-white p-4 shadow-xl md:p-10'>
                 <p className='text-justify text-gray-900 leading-7 text-base'>
                   At{' '}
                   <span className='font-semibold text-green-600'>
@@ -404,10 +370,8 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   )
 }
 
-export default About
+export default AboutPage

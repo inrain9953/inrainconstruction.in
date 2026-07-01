@@ -1,205 +1,227 @@
-import React from "react";
-import trophy from "../../public/trophyImg.png";
-import approved from "../../public/approved.png";
-import cerg from "../../public/cer-g.jpg";
-import Image from "next/image";
-import { InRainImage } from "../constant";
-import Link from "next/link";
-import service7 from "../../public/service7.jpg";
+import React from 'react'
+import Image from 'next/image'
+import { InRainImage } from '../constant'
+import Link from 'next/link'
 
-export const Main3 = () => {
+export const Main3 = ({ location }) => {
+  const badges = [
+    {
+      img: '/approved.png',
+      sub: 'ISO 9001 : 2015',
+      title: 'Certified Company'
+    },
+    {
+      img: '/trophyImg.png',
+      sub: 'Solution Provider',
+      title: 'Best Industrial'
+    },
+    {
+      img: '/cer-g.jpg',
+      sub: null,
+      title: 'InRain® Construction Pvt. Ltd.'
+    },
+    {
+      img: '/trophyImg.png',
+      sub: 'ISO 14001 : 2015',
+      title: 'Certified Company'
+    }
+  ]
+
   return (
-    <>
-      <div className="m-5 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="fade-up" className="md:content-center">
-          <p className="text-center font-semibold text-md text-green-500 md:text-lg">
-            InRain® Construction Pvt Ltd.
-          </p>
-          <h2 className="text-center text-2xl font-semibold md:text-4xl">
-            Rainwater Harvesting System in Delhi
-          </h2>
-          <hr className="m-2 md:m-5"></hr>
-          <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
-            <bold className="text-green-500 font-semibold">
-              InRain<sup>®</sup> Construction Pvt. Ltd.
-            </bold>{" "}
-            is a premier provider of{" "}
-            <bold className="text-black font-semibold">
-              Rainwater Harvesting Systems in Delhi
-            </bold>
-            , specializing in delivering cutting-edge rainwater harvesting
-            solutions tailored to meet the unique needs of our clients.<br></br>
-            <br></br>We are committed to providing solutions in Delhi that not
-            only address water scarcity but also help our clients reduce their
-            environmental impact through sustainable practices. By continually
-            prioritizing innovation and environmental responsibility,{" "}
-            <bold className="text-black font-semibold">
-              <bold className="text-green-500 font-semibold">
-                InRain<sup>®</sup> Construction
-              </bold>{" "}
-              remains at the forefront of the rainwater harvesting industry,
-            </bold>{" "}
-            helping clients make the most of their water resources while
-            fostering a positive impact on the environment.
-            <bold className="text-black font-semibold">
-              {" "}
-              Our dedication to pioneering innovative solutions, ensuring the
-              highest quality standards, and promoting sustainable practices has
-              established us as a trusted partner in the rainwater harvesting
-              industry.
-            </bold>
-          </p>
-        </div>
+    <section className='bg-white'>
+      {/* ── Hero Text + Badges ── */}
+      <div className='max-w-7xl mx-auto px-5 md:px-10 pt-5 pb-10'>
+        <div className='flex flex-col lg:flex-row lg:items-center justify-center lg:gap-10'>
+          {/* Left — Text */}
+          <div data-aos='fade-up' className='flex-1'>
+            <span className='inline-block text-xs font-semibold tracking-widest uppercase text-green-600 mb-3'>
+              InRain® Construction Pvt Ltd.
+            </span>
+            <h2 className='text-2xl md:text-3xl font-bold text-gray-900 leading-tight'>
+              Rainwater Harvesting System{' '}
+              <span className='text-green-600'>in {location}</span>
+            </h2>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center items-center md:inline"
-        >
-          <div className="bg-white flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
-            <div>
-              <Image
-                alt="img"
-                className="w-16 m-auto"
-                src={approved}
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              ></Image>
-              <p className="text-xs m-1">ISO 9001 : 2015</p>
-              <p className="text-sm font-semibold md:text-lg">
-                CERTIFIED COMPANY
-              </p>
-            </div>
-          </div>
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
-            <div>
-              <Image
-                alt="img"
-                className="w-16 m-auto"
-                src={trophy}
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              ></Image>
-              <p className="text-xs m-1">Solution Provider</p>
-              <p className="text-sm font-semibold md:text-lg">
-                THE BEST INDUSTRIAL
-              </p>
-            </div>
-          </div>
-        </div>
+            <div className='mt-2 w-20 h-1 rounded-full bg-green-500' />
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center items-center md:inline"
-        >
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
-            <div>
-              <Image
-                alt="img"
-                className="w-16 m-auto"
-                src={cerg}
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              ></Image>
-              <p className="text-sm m-1 font-semibold md:text-lg">
-                INRAIN<sup>®</sup> CONSTRUCTION PVT. LTD.
-              </p>
-            </div>
-          </div>
-          <div className="bg-white flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-48 md:w-48 md:m-5 md:p-5">
-            <div>
-              <Image
-                alt="img"
-                className="w-16 m-auto"
-                src={trophy}
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              ></Image>
-              <p className="text-xs m-1">ISO 14001 : 2015</p>
-              <p className="text-sm font-semibold md:text-lg">
-                CERTIFIED COMPANY
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="m-5">
-        <Image
-          className="w-full md:h-72 rounded-xl shadow-xl"
-          alt="img"
-          src={service7}
-          loading="eager"
-          priority={true}
-          unoptimized={true}
-        />
-      </div>
-
-      <div className="m-5 md:flex md:justify-center md:gap-24 md:m-10 md:mr-24 md:ml-24">
-        <div data-aos="fade-up" className=" text-left">
-          <p className="font-semibold md:text-lg text-green-600">
-            InRain<sup>®</sup>
-          </p>
-          <h2 className="text-2xl font-semibold md:text-[40px]">
-            Rooftop Rainwater Harvesting System
-          </h2>
-          <p className="text-md text-justify text-gray-500 md:text-lg mt-3 md:mt-5">
-            We offer a state-of-the-art Rooftop Rainwater Harvesting System in
-            Delhi, designed for efficient filtration, temporary storage, and
-            controlled release. This system is ideal for managing wastewater
-            channels and is built using our proprietary plastic injection-molded
-            panels. We provide a wide range of modular options tailored to suit
-            your specific needs. <br></br> As a leading provider of Rooftop
-            Rainwater Harvesting Systems, we take pride in delivering top-tier,
-            customized solutions. If you’re looking for the perfect system to
-            match your requirements, feel free to reach out to us for
-            personalized options and offers.{" "}
-          </p>
-          <Link href={"/services/roof-top-rainwater-harvesting-system"}>
-            <button className="animated-button mt-5 bg-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="arr-2"
-                viewBox="0 0 24 24"
+            <p className='mt-4 text-gray-900 text-base md:text-lg leading-relaxed text-justify'>
+              <span className='text-green-600 font-semibold'>
+                InRain<sup>®</sup> Construction Pvt. Ltd.
+              </span>{' '}
+              is a premier provider of{' '}
+              <Link
+                target='_blank'
+                href='https://www.inrainconstruction.com/'
+                className='text-sky-600 hover:text-green-600 font-semibold'
               >
-                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
-              </svg>
-              <span className="text">EXPLORE</span>
-              <span className="circle"></span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="arr-1"
-                viewBox="0 0 24 24"
-              >
-                <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
-              </svg>
-            </button>
-          </Link>
-        </div>
+                Rainwater Harvesting Systems in {location}
+              </Link>
+              , specializing in delivering cutting-edge rainwater harvesting
+              solutions tailored to meet the unique needs of our clients.
+            </p>
+            <p className='mt-4 text-gray-900 text-base md:text-lg leading-relaxed text-justify'>
+              We are committed to providing solutions in {location} that not
+              only address water scarcity but also help our clients reduce their
+              environmental impact through sustainable practices. By continually
+              prioritizing innovation and environmental responsibility,{' '}
+              <span className='font-semibold'>
+                <span className='text-green-600'>
+                  InRain<sup>®</sup> Construction
+                </span>{' '}
+                remains at the forefront of the rainwater harvesting industry,
+              </span>{' '}
+              helping clients make the most of their water resources while
+              fostering a positive impact on the environment.{' '}
+              <span className='font-semibold text-gray-900'>
+                Our dedication to pioneering innovative solutions, ensuring the
+                highest quality standards, and promoting sustainable practices
+                has established us as a trusted partner in the rainwater
+                harvesting industry.
+              </span>
+            </p>
+          </div>
 
-        <div className="md:ml-10 w-64 m-auto mt-10">
+          {/* Right — Badge Grid */}
           <div
-            data-aos="fade-up"
-            className="flex md:w-72 overflow-clip align-middle drop-shadow-2xl"
+            data-aos='fade-up'
+            className='mt-10 lg:mt-0 grid grid-cols-2 items-center justify-center gap-4 shrink-0'
           >
-            {InRainImage.map((items) => (
-              <div className="ml-5 md:m-1 carouselAnimation">
-                <Image
-                  alt="img"
-                  className="min-w-64 md:min-w-72 md:h-64 drop-shadow-xl"
-                  src={items.img}
-                  loading="eager"
-                  priority={true}
-                  unoptimized={true}
-                ></Image>
+            {badges.map((badge, i) => (
+              <div
+                key={i}
+                className='bg-white border border-green-100 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 flex flex-col items-center justify-center text-center p-5 w-40 md:w-48'
+              >
+                <div className='w-14 h-14 flex items-center justify-center mb-3'>
+                  <Image
+                    alt={badge.title}
+                    src={badge.img}
+                    height={56}
+                    width={56}
+                    className='object-contain'
+                  />
+                </div>
+                {badge.sub && (
+                  <p className='text-[10px] text-gray-400 uppercase tracking-wide mb-0.5'>
+                    {badge.sub}
+                  </p>
+                )}
+                <p className='text-xs md:text-sm font-bold text-gray-800 leading-snug'>
+                  {badge.title}
+                </p>
               </div>
             ))}
           </div>
         </div>
       </div>
-    </>
-  );
-};
+
+      {/* ── Full-Width Banner Image ── */}
+      <div className='max-w-7xl mx-auto px-5 md:px-10 pb-10'>
+        <div className='relative w-full h-28 md:h-56 rounded-2xl overflow-hidden shadow-xl'>
+          <Image
+            alt='Rainwater Harvesting Banner'
+            src='/service7.jpg'
+            fill
+            className='object-cover'
+            priority
+          />
+          <div className='absolute inset-0 bg-gradient-to-r from-black/40 to-transparent' />
+          <div className='absolute inset-0 flex items-center px-8 md:px-14'>
+            <p className='text-white text-xl md:text-3xl font-bold max-w-md leading-snug drop-shadow'>
+              Sustainable Water Solutions for a Greener Tomorrow
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ── Rooftop Section ── */}
+      <div className='bg-gray-50 border-t border-gray-100'>
+        <div className='max-w-7xl mx-auto px-5 md:px-10 py-6'>
+          <div className='flex flex-col lg:flex-row lg:items-center lg:gap-16'>
+            {/* Left — Content */}
+            <div data-aos='fade-up' className='flex-1'>
+              <span className='inline-block text-xs font-semibold tracking-widest uppercase text-green-600 mb-3'>
+                InRain<sup>®</sup>
+              </span>
+              <h2 className='text-2xl md:text-3xl font-bold text-gray-900 leading-tight'>
+                Rooftop Rainwater Harvesting System{' '}
+                <span className='text-green-600'>in {location}</span>
+              </h2>
+              <div className='mt-2 w-14 h-1 rounded-full bg-green-500' />
+
+              <p className='mt-4 text-gray-900 text-base md:text-lg leading-relaxed text-justify'>
+                We offer a state-of-the-art Rooftop Rainwater Harvesting System
+                in {location}, designed for efficient filtration, temporary
+                storage, and controlled release. This system is ideal for
+                managing wastewater channels and is built using our proprietary
+                plastic injection-molded panels. We provide a wide range of
+                modular options tailored to suit your specific needs.
+              </p>
+              <p className='mt-4 text-gray-900 text-base md:text-lg leading-relaxed text-justify'>
+                As a leading provider of Rooftop{' '}
+                <Link
+                  href='https://www.inrainwaterharvesting.com/'
+                  target='_blank'
+                  className='text-green-600 hover:text-sky-600 font-semibold'
+                >
+                  Rainwater Harvesting Systems
+                </Link>
+                , we take pride in delivering top-tier, customized solutions. If
+                you're looking for the perfect system to match your
+                requirements, feel free to reach out to us for personalized
+                options and offers.
+              </p>
+
+              <Link href='/services/roof-top-rainwater-harvesting-system'>
+                <button className='animated-button mt-8 bg-white'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='arr-2'
+                    viewBox='0 0 24 24'
+                  >
+                    <path d='M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z' />
+                  </svg>
+                  <span className='text'>EXPLORE</span>
+                  <span className='circle' />
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='arr-1'
+                    viewBox='0 0 24 24'
+                  >
+                    <path d='M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z' />
+                  </svg>
+                </button>
+              </Link>
+            </div>
+
+            {/* Right — Carousel */}
+            <div
+              data-aos='fade-up'
+              className='mt-12 lg:mt-0 shrink-0 w-full max-w-xs md:max-w-sm mx-auto lg:mx-0'
+            >
+              <div className='relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200'>
+                <div className='flex overflow-hidden'>
+                  {InRainImage.map((item, i) => (
+                    <div key={i} className='carouselAnimation min-w-full'>
+                      <Image
+                        alt='InRain project'
+                        src={item.img}
+                        width={400}
+                        height={300}
+                        className='w-full h-80 object-cover'
+                        loading='eager'
+                        priority
+                        unoptimized
+                      />
+                    </div>
+                  ))}
+                </div>
+                {/* Decorative green corner accent */}
+                <div className='absolute top-0 left-0 w-10 h-10 bg-green-500 rounded-br-2xl opacity-80' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

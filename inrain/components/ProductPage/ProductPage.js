@@ -1,51 +1,12 @@
-import { Footer } from '@/components/footer/footer'
-import { Navbar } from '@/components/navbar/navbar'
 import React from 'react'
 import Image from 'next/image'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import { Carousel } from '@/components/carousel/carousel'
 import Link from 'next/link'
-import Metatag from '@/components/SEO/Metatag'
-import Schema from '@/components/SEO/Schema'
-import BreadcrumbSchema from '@/components/SEO/Breadcrumb'
 
-const Products = () => {
-  const data = {
-    title: `Rainwater Harvesting Products | InRain Construction Private Limited, Delhi - India`,
-    desc: `Explore InRain® Construction Private Limited for our best Rainwater Harvesting Products. Enquire Now!`,
-    keyword: `Rainwater Harvesting Products, Modular Rainwater Harvesting Products, Rainwater Harvesting Installation company, Rainwater Harvesting for Industries`,
-    canonical: `https://www.inrainconstruction.in/products`
-  }
-
-  const crumb = [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Home',
-      item: `https://www.inrainconstruction.in/`
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'Products',
-      item: `https://www.inrainconstruction.in/products`
-    }
-  ]
-
-  const ProductCity = {
-    loc: 'Delhi',
-    slug: 'products',
-    pincode: '110001',
-    id: 123
-  }
-
+const ProductPage = ({ location }) => {
   return (
-    <>
-      <Metatag data={data} />
-      <Schema location={ProductCity} />
-      <BreadcrumbSchema location={crumb} />
-
-      <Navbar />
+    <main>
       <section
         data-aos='fade-up'
         className='relative mx-5 mt-5 overflow-hidden rounded-3xl shadow-2xl md:mx-10'
@@ -97,7 +58,7 @@ const Products = () => {
             </span>
 
             <h1 className='mt-3 text-2xl font-bold text-gray-900 md:text-4xl'>
-              Rainwater Harvesting Products
+              Rainwater Harvesting Products in {location.loc}
             </h1>
 
             <div className='mx-auto mt-4 h-1 w-24 rounded-full bg-green-500'></div>
@@ -306,9 +267,8 @@ const Products = () => {
       </section>
 
       <Carousel />
-      <Footer />
-    </>
+    </main>
   )
 }
 
-export default Products
+export default ProductPage
