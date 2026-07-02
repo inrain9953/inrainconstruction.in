@@ -1,117 +1,114 @@
-import { Navbar } from "@/components/navbar/navbar";
-import { Footer } from "@/components/footer/footer";
-import { Main1 } from "@/components/main/main1";
-import React from "react";
-import logo from "@/public/logo.png";
-import tree from "@/public/tree.png";
-import Image from "next/image";
-import { useState } from "react";
-import { useRouter } from "next/router";
-import { Button, Input } from "@mui/material";
+import { Navbar } from '@/components/navbar/navbar'
+import { Footer } from '@/components/footer/footer'
+import { Main1 } from '@/components/main/main1'
+import React from 'react'
+import logo from '@/public/logo.png'
+import tree from '@/public/tree.png'
+import Image from 'next/image'
+import { useState } from 'react'
+import { useRouter } from 'next/router'
+import { Button, Input } from '@mui/material'
 
 const index = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
+  const router = useRouter()
 
-  const router = useRouter();
+  const handleLoginSubmit = async e => {
+    e.preventDefault()
+    setError('')
+    setLoading(true)
 
-  const HandleLoginSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
+    try {
+      const res = await fetch('/api/signin', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      })
 
-    const res = await fetch("/api/signin", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ username, password }),
-    });
-
-    if (res.ok) {
-      // Store JWT in localStorage or cookies
-      const data = await res.json();
-      localStorage.setItem("token", data.token);
-      router.push("/admin/userdata");
-    } else {
-      alert("Invalid Credentials");
-      setError("Error");
+      if (res.ok) {
+        router.push('/admin/userdata')
+      } else {
+        const data = await res.json()
+        setError(data.message || 'Invalid credentials')
+      }
+    } catch {
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
     }
-  };
-
+  }
   return (
     <>
       <Navbar />
-      <div className="md:grid m-10 md:grid-cols-2 md:items-center md:gap-10 md:w-[75%] md:m-auto">
-        <div className="hidden md:block">
-          <Image
-            className="w-full"
-            src={tree}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
-          />
-        </div>
-
-        <div className="mt-10 mb-10">
-          <div className="flex justify-center">
-            <div>
-              <div>
-                <form
-                  className="flex flex-col gap-4 rounded-2xl shadow-2xl bg-gray-400 p-10"
-                  onSubmit={HandleLoginSubmit}
-                >
-                  <div className="flex justify-center">
-                    <Image
-                      className="w-[100px]"
-                      src={logo}
-                      alt="img"
-                      loading="eager"
-                      priority={true}
-                      unoptimized={true}
-                    />
-                  </div>
-                  <p className="form-heading mt-3 mb-3 text-black">
-                    Login To The Admin Panel
-                  </p>
-
-                  <div className="form-field">
-                    <Input
-                      placeholder="Username"
-                      className="input-field"
-                      type="username"
-                      name="username"
-                      onChange={(e) => setUsername(e.target.value)}
-                      value={username}
-                      required
-                    />
-                  </div>
-
-                  <div className="form-field">
-                    <Input
-                      placeholder="Password"
-                      className="input-field"
-                      type="password"
-                      name="password"
-                      onChange={(e) => setPassword(e.target.value)}
-                      value={password}
-                      required
-                    />
-                  </div>
-
-                  <Button variant="contained" type="submit">
-                    Login
-                  </Button>
-                </form>
-              </div>
-            </div>
+      <div className='min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-700 px-4'>
+        <form
+          onSubmit={handleLoginSubmit}
+          className='w-full max-w-sm flex flex-col gap-5 rounded-2xl shadow-2xl bg-white p-8'
+        >
+          <div className='flex justify-center'>
+            <Image
+              src={logo}
+              alt='logo'
+              width={80}
+              height={80}
+              priority
+              unoptimized
+            />
           </div>
-        </div>
+
+          <h1 className='text-xl font-semibold text-center text-gray-800'>
+            Admin Panel Login
+          </h1>
+
+          {error && (
+            <p className='text-sm text-red-600 bg-red-50 border border-red-200 rounded-md px-3 py-2'>
+              {error}
+            </p>
+          )}
+
+          <div className='flex flex-col gap-1'>
+            <label className='text-sm font-medium text-gray-600'>
+              Username
+            </label>
+            <input
+              type='text'
+              name='username'
+              value={username}
+              onChange={e => setUsername(e.target.value)}
+              required
+              className='border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-slate-700'
+            />
+          </div>
+
+          <div className='flex flex-col gap-1'>
+            <label className='text-sm font-medium text-gray-600'>
+              Password
+            </label>
+            <input
+              type='password'
+              name='password'
+              value={password}
+              onChange={e => setPassword(e.target.value)}
+              required
+              className='border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-slate-700'
+            />
+          </div>
+
+          <button
+            type='submit'
+            disabled={loading}
+            className='bg-slate-800 text-white rounded-lg py-2 font-medium hover:bg-slate-900 transition disabled:opacity-50'
+          >
+            {loading ? 'Signing in...' : 'Login'}
+          </button>
+        </form>
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default index;
+export default index
