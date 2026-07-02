@@ -28,9 +28,9 @@ export const Footer = () => {
   async function DynamicRoute (route) {
     if (!router.query.location) {
       router.push(route)
-    } else if(route === '/blogs') {
+    } else if (route === '/blogs') {
       router.push('/blogs')
-    }else {
+    } else {
       router.push(`/${router.query.location}${route}`)
     }
   }
@@ -94,6 +94,22 @@ export const Footer = () => {
 
     if (match) setSelected(match)
   }, [router.query])
+
+  const handleCallClick = async () => {
+    try {
+      await fetch('/api/track-call', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          page: window.location.pathname
+        })
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
 
   return (
     <>
@@ -221,6 +237,7 @@ export const Footer = () => {
                     <CallIcon fontSize='small' />
                   </span>
                   <a
+                    onClick={handleCallClick}
                     href='tel:+919953070003'
                     className='text-white/80 hover:text-white text-sm no-underline transition-colors duration-150'
                   >
@@ -234,6 +251,7 @@ export const Footer = () => {
                     <CallIcon fontSize='small' />
                   </span>
                   <a
+                    onClick={handleCallClick}
                     href='tel:+919910220794'
                     className='text-white/80 hover:text-white text-sm no-underline transition-colors duration-150'
                   >

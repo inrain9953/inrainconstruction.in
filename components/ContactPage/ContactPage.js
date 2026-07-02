@@ -61,6 +61,22 @@ const ContactPage = ({ location }) => {
     })
   }
 
+  const handleCallClick = async () => {
+    try {
+      await fetch('/api/track-call', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          page: window.location.pathname
+        })
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   return (
     <main>
       <section
@@ -170,6 +186,7 @@ const ContactPage = ({ location }) => {
 
                     <div>
                       <a
+                        onClick={handleCallClick}
                         href='tel:+919910220794'
                         className='text-gray-600 hover:text-green-600 font-semibold'
                       >

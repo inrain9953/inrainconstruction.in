@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import { MailOutline } from '@mui/icons-material'
 import CallIcon from '@mui/icons-material/Call'
-import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 
 // ── Icons ──────────────────────────────────────────────────────────────────
 const IconClose = () => (
@@ -107,6 +106,22 @@ export default function MobileSidebar ({ sidebarOpen, setSidebarOpen }) {
     }
   }
 
+  const handleCallClick = async () => {
+    try {
+      await fetch('/api/track-call', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          page: window.location.pathname
+        })
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   return (
     <>
       {/* ── Backdrop ── */}
@@ -145,7 +160,7 @@ export default function MobileSidebar ({ sidebarOpen, setSidebarOpen }) {
         </div>
 
         {/* ── Scrollable Nav Links ── */}
-        <nav className='flex-1 overflow-y-auto px-4 py-4'>
+        <div className='flex-1 overflow-y-auto px-4 py-4'>
           <div className='flex flex-col gap-0.5'>
             {SIDEBAR_LINKS.map(link => {
               const hasDropdown = !!link.dropdown
@@ -212,7 +227,7 @@ export default function MobileSidebar ({ sidebarOpen, setSidebarOpen }) {
               )
             })}
           </div>
-        </nav>
+        </div>
 
         <div className='m-5 p-2 bg-gray-200 rounded-xl'>
           <ul className='space-y-4'>
@@ -235,6 +250,7 @@ export default function MobileSidebar ({ sidebarOpen, setSidebarOpen }) {
                 <CallIcon fontSize='small' />
               </span>
               <a
+                onClick={handleCallClick}
                 href='tel:+919910220794'
                 className='text-sm no-underline transition-colors duration-150'
               >
@@ -256,14 +272,15 @@ export default function MobileSidebar ({ sidebarOpen, setSidebarOpen }) {
         </div>
 
         {/* ── Footer CTA ── */}
-        <div className='shrink-0 px-4 pb-5 pt-3 border-t border-gray-100'>
-          <a
-            href='tel:+919910220794'
-            className='text-center flex justify-center items-center gap-2 py-3.5 bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 text-white font-semibold text-sm rounded-xl no-underline transition-colors duration-150'
-          >
+        <a
+          href='tel:+919910220794'
+          onClick={handleCallClick}
+          className='shrink-0 px-4 pb-5 pt-3 border-t border-gray-100'
+        >
+          <span className='text-center flex justify-center items-center gap-2 py-3.5 bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 text-white font-semibold text-sm rounded-xl no-underline transition-colors duration-150'>
             <CallIcon /> Call Now
-          </a>
-        </div>
+          </span>
+        </a>
       </aside>
     </>
   )

@@ -145,6 +145,23 @@ export const Navbar = () => {
     }
   }
 
+  const handleWhatsAppClick = async () => {
+    window.open('https://wa.me/919910220794', '_blank')
+    try {
+      await fetch('/api/track-whatsapp', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          page: window.location.pathname
+        })
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   return (
     <>
       {/* ── Desktop/Mobile Navbar ── */}
@@ -214,13 +231,12 @@ export const Navbar = () => {
           </ul>
 
           {/* CTA */}
-          <a
-            href='https://wa.me/919910220794'
-            target='_blank'
+          <button
+            onClick={handleWhatsAppClick}
             className='px-5 py-2 flex justify-center items-center gap-1 bg-green-500 text-white text-sm font-semibold rounded-lg no-underline transition-all duration-150 hover:bg-green-600 hover:-translate-y-px'
           >
             <WhatsAppIcon /> Chat With Us
-          </a>
+          </button>
         </div>
         <LocationDropdown onSelect={loc => setSelectedCity(loc)} />
       </nav>

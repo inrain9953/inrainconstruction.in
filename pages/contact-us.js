@@ -66,6 +66,22 @@ const Contact = () => {
     })
   }
 
+  const handleCallClick = async () => {
+    try {
+      await fetch('/api/track-call', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          page: window.location.pathname
+        })
+      })
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   const data = {
     title: `Contact Us | InRain Construction Private Limited - Delhi, India`,
     desc: `Contact InRain® Construction Private Limited for our best Rainwater Harvesting Service. Enquire Now!`,
@@ -208,6 +224,7 @@ const Contact = () => {
 
                     <div>
                       <a
+                        onClick={handleCallClick}
                         href='tel:+919910220794'
                         className='text-gray-600 hover:text-green-600 font-semibold'
                       >
