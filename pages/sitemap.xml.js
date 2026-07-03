@@ -40,6 +40,50 @@ function generateSiteMap () {
     .join('')
 
   // Dynamic pages
+  const Home = Location.map(loc => {
+    return `
+        <url>
+          <loc>${BASE_URL}/${loc.slug}</loc>
+          <lastmod>${new Date().toISOString()}</lastmod>
+          <changefreq>weekly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      `
+  }).join('')
+
+  const About = Location.map(loc => {
+    return `
+        <url>
+          <loc>${BASE_URL}/${loc.slug}/about</loc>
+          <lastmod>${new Date().toISOString()}</lastmod>
+          <changefreq>weekly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      `
+  }).join('')
+
+  const Products = Location.map(loc => {
+    return `
+        <url>
+          <loc>${BASE_URL}/${loc.slug}/products</loc>
+          <lastmod>${new Date().toISOString()}</lastmod>
+          <changefreq>weekly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      `
+  }).join('')
+
+  const Contact = Location.map(loc => {
+    return `
+        <url>
+          <loc>${BASE_URL}/${loc.slug}/contact-us</loc>
+          <lastmod>${new Date().toISOString()}</lastmod>
+          <changefreq>weekly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      `
+  }).join('')
+
   const RWHSystem = Location.map(loc => {
     return `
         <url>
@@ -80,6 +124,10 @@ function generateSiteMap () {
     xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   >
     ${staticUrls}
+    ${Home}
+    ${About}
+    ${Products}
+    ${Contact}
     ${RWHSystem}
     ${ModularRWHSystem}
     ${RWHForIndustry}
