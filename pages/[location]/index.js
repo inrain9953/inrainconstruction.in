@@ -6,6 +6,7 @@ import { Navbar } from '@/components/navbar/navbar'
 import { Footer } from '@/components/footer/footer'
 import Metatag from '@/components/SEO/Metatag'
 import Schema from '@/components/SEO/Schema'
+import Certification from '@/components/Certification/Certification'
 
 export default function LocationTarget ({ city }) {
   const data = {
@@ -23,6 +24,7 @@ export default function LocationTarget ({ city }) {
         <Main1 location={city.loc} />
         <Main2 location={city.loc} />
         <Main3 location={city.loc} />
+        <Certification />
       </main>
       <Footer />
     </>

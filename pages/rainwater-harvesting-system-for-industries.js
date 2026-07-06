@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Metatag from '@/components/SEO/Metatag'
 import Schema from '@/components/SEO/Schema'
 import BreadcrumbSchema from '@/components/SEO/Breadcrumb'
+import Certification from '@/components/Certification/Certification'
 
 const RainwaterHarvestingSystemforIndustries = () => {
   const data = {
@@ -273,6 +274,8 @@ const RainwaterHarvestingSystemforIndustries = () => {
             </div>
           </div>
         </section>
+
+        <Certification />
       </main>
       <Footer />
     </>

@@ -6,6 +6,7 @@ import { Main3 } from '@/components/main/main3'
 import { Footer } from '@/components/footer/footer'
 import Metatag from '@/components/SEO/Metatag'
 import Schema from '@/components/SEO/Schema'
+import Certification from '@/components/Certification/Certification'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function Home () {
       <Main1 location={'Delhi'} />
       <Main2 location={'Delhi'} />
       <Main3 location={'Delhi'} />
+      <Certification />
       <Footer />
     </>
   )

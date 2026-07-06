@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Certification from '../Certification/Certification'
 
 const RainwaterHarvestingSystem = ({ location }) => {
   return (
@@ -238,6 +239,8 @@ const RainwaterHarvestingSystem = ({ location }) => {
           </aside>
         </div>
       </section>
+
+      <Certification />
     </main>
   )
 }

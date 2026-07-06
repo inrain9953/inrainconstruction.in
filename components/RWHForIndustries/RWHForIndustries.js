@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Certification from '../Certification/Certification'
 
 const RWHForIndustries = ({ location }) => {
   return (
@@ -235,6 +236,8 @@ const RWHForIndustries = ({ location }) => {
           </div>
         </div>
       </section>
+
+      <Certification />
     </main>
   )
 }

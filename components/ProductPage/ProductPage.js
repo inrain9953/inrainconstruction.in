@@ -3,6 +3,7 @@ import Image from 'next/image'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import { Carousel } from '@/components/carousel/carousel'
 import Link from 'next/link'
+import Certification from '../Certification/Certification'
 
 const ProductPage = ({ location }) => {
   return (
@@ -267,6 +268,7 @@ const ProductPage = ({ location }) => {
       </section>
 
       <Carousel />
+      <Certification />
     </main>
   )
 }

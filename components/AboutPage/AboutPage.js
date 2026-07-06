@@ -3,10 +3,11 @@ import Image from 'next/image'
 import { AboutContent } from '@/components/constant'
 import { AboutTechnology } from '@/components/aboutTechnology/aboutTechnology'
 import Link from 'next/link'
+import Certification from '../Certification/Certification'
 
 const AboutPage = ({ location }) => {
   return (
-    <>
+    <main>
       <section className='relative mx-4 md:mx-10 mt-5 overflow-hidden rounded-2xl shadow-2xl'>
         {/* Banner Image */}
         <Image
@@ -370,7 +371,9 @@ const AboutPage = ({ location }) => {
           </div>
         </div>
       </section>
-    </>
+
+      <Certification />
+    </main>
   )
 }
 

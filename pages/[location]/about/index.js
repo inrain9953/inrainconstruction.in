@@ -42,9 +42,7 @@ export default function AboutLocationPage ({ city }) {
       <Schema location={AboutCity} />
       <BreadcrumbSchema location={crumb} />
       <Navbar />
-      <main>
-        <AboutPage location={city} />
-      </main>
+      <AboutPage location={city} />
       <Footer />
     </>
   )
@@ -55,7 +53,7 @@ export default function AboutLocationPage ({ city }) {
 /* ---------------------------- */
 
 export async function getStaticPaths () {
-   const paths = Location.filter(city => city.slug !== '').map(city => ({
+  const paths = Location.filter(city => city.slug !== '').map(city => ({
     params: {
       location: city.slug
     }

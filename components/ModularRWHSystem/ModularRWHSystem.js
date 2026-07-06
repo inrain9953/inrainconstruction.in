@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Certification from '../Certification/Certification'
 
 const ModularRWHSystem = ({ location }) => {
   return (
@@ -214,6 +215,8 @@ const ModularRWHSystem = ({ location }) => {
           </div>
         </div>
       </section>
+
+      <Certification />
     </main>
   )
 }

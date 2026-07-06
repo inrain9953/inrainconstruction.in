@@ -6,6 +6,7 @@ import CallIcon from '@mui/icons-material/Call'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import Link from 'next/link'
 import { useState } from 'react'
+import Certification from '../Certification/Certification'
 
 const ContactPage = ({ location }) => {
   const [formData, setFormData] = useState({
@@ -351,6 +352,8 @@ const ContactPage = ({ location }) => {
           </div>
         </div>
       )}
+
+      <Certification />
     </main>
   )
 }
