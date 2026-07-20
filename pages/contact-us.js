@@ -12,6 +12,7 @@ import Metatag from '@/components/SEO/Metatag'
 import Schema from '@/components/SEO/Schema'
 import BreadcrumbSchema from '@/components/SEO/Breadcrumb'
 import Certification from '@/components/Certification/Certification'
+import WarningIcon from '@mui/icons-material/Warning'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -309,6 +310,13 @@ const Contact = () => {
                     className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none resize-none focus:border-green-500'
                     required
                   />
+
+                  <div className='md:max-w-9/12 mx-auto animate-pulse text-red-600 text-center text-sm mb-5'>
+                    <div className='flex items-center justify-center gap-1'>
+                      <WarningIcon fontSize='small' />
+                      <p>We do not Undertake Domestic Projects.</p>
+                    </div>
+                  </div>
 
                   <button
                     type='submit'

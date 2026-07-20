@@ -7,6 +7,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn'
 import Link from 'next/link'
 import { useState } from 'react'
 import Certification from '../Certification/Certification'
+import WarningIcon from '@mui/icons-material/Warning'
 
 const ContactPage = ({ location }) => {
   const [formData, setFormData] = useState({
@@ -270,6 +271,13 @@ const ContactPage = ({ location }) => {
                   className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none resize-none focus:border-green-500'
                   required
                 />
+
+                <div className='md:max-w-9/12 mx-auto animate-pulse text-red-600 text-center text-sm mb-5'>
+                  <div className='flex items-center justify-center gap-1'>
+                    <WarningIcon fontSize='small' />
+                    <p>We do not Undertake Domestic Projects.</p>
+                  </div>
+                </div>
 
                 <button
                   type='submit'
