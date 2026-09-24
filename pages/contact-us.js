@@ -277,7 +277,7 @@ const Contact = () => {
                     placeholder='Your Name'
                     value={formData.name}
                     onChange={handleChange}
-                    className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none focus:border-green-500'
+                    className='w-full rounded-xl border border-gray-300 px-5 py-2 outline-none focus:border-green-500'
                     required
                   />
 
@@ -287,7 +287,7 @@ const Contact = () => {
                     placeholder='Phone Number'
                     value={formData.mobile}
                     onChange={handleChange}
-                    className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none focus:border-green-500'
+                    className='w-full rounded-xl border border-gray-300 px-5 py-2 outline-none focus:border-green-500'
                     required
                   />
 
@@ -297,7 +297,7 @@ const Contact = () => {
                     placeholder='Email Address'
                     value={formData.email}
                     onChange={handleChange}
-                    className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none focus:border-green-500'
+                    className='w-full rounded-xl border border-gray-300 px-5 py-2 outline-none focus:border-green-500'
                     required
                   />
 

@@ -55,10 +55,9 @@ const Products = () => {
           {/* Banner Image */}
           <Image
             src='/service4.jpg'
-            alt='Products'
+            alt='Products Banner'
             width={1920}
             height={600}
-            priority
             className='h-48 w-full object-cover md:h-80 lg:h-[300px]'
           />
 

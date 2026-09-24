@@ -1,69 +1,71 @@
-import { Footer } from "@/components/footer/footer";
-import { Navbar } from "@/components/navbar/navbar";
-import React from "react";
-import { blogHomepage } from "@/components/blogs/blog";
-import Link from "next/link";
-import Head from "next/head";
+import { Footer } from '@/components/footer/footer'
+import { Navbar } from '@/components/navbar/navbar'
+import React from 'react'
+import { blogHomepage } from '@/components/blogs/blog'
+import Link from 'next/link'
+import Head from 'next/head'
 
 const Blog5 = () => {
   const title =
-    "Bengaluru Architect's Sustainable Home: Rainwater Harvesting, Greywater Recycling, and Zero Waste";
+    "Bengaluru Architect's Sustainable Home: Rainwater Harvesting, Greywater Recycling, and Zero Waste"
   const desc =
-    "Discover how Bengaluru architect Jaya Rayaprolu designed a self-sufficient, zero-waste home that harvests 1.3 lakh litres of rainwater annually, recycles greywater, and uses solar power. Learn about her innovative sustainable living practices.";
+    'Discover how Bengaluru architect Jaya Rayaprolu designed a self-sufficient, zero-waste home that harvests 1.3 lakh litres of rainwater annually, recycles greywater, and uses solar power. Learn about her innovative sustainable living practices.'
   const keyword =
-    "rainwater harvesting, sustainable living, greywater recycling, solar power, eco-friendly home, green architecture, Jaya Rayaprolu, water purification, mud home";
+    'rainwater harvesting, sustainable living, greywater recycling, solar power, eco-friendly home, green architecture, Jaya Rayaprolu, water purification, mud home'
   const canonical =
-    "https://www.inrainconstruction.in/blogs/a-bengaluru-architect's-blueprint-for-sustainable-living";
+    "https://www.inrainconstruction.in/blogs/a-bengaluru-architect's-blueprint-for-sustainable-living"
   const ogUrl =
-    "https://www.inrainconstruction.in/blogs/a-bengaluru-architect's-blueprint-for-sustainable-living";
+    "https://www.inrainconstruction.in/blogs/a-bengaluru-architect's-blueprint-for-sustainable-living"
   const ogTitle =
-    "Bengaluru Architect's Sustainable Home: Rainwater Harvesting, Greywater Recycling, and Zero Waste";
+    "Bengaluru Architect's Sustainable Home: Rainwater Harvesting, Greywater Recycling, and Zero Waste"
   const ogDescription =
-    "Explore the inspiring story of a Bengaluru architect, Jaya Rayaprolu, who created a self-sufficient home with rainwater harvesting, greywater recycling, and solar power.";
+    'Explore the inspiring story of a Bengaluru architect, Jaya Rayaprolu, who created a self-sufficient home with rainwater harvesting, greywater recycling, and solar power.'
   const twittertitle =
-    "Bengaluru Architect's Sustainable Home: Rainwater Harvesting, Greywater Recycling, and Zero Waste";
+    "Bengaluru Architect's Sustainable Home: Rainwater Harvesting, Greywater Recycling, and Zero Waste"
   const twitterdescription =
-    "Learn how Jaya Rayaprolu's Bengaluru home achieves self-sufficiency through rainwater harvesting, greywater recycling, and solar energy.";
+    "Learn how Jaya Rayaprolu's Bengaluru home achieves self-sufficiency through rainwater harvesting, greywater recycling, and solar energy."
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
       </Head>
       <Navbar />
-      <div className="md:flex">
-        <div className="md:w-[85%]">
-          <div data-aos="fade-up" className="m-5">
+      <div className='md:flex'>
+        <div className='md:w-[85%]'>
+          <div data-aos='fade-up' className='m-5'>
             <img
-              className="shadow-2xl rounded-2xl md:h-[60vh]"
+              className='shadow-2xl rounded-2xl md:h-[60vh]'
               alt="A Bengaluru Architect's Blueprint for Sustainable Living"
-              src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog5.2d2a51d3.jpg&w=3840&q=75"
+              src='/blogs/blog5.jpg'
+              width='100%'
+              height='100%'
             />
           </div>
-          <div className="m-5 text-justify">
-            <div data-aos="fade-up" className="">
-              <h1 className="text-2xl md:text-3xl font-semibold">
+          <div className='m-5 text-justify'>
+            <div data-aos='fade-up' className=''>
+              <h1 className='text-2xl md:text-3xl font-semibold'>
                 Stepping into the Future: A Bengaluru Architect's Blueprint for
                 Sustainable Living
               </h1>
-              <p className="mt-3 text-lg">
+              <p className='mt-3 text-lg'>
                 In the bustling metropolis of Bengaluru, amidst the concrete
                 jungle, stands a testament to harmonious co-existence with
                 nature. The home of architect Jaya Rayaprolu isn't just a
@@ -75,17 +77,17 @@ const Blog5 = () => {
                 achievable realities.
               </p>
             </div>
-            <div data-aos="fade-up" className="mt-7">
-              <h2 className="text-xl md:text-2xl font-semibold">
+            <div data-aos='fade-up' className='mt-7'>
+              <h2 className='text-xl md:text-2xl font-semibold'>
                 Harnessing Nature's Bounty: Impressive Rainwater Harvesting
               </h2>
-              <p className="mt-3 text-lg">
+              <p className='mt-3 text-lg'>
                 One of the most impressive feats of this eco-friendly haven is
-                its ingenious{" "}
+                its ingenious{' '}
                 <Link
-                  className="font-semibold text-green-500 hover:text-sky-500"
-                  target="_blank"
-                  href="https://www.inrainconstruction.com/rainwater-harvesting-system"
+                  className='font-semibold text-green-500 hover:text-sky-500'
+                  target='_blank'
+                  href='https://www.inrainconstruction.com/rainwater-harvesting-system'
                 >
                   Rainwater Harvesting System
                 </Link>
@@ -99,11 +101,11 @@ const Blog5 = () => {
                 on external water sources.
               </p>
             </div>
-            <div data-aos="fade-up" className="mt-7">
-              <h2 className="text-xl md:text-2xl font-semibold">
+            <div data-aos='fade-up' className='mt-7'>
+              <h2 className='text-xl md:text-2xl font-semibold'>
                 The Magic of Greywater Recycling: A Natural Purification Process
               </h2>
-              <p className="mt-3 text-lg">
+              <p className='mt-3 text-lg'>
                 But Jaya's commitment to sustainability flows much deeper than
                 just rainwater harvesting. Every day, a remarkable 800 liters of
                 greywater—wastewater from the kitchen and bathrooms — is
@@ -119,11 +121,11 @@ const Blog5 = () => {
                 toilets.
               </p>
             </div>
-            <div data-aos="fade-up" className="mt-7">
-              <h3 className="text-xl md:text-2xl font-semibold">
+            <div data-aos='fade-up' className='mt-7'>
+              <h3 className='text-xl md:text-2xl font-semibold'>
                 Zero Sewage Waste: An Innovative Biodigester Solution
               </h3>
-              <p className="mt-3 text-lg">
+              <p className='mt-3 text-lg'>
                 The concept of zero waste extends beyond water conservation in
                 Jaya's innovative home. Remarkably, the property generates
                 absolutely no sewage waste. This is thanks to a compact, yet
@@ -135,12 +137,12 @@ const Blog5 = () => {
                 of groundwater recharge.
               </p>
             </div>
-            <div data-aos="fade-up" className="mt-7">
-              <h3 className="text-xl md:text-2xl font-semibold">
+            <div data-aos='fade-up' className='mt-7'>
+              <h3 className='text-xl md:text-2xl font-semibold'>
                 Sustainable Construction: A Naturally Cool and Energy-Efficient
                 Home
               </h3>
-              <p className="mt-3 text-lg">
+              <p className='mt-3 text-lg'>
                 The very structure of the house speaks volumes about sustainable
                 construction. Built using sun-dried bricks crafted from the
                 earth excavated during construction, the mud walls possess an
@@ -152,11 +154,11 @@ const Blog5 = () => {
                 resulting in the enviable reality of zero electricity bills.
               </p>
             </div>
-            <div data-aos="fade-up" className="mt-7">
-              <h3 className="text-xl md:text-2xl font-semibold">
+            <div data-aos='fade-up' className='mt-7'>
+              <h3 className='text-xl md:text-2xl font-semibold'>
                 A Blueprint for the Future: Embracing Eco-Conscious Living
               </h3>
-              <p className="mt-3 text-lg">
+              <p className='mt-3 text-lg'>
                 Jaya Rayaprolu's home is more than just an architectural
                 achievement; it's a powerful statement about the potential of
                 sustainable living. "With zero electricity bills and zero
@@ -173,23 +175,23 @@ const Blog5 = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-96">
-          {blogHomepage.map((items) => (
+        <div className='md:w-96'>
+          {blogHomepage.map(items => (
             <div
-              data-aos="fade-up"
-              className="shadow-xl rounded-lg m-5 flex items-center gap-3 p-3"
+              data-aos='fade-up'
+              className='shadow-xl rounded-lg m-5 flex items-center gap-3 p-3'
             >
               <div>
                 <img
-                  className="rounded-lg w-52"
+                  className='rounded-lg w-52'
                   src={items.image}
                   alt={items.title}
                 />
               </div>
-              <div className="">
-                <p className="text-sm text-gray-600">{items.date}</p>
+              <div className=''>
+                <p className='text-sm text-gray-600'>{items.date}</p>
                 <Link href={items.url}>
-                  <p className="font-semibold underline hover:text-green-500">
+                  <p className='font-semibold underline hover:text-green-500'>
                     {items.title}
                   </p>
                 </Link>
@@ -200,7 +202,7 @@ const Blog5 = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Blog5;
+export default Blog5

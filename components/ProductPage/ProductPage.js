@@ -18,7 +18,6 @@ const ProductPage = ({ location }) => {
           alt='Products'
           width={1920}
           height={600}
-          priority
           className='h-48 w-full object-cover md:h-80 lg:h-[300px]'
         />
 

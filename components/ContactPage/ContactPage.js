@@ -238,7 +238,7 @@ const ContactPage = ({ location }) => {
                   placeholder='Your Name'
                   value={formData.name}
                   onChange={handleChange}
-                  className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none focus:border-green-500'
+                  className='w-full rounded-xl border border-gray-300 px-5 py-2 outline-none focus:border-green-500'
                   required
                 />
 
@@ -248,7 +248,7 @@ const ContactPage = ({ location }) => {
                   placeholder='Phone Number'
                   value={formData.mobile}
                   onChange={handleChange}
-                  className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none focus:border-green-500'
+                  className='w-full rounded-xl border border-gray-300 px-5 py-2 outline-none focus:border-green-500'
                   required
                 />
 
@@ -258,7 +258,7 @@ const ContactPage = ({ location }) => {
                   placeholder='Email Address'
                   value={formData.email}
                   onChange={handleChange}
-                  className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none focus:border-green-500'
+                  className='w-full rounded-xl border border-gray-300 px-5 py-2 outline-none focus:border-green-500'
                   required
                 />
 
@@ -268,11 +268,11 @@ const ContactPage = ({ location }) => {
                   placeholder='Write your message...'
                   value={formData.message}
                   onChange={handleChange}
-                  className='w-full rounded-xl border border-gray-300 px-5 py-4 outline-none resize-none focus:border-green-500'
+                  className='w-full rounded-xl border border-gray-300 px-5 py-3 outline-none resize-none focus:border-green-500'
                   required
                 />
 
-                <div className='md:max-w-9/12 mx-auto animate-pulse text-red-600 text-center text-sm mb-5'>
+                <div className='md:max-w-9/12 mx-auto animate-pulse text-red-600 text-center text-xs mb-5'>
                   <div className='flex items-center justify-center gap-1'>
                     <WarningIcon fontSize='small' />
                     <p>We do not Undertake Domestic Projects.</p>
@@ -282,7 +282,7 @@ const ContactPage = ({ location }) => {
                 <button
                   type='submit'
                   disabled={loading}
-                  className={`w-full rounded-xl py-4 font-semibold text-white transition-all duration-300
+                  className={`w-full rounded-xl py-3 font-semibold text-white transition-all duration-300
     ${
       loading
         ? 'cursor-not-allowed bg-gray-400'
