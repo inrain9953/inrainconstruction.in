@@ -1,155 +1,215 @@
 // pages/tracker.jsx
+import { useState, useEffect, useRef } from 'react'
 import { Footer } from '@/components/footer/footer'
 import { Navbar } from '@/components/navbar/navbar'
-import { useState, useEffect } from 'react'
-import Button from '@mui/material/Button'
-import TripHistory from '@/components/Map/TravelData'
 import ExpenseTable from '@/components/Map/ExpenseTable'
+import ConveyanceTable from '@/components/Map/ConveyanceTable'
 
-// disable SSR for the map component itself
-// const LeafletMap = dynamic(() => import('@/components/Map/Leaflet'), {
-//   ssr: false
-// })
+const COMPANY_NAME = 'InRain Construction Pvt Ltd.'
+const MONTH_RE = /^\d{4}-(0[1-9]|1[0-2])$/
+
+// <input type="month"> is a plain text box in some browsers (e.g. desktop
+// Safari), so never trust the value without checking its format.
+const isValidMonth = value => MONTH_RE.test(value)
+
+// "1,50,000.50" -> 150000.5 | "" -> 0 | "abc" -> null (invalid)
+function parseAmount (value) {
+  const cleaned = String(value ?? '').replace(/[,\s₹]/g, '')
+  if (cleaned === '') return 0
+  const n = Number(cleaned)
+  return Number.isFinite(n) ? n : null
+}
+
+// Fetch a CSV and save it, without navigating away from the page. If the API
+// returns an error (400/500 JSON), throw it so we can show a message instead
+// of replacing the whole page with raw JSON.
+async function downloadCsv (url, fallbackName) {
+  const res = await fetch(url)
+
+  if (!res.ok) {
+    let message = 'Download failed'
+    try {
+      const body = await res.json()
+      message = body.message || message
+    } catch (_) {
+      // response wasn't JSON; keep the default message
+    }
+    throw new Error(message)
+  }
+
+  const blob = await res.blob()
+  const disposition = res.headers.get('Content-Disposition') || ''
+  const match = disposition.match(/filename="?([^";]+)"?/i)
+  const filename = match ? match[1] : fallbackName
+
+  const objectUrl = URL.createObjectURL(blob)
+  const link = document.createElement('a')
+  link.href = objectUrl
+  link.download = filename
+  document.body.appendChild(link)
+  link.click()
+  link.remove()
+  setTimeout(() => URL.revokeObjectURL(objectUrl), 1000)
+}
+
+const inputClass =
+  'rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200'
+
+const actionButtonClass =
+  'rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-40'
 
 export default function TrackerPage () {
-  const [position, setPosition] = useState({ lat: 51.505, lng: -0.09 })
   const [users, setUsers] = useState([])
   const [usersLoading, setUsersLoading] = useState(true)
-  const [selectedUserId, setSelectedUserId] = useState({ id: '', name: '' })
-  const [trip, setTrip] = useState([])
-  const [tripCoordinates, setTripCoordinate] = useState([])
-  const [openingBalance, setOpeningBalance] = useState('')
-  const [showLedger, setShowLedger] = useState(false)
+  const [selectedUser, setSelectedUser] = useState({ id: '', name: '' })
 
-  const [date, setDate] = useState('')
+  const [trip, setTrip] = useState([])
+  const [travelLoading, setTravelLoading] = useState(false)
+  const travelController = useRef(null)
+
+  const [travelMonth, setTravelMonth] = useState('')
   const [conveyanceMonth, setConveyanceMonth] = useState('')
   const [expenseMonth, setExpenseMonth] = useState('')
+  const [openingBalance, setOpeningBalance] = useState('')
 
-  // Live-track via browser geolocation
-  useEffect(() => {
-    if (!navigator.geolocation) return
-    const watchId = navigator.geolocation.watchPosition(
-      pos => {
-        setPosition({
-          lat: pos.coords.latitude,
-          lng: pos.coords.longitude
-        })
-      },
-      err => console.error(err),
-      { enableHighAccuracy: true }
-    )
-    return () => navigator.geolocation.clearWatch(watchId)
-  }, [])
+  const [showLedger, setShowLedger] = useState(false)
+  const [showConveyance, setShowConveyance] = useState(false)
+
+  const [downloading, setDownloading] = useState(null) // 'conveyance' | 'expense' | null
+  const [errorMessage, setErrorMessage] = useState(null)
+
+  const parsedOpeningBalance = parseAmount(openingBalance)
+  const openingBalanceInvalid = parsedOpeningBalance === null
+
+  const hasUser = Boolean(selectedUser.id)
+  const canGetTravel = hasUser && isValidMonth(travelMonth)
+  const canUseConveyance = hasUser && isValidMonth(conveyanceMonth)
+  const canUseExpense =
+    hasUser && isValidMonth(expenseMonth) && !openingBalanceInvalid
 
   // Load users once on mount
   useEffect(() => {
+    const controller = new AbortController()
+
     const loadUsers = async () => {
       try {
         setUsersLoading(true)
-        const res = await fetch('/api/map/users', { method: 'GET' })
-        if (res.ok) {
-          const result = await res.json()
-          setUsers(result)
-          if (result.length > 0) setSelectedUserId(result[0].id)
-        } else {
-          setUsers([])
+        const res = await fetch('/api/map/users', { signal: controller.signal })
+        if (!res.ok) throw new Error('Failed to load users')
+
+        const result = await res.json()
+        if (!Array.isArray(result)) throw new Error('Unexpected users response')
+
+        setUsers(result)
+        if (result.length > 0) {
+          // selectedUser is an object, so store { id, name }, not just the id
+          setSelectedUser({ id: result[0].id, name: result[0].name ?? '' })
         }
       } catch (err) {
+        if (err.name === 'AbortError') return
+        console.error(err)
         setUsers([])
+        setErrorMessage('Could not load users. Refresh the page to try again.')
       } finally {
-        setUsersLoading(false)
+        if (!controller.signal.aborted) setUsersLoading(false)
       }
     }
+
     loadUsers()
+    return () => controller.abort()
   }, [])
 
+  // Cancel any in-flight travel request when leaving the page
+  useEffect(() => () => travelController.current?.abort(), [])
+
   const handleUserChange = e => {
-    const id = e.target.value
-
-    const selectedUser = users.find(user => String(user.id) === String(id))
-
-    setSelectedUserId({
-      id: selectedUser?.id ?? '',
-      name: selectedUser?.name ?? ''
-    })
+    const user = users.find(u => String(u.id) === e.target.value)
+    setSelectedUser({ id: user?.id ?? '', name: user?.name ?? '' })
+    setTrip([]) // don't keep showing the previous user's trips
+    setErrorMessage(null)
   }
 
   const handleGetConveyance = async () => {
-    if (!selectedUserId || !conveyanceMonth) return
-    console.log('Fetch conveyance for', selectedUserId, conveyanceMonth)
-    // wire this up to your actual endpoint, e.g.
-    // fetch(`/api/conveyance?userId=${selectedUserId}&month=${conveyanceMonth}`)
-  }
-
-  // const handleGetExpenses = async () => {
-  //   if (!selectedUserId || !expenseMonth) return
-  //   console.log('Fetch expenses for', selectedUserId, expenseMonth)
-  //   setUsersLoading(true)
-  //   try {
-  //     const data = await fetch(
-  //       `/api/map/expense?userId=${selectedUserId}&month=${expenseMonth}`,
-  //       { method: 'GET' }
-  //     )
-  //     const result = await data.json()
-  //     console.log('THis is the result', result)
-  //   } catch (err) {
-  //     console.log(err)
-  //   } finally {
-  //     setUsersLoading(false)
-  //   }
-  // }
-
-  const handleGetExpenses = () => {
-    if (!selectedUserId || !expenseMonth) return
-    const name = selectedUserId.name.split(' ')[0].trim()
-
-    const params = new URLSearchParams({
-      userId: selectedUserId.id,
-      month: expenseMonth,
-      format: 'csv',
-      openingBalance: openingBalance,
-      companyName: 'InRain Construction Pvt Ltd.',
-      userName: name
-    })
-    window.location.href = `/api/map/expense?${params.toString()}`
-  }
-
-  const handleShowExpenses = () => {
-    if (!selectedUserId || !expenseMonth) return
-  }
-
-  async function getUserTravelDetails () {
-    if (!selectedUserId || !date) return
-    setUsersLoading(true)
+    if (!canUseConveyance || downloading) return
+    setDownloading('conveyance')
+    setErrorMessage(null)
     try {
-      const data = await fetch(
-        `/api/map/travel-data?userId=${selectedUserId.id}&month=${date}`,
-        { method: 'GET' }
+      const params = new URLSearchParams({
+        userId: selectedUser.id,
+        month: conveyanceMonth,
+        format: 'csv',
+        companyName: COMPANY_NAME,
+        userName: firstName(selectedUser.name)
+      })
+      await downloadCsv(
+        `/api/map/conveyance?${params.toString()}`,
+        `conveyance-${conveyanceMonth}.csv`
       )
-      const result = await data.json()
-      setTrip(result)
     } catch (err) {
-      console.log(err)
-      setTrip([])
+      console.error(err)
+      setErrorMessage(err.message || 'Could not download conveyance details.')
     } finally {
-      setUsersLoading(false)
+      setDownloading(null)
     }
   }
 
-  const getMapRoute = async id => {
-    if (!id) return
-    setUsersLoading(true)
+  const handleGetExpenses = async () => {
+    if (!canUseExpense || downloading) return
+    setDownloading('expense')
+    setErrorMessage(null)
     try {
-      const data = await fetch(`/api/map/trip-data?tripID=${id}`, {
-        method: 'GET'
+      const params = new URLSearchParams({
+        userId: selectedUser.id,
+        month: expenseMonth,
+        format: 'csv',
+        openingBalance: String(parsedOpeningBalance),
+        companyName: COMPANY_NAME,
+        userName: firstName(selectedUser.name)
       })
-      const result = await data.json()
-      setTripCoordinate(result)
+      await downloadCsv(
+        `/api/map/expense?${params.toString()}`,
+        `expense-${expenseMonth}.csv`
+      )
     } catch (err) {
-      console.log(err)
-      setTripCoordinate(null)
+      console.error(err)
+      setErrorMessage(err.message || 'Could not download expense details.')
     } finally {
-      setUsersLoading(false)
+      setDownloading(null)
+    }
+  }
+
+  async function getUserTravelDetails () {
+    if (!canGetTravel) return
+
+    // A newer click replaces the older request, so a slow response can't
+    // overwrite fresher data
+    travelController.current?.abort()
+    const controller = new AbortController()
+    travelController.current = controller
+
+    setTravelLoading(true)
+    setErrorMessage(null)
+    try {
+      const params = new URLSearchParams({
+        userId: selectedUser.id,
+        month: travelMonth
+      })
+      const res = await fetch(`/api/map/travel-data?${params.toString()}`, {
+        signal: controller.signal
+      })
+      const result = await res.json().catch(() => null)
+
+      if (!res.ok) {
+        throw new Error(result?.message || 'Could not load travel details.')
+      }
+      setTrip(Array.isArray(result) ? result : [])
+    } catch (err) {
+      if (err.name === 'AbortError') return
+      console.error(err)
+      setTrip([])
+      setErrorMessage(err.message || 'Could not load travel details.')
+    } finally {
+      if (travelController.current === controller) setTravelLoading(false)
     }
   }
 
@@ -158,7 +218,7 @@ export default function TrackerPage () {
       <Navbar />
 
       <div className='min-h-screen bg-slate-50'>
-        <div className='mx-auto max-w-6xl px-6 py-10'>
+        <div className='mx-auto max-w-6xl px-6 py-20'>
           <div className='mb-8'>
             <h1 className='text-2xl font-semibold text-slate-900'>
               Employee Dashboard
@@ -167,6 +227,23 @@ export default function TrackerPage () {
               Track team location, conveyance, and expenses.
             </p>
           </div>
+
+          {errorMessage && (
+            <div
+              role='alert'
+              className='mb-6 flex items-start justify-between gap-3 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700'
+            >
+              <span>{errorMessage}</span>
+              <button
+                type='button'
+                onClick={() => setErrorMessage(null)}
+                aria-label='Dismiss message'
+                className='text-red-500 hover:text-red-700'
+              >
+                ✕
+              </button>
+            </div>
+          )}
 
           {/* User + date selection */}
           <section className='mb-6 grid grid-cols-1 gap-4 sm:grid-cols-3'>
@@ -180,11 +257,11 @@ export default function TrackerPage () {
 
               <select
                 id='user'
-                value={selectedUserId.id}
+                value={selectedUser.id}
                 onChange={handleUserChange}
                 name='user'
                 disabled={usersLoading}
-                className='w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200 disabled:opacity-50'
+                className={`w-full bg-white ${inputClass} disabled:opacity-50`}
               >
                 <option value=''>Select User</option>
 
@@ -201,41 +278,7 @@ export default function TrackerPage () {
                 ))}
               </select>
             </div>
-
-            <div className='rounded-xl border border-slate-200 bg-white p-5 shadow-sm'>
-              <label
-                htmlFor='date'
-                className='mb-2 block text-sm font-medium text-slate-700'
-              >
-                Date
-              </label>
-              <input
-                id='month'
-                type='month'
-                value={date}
-                onChange={e => setDate(e.target.value)}
-                className='w-full rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200'
-              />
-            </div>
-
-            <div className='flex items-center justify-center'>
-              <Button
-                onClick={getUserTravelDetails}
-                variant='contained'
-                className='p-3 bg-sky-500 rounded-xl'
-              >
-                Get Travel Details
-              </Button>
-            </div>
           </section>
-
-          {/* Trip history */}
-          {/* <section className='mb-6 rounded-xl border border-slate-200 bg-white p-5 shadow-sm'>
-            <h3 className='mb-3 text-sm font-semibold text-slate-900'>
-              Trip History
-            </h3>
-            <TripHistory getMapRoute={getMapRoute} trips={trip} />
-          </section> */}
 
           {/* Reports */}
           <section className='mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2'>
@@ -255,15 +298,23 @@ export default function TrackerPage () {
                   type='month'
                   value={conveyanceMonth}
                   onChange={e => setConveyanceMonth(e.target.value)}
-                  className='flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200'
+                  className={`flex-1 ${inputClass}`}
                 />
                 <button
                   type='button'
-                  disabled={!conveyanceMonth}
+                  disabled={!canUseConveyance || downloading !== null}
                   onClick={handleGetConveyance}
-                  className='rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-40'
+                  className={actionButtonClass}
                 >
-                  Get
+                  {downloading === 'conveyance' ? 'Downloading…' : 'Get'}
+                </button>
+                <button
+                  type='button'
+                  disabled={!canUseConveyance}
+                  onClick={() => setShowConveyance(true)}
+                  className={actionButtonClass}
+                >
+                  Show
                 </button>
               </div>
             </div>
@@ -284,57 +335,63 @@ export default function TrackerPage () {
                   type='month'
                   value={expenseMonth}
                   onChange={e => setExpenseMonth(e.target.value)}
-                  className='flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200'
+                  className={`flex-1 ${inputClass}`}
                 />
                 <input
                   id='opening-balance'
                   type='text'
+                  inputMode='decimal'
                   value={openingBalance}
                   placeholder='Opening Balance'
+                  aria-label='Opening balance'
+                  aria-invalid={openingBalanceInvalid}
                   onChange={e => setOpeningBalance(e.target.value)}
-                  className='flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200'
+                  className={`flex-1 ${inputClass} ${
+                    openingBalanceInvalid ? 'border-red-400' : ''
+                  }`}
                 />
                 <button
                   type='button'
-                  disabled={!expenseMonth}
+                  disabled={!canUseExpense || downloading !== null}
                   onClick={handleGetExpenses}
-                  className='rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-40'
+                  className={actionButtonClass}
                 >
-                  Get
+                  {downloading === 'expense' ? 'Downloading…' : 'Get'}
                 </button>
                 <button
                   type='button'
-                  disabled={!expenseMonth}
+                  disabled={!canUseExpense}
                   onClick={() => setShowLedger(true)}
-                  className='rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-40'
+                  className={actionButtonClass}
                 >
                   Show
                 </button>
               </div>
+              {openingBalanceInvalid && (
+                <p className='mt-2 text-xs text-red-600'>
+                  Opening balance must be a number, like 5000 or 12,500.50.
+                </p>
+              )}
             </div>
           </section>
-
-          {/* Live tracker — LeafletMap left exactly as-is */}
-          {/* <section className='rounded-xl border border-slate-200 bg-white p-5 shadow-sm'>
-            <h3 className='mb-3 text-sm font-semibold text-slate-900'>
-              Live tracker
-            </h3>
-            <LeafletMap
-              lat={tripCoordinates?.latitude}
-              lng={tripCoordinates?.longitude}
-              zoom={15}
-              routePoints={tripCoordinates}
-            />
-          </section> */}
 
           <ExpenseTable
             isOpen={showLedger}
             onClose={() => setShowLedger(false)}
-            userId={selectedUserId.id}
+            userId={selectedUser.id}
             month={expenseMonth}
-            openingBalance={openingBalance}
-            companyName='InRain Construction Pvt Ltd.'
-            userName={selectedUserId.name}
+            openingBalance={parsedOpeningBalance ?? 0}
+            companyName={COMPANY_NAME}
+            userName={selectedUser.name}
+          />
+
+          <ConveyanceTable
+            isOpen={showConveyance}
+            onClose={() => setShowConveyance(false)}
+            userId={selectedUser.id}
+            month={conveyanceMonth}
+            companyName={COMPANY_NAME}
+            userName={selectedUser.name}
           />
         </div>
       </div>
@@ -342,4 +399,8 @@ export default function TrackerPage () {
       <Footer />
     </>
   )
+}
+
+function firstName (name) {
+  return (name || '').trim().split(/\s+/)[0] || 'User'
 }

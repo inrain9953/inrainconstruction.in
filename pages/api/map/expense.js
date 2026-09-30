@@ -44,7 +44,7 @@ async function handleGet (req, res) {
       res.setHeader('Content-Type', 'text/csv; charset=utf-8')
       res.setHeader(
         'Content-Disposition',
-        `attachment; filename="${userName || 'ledger'}-${month}.csv"`
+        `attachment; filename="${userName || 'ledger'}-expense-${month}.csv"`
       )
       return res.status(200).send(csv)
     }
