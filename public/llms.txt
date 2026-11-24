@@ -1,0 +1,26 @@
+# InRain Construction
+
+> InRain Construction - a leading company specializing in advanced rainwater harvesting solutions. With a strong track record of success, we have executed over 4000+ Rainwater Harvesting (RWH) units for esteemed clients such as DLF, PepsiCo, HUL, Jaypee, NHAI, Whirlpool, Radisson, CPWD, PWD, Smart Cities, and Supreme Court Judges Bungalows, among others. Our commitment to innovation, quality, and sustainability has made us a trusted partner in the industry. At InRain Construction, we offer comprehensive rainwater harvesting solutions that help our clients optimize water resources and promote environmental conservation. With our in-house manufacturing capabilities, we design and produce rainwater harvesting modular structures and filters, ensuring consistent quality and timely delivery.
+
+This file lists the key pages of the InRain Construction website to help language models and AI assistants find accurate information about the company and its services.
+
+## Company
+
+- [Home](https://www.inrainconstruction.in/): At InRain®, we are experts in sustainable, eco-friendly rainwater harvesting solutions for homes & businesses, designed to preserve water. We are engaged in making Rainwater Harvesting (RWH) systems based on modern technology. It is indeed entirely different from conventional rainwater harvesting systems. InRain® is fully equipped with an in-house making and manufacturing process, ensuring its best-in-class quality. We share our contribution to the nation by being proud partners of “The Make in India Movement.”
+- [About Us](https://www.inrainconstruction.in/about): Modular Rainwater Harvesting Company with a strong presence all over India. The company has successfully installed more than 4000+ rainwater harvesting projects to enable it to conserve billions of gallons of water from being wasted. We are privileged to introduce the next level of scientific rainwater harvesting technology with more than a 50-ton/sq. m load-bearing structure for the first time in the world. We are proud partners of the "Make in India" movement, having our own products and manufacturing. Our team comprises highly experienced professionals who have accumulated over 30 years of expertise in sustainable construction methods. We are dedicated to delivering exceptional results and providing personalized services tailored to meet each client's unique requirements. Our primary approach to rainwater harvesting encompasses design, implementation, maintenance, and monitoring, ensuring the long-term effectiveness of our solutions.
+- [Contact Us](https://www.inrainconstruction.in/contact-us): Contact details - Email Address: sales@inrainwaterharvesting.com, Phone Number: +91-9910220794, Office Address: Chattarpur, New Delhi - 110074.
+
+## Services and Solutions
+
+- [Rainwater Harvesting System](https://www.inrainconstruction.in/rainwater-harvesting-system): Overview of rainwater harvesting systems offered by InRain Construction.
+- [Modular Rainwater Harvesting](https://www.inrainconstruction.in/modular-rainwater-harvesting-system): Modular rainwater harvesting and storage solutions.
+- [Rainwater Harvesting System for Industries](https://www.inrainconstruction.in/rainwater-harvesting-system-for-industries): Manufacturing of rainwater harvesting components and systems for Industries.
+
+## Locations
+
+- Delhi, Noida, Gurgaon, Bengaluru, Hyderabad, Pune, Chennai. These are the places where we provide our services.
+
+## Key Informations
+
+- [Products](https://www.inrainconstruction.in/products) : Explore the products of InRain Construction
+- [Sitemap][Sitemap]https://www.inrainconstruction.in/sitemap.xml

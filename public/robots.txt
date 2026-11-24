@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.inrainconstruction.in/api/sitemap
+Sitemap: https://www.inrainconstruction.in/sitemap.xml
