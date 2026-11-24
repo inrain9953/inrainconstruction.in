@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { jwtVerify } from 'jose' // Edge-compatible; jsonwebtoken doesn't work in middleware
 
-export async function middleware(req) {
+export async function proxy(req) {
   const token = req.cookies.get('admin_token')?.value
 
   if (!token) {
